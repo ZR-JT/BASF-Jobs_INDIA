@@ -1,0 +1,96 @@
+name: Update BASF Job Data
+
+on:
+  schedule:
+    # Daily at 03:00 UTC (05:00 CET / 06:00 CEST)
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      region:
+        description: "Region to scrape (AP, EMEA, NA, SA, AGRI, or leave empty for all)"
+        required: false
+        default: ""
+      limit:
+        description: "Max jobs to process (leave empty for all, use a number for testing)"
+        required: false
+        default: ""
+      force_refresh:
+        description: "Force re-scrape of all jobs (true/false)"
+        required: false
+        default: "false"
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # 6h max for full scrape
+
+    permissions:
+      contents: write  # needed to commit updated JSON files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create output directories
+        run: |
+          mkdir -p data/countries
+          mkdir -p logs
+
+      - name: Run scraper
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.region }}" ]; then
+            ARGS="$ARGS --region ${{ github.event.inputs.region }}"
+          fi
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
+          fi
+          if [ "${{ github.event.inputs.force_refresh }}" = "true" ]; then
+            ARGS="$ARGS --force-refresh"
+          fi
+          python scripts/scrape_jobs.py $ARGS
+
+      - name: Validate JSON output
+        run: python scripts/validate_json.py
+
+      - name: Build country files and index
+        run: python scripts/build_country_files.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+          JOB_COUNT=$(python -c "import json; d=json.load(open('data/basf_jobs_all.json')); print(len(d))" 2>/dev/null || echo "?")
+          git commit -m "chore: update job data — ${JOB_COUNT} jobs as of ${TIMESTAMP}"
+          git push
+
+      - name: No changes detected
+        if: steps.changes.outputs.changed != 'true'
+        run: echo "No changes in job data. Nothing to commit."
+
+      - name: Upload logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-logs-${{ github.run_id }}
+          path: logs/
+          retention-days: 14
