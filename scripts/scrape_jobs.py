@@ -46,8 +46,11 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-# Sitemap namespace
-NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+# Sitemap namespaces (BASF uses Google's variant)
+NS_LIST = [
+    {"sm": "http://www.google.com/schemas/sitemap/0.9"},
+    {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"},
+]
 
 # ---------------------------------------------------------------------------
 # Logging setup
@@ -92,15 +95,17 @@ def fetch_sitemap(session: requests.Session) -> list[str]:
         sys.exit(1)
 
     urls = []
-    # Handle both sitemap index and regular sitemap
-    for loc in root.findall(".//sm:loc", NS):
-        url = loc.text.strip() if loc.text else ""
-        if url and "/job/" in url:
-            urls.append(url)
-        elif url and url.endswith("sitemap.xml"):
-            # It's a sitemap index — recurse into sub-sitemaps
-            sub_urls = _fetch_sub_sitemap(session, url)
-            urls.extend(sub_urls)
+    # Try each known namespace variant
+    for ns in NS_LIST:
+        for loc in root.findall(".//sm:loc", ns):
+            url = loc.text.strip() if loc.text else ""
+            if url and "/job/" in url:
+                urls.append(url)
+            elif url and url.endswith("sitemap.xml"):
+                sub_urls = _fetch_sub_sitemap(session, url)
+                urls.extend(sub_urls)
+        if urls:
+            break
 
     # Fallback: no namespace
     if not urls:
@@ -108,6 +113,9 @@ def fetch_sitemap(session: requests.Session) -> list[str]:
             url = loc.text.strip() if loc.text else ""
             if url and "/job/" in url:
                 urls.append(url)
+            elif url and url.endswith("sitemap.xml"):
+                sub_urls = _fetch_sub_sitemap(session, url)
+                urls.extend(sub_urls)
 
     logger.info("Found %d job URLs in sitemap", len(urls))
     return urls
@@ -119,9 +127,18 @@ def _fetch_sub_sitemap(session: requests.Session, url: str) -> list[str]:
         resp = session.get(url, headers=HEADERS, timeout=30)
         resp.raise_for_status()
         root = ET.fromstring(resp.content)
+        for ns in NS_LIST:
+            urls = [
+                loc.text.strip()
+                for loc in root.findall(".//sm:loc", ns)
+                if loc.text and "/job/" in loc.text
+            ]
+            if urls:
+                return urls
+        # Fallback: no namespace
         return [
             loc.text.strip()
-            for loc in root.findall(".//sm:loc", NS)
+            for loc in root.findall(".//loc")
             if loc.text and "/job/" in loc.text
         ]
     except (requests.RequestException, ET.ParseError) as exc:
@@ -162,7 +179,7 @@ def load_existing(path: Path) -> dict[str, dict]:
     if not path.exists():
         return {}
     try:
-        with open(path, encoding="utf-8") as f:
+        with open(path, encoding="utf-8-sig") as f:
             jobs = json.load(f)
         if isinstance(jobs, list):
             return {j["job_id"]: j for j in jobs if "job_id" in j}
