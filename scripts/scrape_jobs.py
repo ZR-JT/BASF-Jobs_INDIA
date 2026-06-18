@@ -328,8 +328,10 @@ def main() -> None:
         force_refresh=args.force_refresh,
     )
 
-    # Build country files and index after scraping
-    from build_country_files import build_country_files, build_index
+    # Build India file, country files, and index after scraping
+    from build_country_files import build_india_json, build_country_files, build_index
+    india_count = build_india_json(jobs, args.output_dir)
+    logger.info("India jobs: %d", india_count)
     build_country_files(jobs, args.output_dir)
     build_index(jobs, args.output_dir)
 

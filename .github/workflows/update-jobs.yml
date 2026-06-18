@@ -31,7 +31,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0  # full history so git pull --rebase works correctly
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -64,7 +64,7 @@ jobs:
       - name: Validate JSON output
         run: python scripts/validate_json.py
 
-      - name: Build country files and index
+      - name: Build India file, country files, and index
         run: python scripts/build_country_files.py
 
       - name: Check for changes
@@ -79,8 +79,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-          JOB_COUNT=$(python -c "import json; d=json.load(open('data/basf_jobs_all.json')); print(len(d))" 2>/dev/null || echo "?")
-          git commit -m "chore: update job data — ${JOB_COUNT} jobs as of ${TIMESTAMP}"
+          TOTAL=$(python -c "import json; d=json.load(open('data/basf_jobs_all.json')); print(len(d))" 2>/dev/null || echo "?")
+          INDIA=$(python -c "import json; d=json.load(open('data/india_jobs.json')); print(d.get('_total_jobs', '?'))" 2>/dev/null || echo "?")
+          git commit -m "chore: update job data — ${INDIA} India / ${TOTAL} total as of ${TIMESTAMP}"
+          git pull --rebase origin main
           git push
 
       - name: No changes detected
