@@ -356,7 +356,7 @@ def _extract_description(text: str) -> str:
             desc = desc[: end_m.start()]
         desc = desc.strip()
         if len(desc) > 30:
-            return desc[:10000]
+            return desc[:100]
 
     # Fallback: between login area and apply button
     s2 = re.search(r"(?:Employee Login|Profile Login)\s*", text, re.I)
@@ -364,9 +364,9 @@ def _extract_description(text: str) -> str:
     if s2 and e2:
         block = text[s2.end(): e2.start()].strip()
         if len(block) > 30:
-            return block[:10000]
+            return block[:100]
 
-    return text[:10000]
+    return text[:100]
 
 
 # ---------------------------------------------------------------------------
