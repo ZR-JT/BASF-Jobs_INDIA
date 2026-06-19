@@ -1830,16 +1830,6 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Freiburg-im-Breisgau-Aushilfe-Studentenjob-in-der-Produktion-4-Schicht-Betrieb-%28mwd%29/1371150633/"
   },
   {
-    "job_id": "1371150733",
-    "name": "Critical Rotating Equipment Engineer",
-    "location": "Freeport",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Freeport-Critical-Rotating-Equipment-Engineer-TX-77541/1371150733/"
-  },
-  {
     "job_id": "1371153833",
     "name": "Business Development Specialist - Automotive Refinish, Minneapolis/St.Paul",
     "location": "Business",
@@ -3488,16 +3478,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/red_SA/job/Ciudad-de-Mexico-Gerente-de-Ventas-Pl%C3%A1sticos-de-ingenier%C3%ADa/1394725633/"
-  },
-  {
-    "job_id": "1394725933",
-    "name": "Representante Técnico de Ventas de Distribución Detalles del puesto",
-    "location": "Ciudad",
-    "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/red_SA/job/Ciudad-de-Mexico-Representante-T%C3%A9cnico-de-Ventas-de-Distribuci%C3%B3n/1394725933/"
   },
   {
     "job_id": "1394776833",
@@ -5830,16 +5810,6 @@
     "url": "https://basf.jobs/red_SA/job/Ciudad-de-Mexico-Becarioa-de-Comunicaci%C3%B3n/1400966533/"
   },
   {
-    "job_id": "1401004033",
-    "name": "Pasadena Site Director",
-    "location": "Pasadena",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Pasadena-Pasadena-Site-Director-TX-77501/1401004033/"
-  },
-  {
     "job_id": "1401064733",
     "name": "Production Operator生产操作员",
     "location": "Huizhou",
@@ -6410,16 +6380,6 @@
     "url": "https://basf.jobs/job/Assistant-Manager%2C-Insurance-Asia-Pacific/1403348733/"
   },
   {
-    "job_id": "1403564433",
-    "name": "Laboratorista Detalles del puesto",
-    "location": "Altamira",
-    "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/red_SA/job/Altamira-Laboratorista/1403564433/"
-  },
-  {
     "job_id": "1403595933",
     "name": "Logistics Specialist",
     "location": "Mcintosh",
@@ -6458,16 +6418,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/job/Shanghai-Assistant-Chemist%2C-Resin-Research/1403759333/"
-  },
-  {
-    "job_id": "1403778833",
-    "name": "Internship Management Consulting - Data Science/Data Analytics (m/f/d)",
-    "location": "Ludwigshafen",
-    "country": "unknown",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/job/Ludwigshafen-am-Rhein-Internship-Management-Consulting-Data-ScienceData-Analytics-%28mfd%29/1403778833/"
   },
   {
     "job_id": "1403827833",
@@ -6658,16 +6608,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/red_SA/job/Cordoba-Gerente-Desarrollo-T%C3%A9cnico-Mercado-Pampa-H%C3%BAmeda-Centro/1404628533/"
-  },
-  {
-    "job_id": "1404757133",
-    "name": "Research Technician I",
-    "location": "Wyandotte",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Wyandotte-Research-Technician-I-MI-48192/1404757133/"
   },
   {
     "job_id": "1404767533",
@@ -7078,6 +7018,36 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/light_green_NA/job/Florham-Park-Global-Marketing-Manager-Beauty-Care-Solutions-NJ-07932/1406169433/"
+  },
+  {
+    "job_id": "1406210033",
+    "name": "EHS Specialist",
+    "location": "Jackson",
+    "country": "unknown (North America)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/light_green_NA/job/Jackson-EHS-Specialist-MI-49201/1406210033/"
+  },
+  {
+    "job_id": "1406266233",
+    "name": "Transport Management (Executive)",
+    "location": "Kuala",
+    "country": "unknown (Asia-Pacific)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Transport-Management-%28Executive%29/1406266233/"
+  },
+  {
+    "job_id": "1406269833",
+    "name": "Transport Management (Executive) 1 1 1 1 1 1",
+    "location": "Kuala",
+    "country": "unknown (Asia-Pacific)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Transport-Management-%28Executive%29-1-1-1-1-1-1/1406269833/"
   },
   {
     "job_id": "987746301",

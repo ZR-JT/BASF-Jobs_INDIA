@@ -8,12 +8,12 @@
     "job_type": "Employment type (e.g. Permanent, Internship) — null if not shown",
     "job_field": "BASF job category (e.g. Engineering, R&D, Sales) — null if not shown",
     "flexible_work": "Work model (e.g. Hybrid, On-site, Remote) — null if not specified",
-    "description": "Full English job description text",
+    "description": "First 100 characters of the English job description",
     "url": "Direct link to the BASF job posting",
     "posted_at": "Date the job was first posted (YYYY-MM-DD) — null if not available",
     "scraped_at": "Date this record was last fetched (YYYY-MM-DD)"
   },
-  "_generated_at": "2026-06-18",
+  "_generated_at": "2026-06-19",
   "_total_jobs": 168,
   "jobs": [
     {
