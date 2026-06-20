@@ -13,19 +13,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1244359601",
-    "name": "Senior Quality Specialist",
-    "location": "Greenville",
-    "country": "United States",
-    "job_type": "Permanent",
-    "job_field": "Quality Management",
-    "flexible_work": null,
-    "description": "Job Description: Now hiring! Senior Quality Specialist Greenville, OH  - Onsite - Domestic Relocatio",
-    "url": "https://basf.jobs/light_green_NA/job/Greenville-Senior-Quality-Specialist-OH-45331/1244359601/",
-    "posted_at": "2026-05-29",
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1280293001",
     "name": "Laboratory Technician I",
     "location": "Geismar",
@@ -76,5 +63,31 @@
     "url": "https://basf.jobs/light_green_NA/job/Southfield-Customer-Site-Service-Manager-MI-48033-2442/1383847133/",
     "posted_at": "2026-04-14",
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1389613033",
+    "name": "Maintenance Technician",
+    "location": "Southfield",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Engineering",
+    "flexible_work": null,
+    "description": "Job Description: Now hiring! Maintenance Technician Southfield, MI We are looking for a Maintenance ",
+    "url": "https://basf.jobs/light_green_NA/job/Southfield-Maintenance-Technician-MI-48033-2442/1389613033/",
+    "posted_at": "2026-06-19",
+    "scraped_at": "2026-06-20"
+  },
+  {
+    "job_id": "1406646733",
+    "name": "Sr. Site Chemist - Environmental Lab",
+    "location": "Missouri, Palmyra Country: United States",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Environment, Health & Safety",
+    "flexible_work": "On-site",
+    "description": "Job Description: Now hiring! Sr Site Chemist We are looking for a Sr. Site Chemist to join our Agric",
+    "url": "https://basf.jobs/light_green_NA/job/Palmyra-Sr_-Site-Chemist-Environmental-Lab-MO-63461/1406646733/",
+    "posted_at": "2026-06-19",
+    "scraped_at": "2026-06-20"
   }
 ]

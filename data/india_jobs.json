@@ -13,22 +13,9 @@
     "posted_at": "Date the job was first posted (YYYY-MM-DD) — null if not available",
     "scraped_at": "Date this record was last fetched (YYYY-MM-DD)"
   },
-  "_generated_at": "2026-06-19",
-  "_total_jobs": 168,
+  "_generated_at": "2026-06-20",
+  "_total_jobs": 167,
   "jobs": [
-    {
-      "job_id": "1404389733",
-      "name": "Assistant Manager - Delegated Procurement",
-      "location": "Navi Mumbai - HO (Innovation Campus) Country: India",
-      "country": "India",
-      "job_type": "Permanent",
-      "job_field": "Logistics & Supply Chain Management",
-      "flexible_work": "On-site",
-      "description": "Job Description: MAIN TASKS: Procurement of chemicals, consumables, solvents, accessories, safety to",
-      "url": "https://basf.jobs/job/Navi-Mumbai-Assistant-Manager-Delegated-Procurement/1404389733/",
-      "posted_at": "2026-06-15",
-      "scraped_at": "2026-06-18"
-    },
     {
       "job_id": "1403289633",
       "name": "RnD Logistics Associate",

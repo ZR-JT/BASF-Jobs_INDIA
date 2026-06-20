@@ -610,16 +610,6 @@
     "url": "https://basf.jobs/light_green_NA/job/Chattanooga-Process-Technician-TN-37406/1204531201/"
   },
   {
-    "job_id": "1206126901",
-    "name": "Process Engineer II - Chemicals",
-    "location": "Greenville",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Greenville-Process-Engineer-II-Chemicals-OH-45331/1206126901/"
-  },
-  {
     "job_id": "1211291701",
     "name": "Customer Service Officer PM",
     "location": "Warszawa",
@@ -780,16 +770,6 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Ludwigshafen-am-Rhein-Dummy/1234363901/"
   },
   {
-    "job_id": "1244359601",
-    "name": "Senior Quality Specialist",
-    "location": "Greenville",
-    "country": "United States",
-    "job_type": "Permanent",
-    "job_field": "Quality Management",
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Greenville-Senior-Quality-Specialist-OH-45331/1244359601/"
-  },
-  {
     "job_id": "1245225101",
     "name": "Canola Breeding Summer Associate",
     "location": "Regina",
@@ -938,16 +918,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/light_green_NA/job/Cincinnati-Chemical-Operator-OH-45224/1263800801/"
-  },
-  {
-    "job_id": "1265117001",
-    "name": "Operator Associate - Greenville OH",
-    "location": "Greenville",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Greenville-Operator-Associate-Greenville-OH-OH-45331/1265117001/"
   },
   {
     "job_id": "1268965001",
@@ -2880,16 +2850,6 @@
     "url": "https://basf.jobs/light_green_NA/job/Louisville-Customer-Site-Service-Manager-%28OEM-Automotive-Coatings%29-KY-40212/1386671933/"
   },
   {
-    "job_id": "1386698633",
-    "name": "Customer Site Service Rep II  (OEM Automotive Coatings)",
-    "location": "Louisville",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Louisville-Customer-Site-Service-Rep-II-%28OEM-Automotive-Coatings%29-KY-40212/1386698633/"
-  },
-  {
     "job_id": "1387124533",
     "name": "Técnico(a) de Laboratório e Controle de Qualidade - Afirmativa PCD - Guaratinguetá/SP",
     "location": "Guaratingueta",
@@ -2990,6 +2950,16 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Berlin-Accountant-Financial-Reporting-with-Polish-%28mfd%29-Hybrid-Option-GER/1388267033/"
   },
   {
+    "job_id": "1388452733",
+    "name": "Warehouse Packaging Technician",
+    "location": "Bishop",
+    "country": "unknown (North America)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/light_green_NA/job/Bishop-Warehouse-Packaging-Technician-TX-78343/1388452733/"
+  },
+  {
     "job_id": "1388502733",
     "name": "Product Safety Stewardship Coordinator",
     "location": "New",
@@ -3070,6 +3040,16 @@
     "url": "https://basf.jobs/red_SA/job/Ciudad-de-Mexico-Becarioa-de-Cadena-de-Suministro/1389490133/"
   },
   {
+    "job_id": "1389613033",
+    "name": "Maintenance Technician",
+    "location": "Southfield",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Engineering",
+    "flexible_work": null,
+    "url": "https://basf.jobs/light_green_NA/job/Southfield-Maintenance-Technician-MI-48033-2442/1389613033/"
+  },
+  {
     "job_id": "1389760933",
     "name": "Purchase-to-Pay (Intern)",
     "location": "Kuala",
@@ -3128,6 +3108,16 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/red_SA/job/Lerma-de-Villada-Becario-de-Mantenimiento/1390551033/"
+  },
+  {
+    "job_id": "1390571733",
+    "name": "Millwright",
+    "location": "Regina Country: Canada",
+    "country": "Canada",
+    "job_type": "Permanent",
+    "job_field": "Production, Maintenance & Technical Services",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/light_green_NA/job/Regina-Millwright-SK-S4W-0E6/1390571733/"
   },
   {
     "job_id": "1390645733",
@@ -3600,6 +3590,16 @@
     "url": "https://basf.jobs/light_blue_AP/job/Hyderabad-GDDPH-Test-Automation-Engineer-%28MFD%29/1395206233/"
   },
   {
+    "job_id": "1395240933",
+    "name": "Production Engineer",
+    "location": "Regina Country: Canada",
+    "country": "Canada",
+    "job_type": "Permanent",
+    "job_field": "Engineering",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/light_green_NA/job/Regina-Production-Engineer-SK-S4W-0E6/1395240933/"
+  },
+  {
     "job_id": "1395308133",
     "name": "Demand & Supply Planner",
     "location": "Singapore",
@@ -3698,6 +3698,16 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/dark_blue_EMEA/job/M%C3%BCnster-Ingenieurin-Automatisierung-%28mwd%29/1395609033/"
+  },
+  {
+    "job_id": "1395625733",
+    "name": "Key Account Manager",
+    "location": "Lusaka Country: Zambia",
+    "country": "unknown (Agriculture)",
+    "job_type": "Permanent",
+    "job_field": "Marketing & Sales",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_green_agri/job/Key-Account-Manager/1395625733/"
   },
   {
     "job_id": "1395679433",
@@ -5790,16 +5800,6 @@
     "url": "https://basf.jobs/light_blue_AP/job/Huizhou-Production-Operator%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E5%91%98/1401064733/"
   },
   {
-    "job_id": "1401069733",
-    "name": "Specialist - Regional Commercial Excellence APAC",
-    "location": "Singapore",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Singapore-Specialist-Regional-Commercial-Excellence-APAC/1401069733/"
-  },
-  {
     "job_id": "1401133833",
     "name": "Counsel, Legal & Compliance Services Hub (Thai Speaker)",
     "location": "Kuala",
@@ -5820,16 +5820,6 @@
     "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Payroll-&-People-Data-Analyst-Mandarin-Speaker-%28Leasing%2C-12-month-contract%29/1401172633/"
   },
   {
-    "job_id": "1401263733",
-    "name": "Customer Site Service Manager",
-    "location": "Louisville",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Louisville-Customer-Site-Service-Manager-KY-40212/1401263733/"
-  },
-  {
     "job_id": "1401296333",
     "name": "HR Administration & Payroll Specialist mit Französisch (m/w/d) Stellendetails",
     "location": "Berlin",
@@ -5848,16 +5838,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/light_blue_AP/job/New-Delhi-Sales-Manager%2C-Rigids-PU-Performance-Materials/1401639333/"
-  },
-  {
-    "job_id": "1401658133",
-    "name": "Assistant Chemist",
-    "location": "Assistant",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Assistant-Chemist/1401658133/"
   },
   {
     "job_id": "1401665233",
@@ -6510,16 +6490,6 @@
     "url": "https://basf.jobs/light_blue_AP/job/Samut-Prakan-Senior-Officer-Procurement/1404326533/"
   },
   {
-    "job_id": "1404389733",
-    "name": "Assistant Manager - Delegated Procurement",
-    "location": "Navi Mumbai - HO (Innovation Campus) Country: India",
-    "country": "India",
-    "job_type": "Permanent",
-    "job_field": "Logistics & Supply Chain Management",
-    "flexible_work": "On-site",
-    "url": "https://basf.jobs/job/Navi-Mumbai-Assistant-Manager-Delegated-Procurement/1404389733/"
-  },
-  {
     "job_id": "1404573933",
     "name": "Product Costing Analyst",
     "location": "Hyderabad",
@@ -6990,16 +6960,6 @@
     "url": "https://basf.jobs/light_green_NA/job/Jackson-EHS-Specialist-MI-49201/1406210033/"
   },
   {
-    "job_id": "1406266233",
-    "name": "Transport Management (Executive)",
-    "location": "Kuala",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Transport-Management-%28Executive%29/1406266233/"
-  },
-  {
     "job_id": "1406269833",
     "name": "Transport Management (Executive) 1 1 1 1 1 1",
     "location": "Kuala",
@@ -7008,6 +6968,76 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Transport-Management-%28Executive%29-1-1-1-1-1-1/1406269833/"
+  },
+  {
+    "job_id": "1406403833",
+    "name": "Global Bulk Parcel Operations, Manager",
+    "location": "Kuala",
+    "country": "unknown",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/job/Kuala-Lumpur-Global-Bulk-Parcel-Operations%2C-Manager/1406403833/"
+  },
+  {
+    "job_id": "1406473733",
+    "name": "Nematologist Scientist (m/f/d)",
+    "location": "Gent",
+    "country": "unknown",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/job/Gent-Nematologist-Scientist-%28mfd%29/1406473733/"
+  },
+  {
+    "job_id": "1406500633",
+    "name": "Maintenance Planner",
+    "location": "Greenville",
+    "country": "unknown (North America)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/light_green_NA/job/Greenville-Maintenance-Planner-OH-45331/1406500633/"
+  },
+  {
+    "job_id": "1406553633",
+    "name": "Working Student Automation (m/f/d)",
+    "location": "Münster",
+    "country": "unknown",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/job/M%C3%BCnster-Working-Student-Automation-%28mfd%29/1406553633/"
+  },
+  {
+    "job_id": "1406615733",
+    "name": "Account Manager - Beauty Care Solutions",
+    "location": "Florham",
+    "country": "unknown (North America)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/light_green_NA/job/Florham-Park-Account-Manager-Beauty-Care-Solutions-NJ-07932/1406615733/"
+  },
+  {
+    "job_id": "1406646733",
+    "name": "Sr. Site Chemist - Environmental Lab",
+    "location": "Missouri, Palmyra Country: United States",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Environment, Health & Safety",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/light_green_NA/job/Palmyra-Sr_-Site-Chemist-Environmental-Lab-MO-63461/1406646733/"
+  },
+  {
+    "job_id": "1406652033",
+    "name": "Regional Digitalization Lead",
+    "location": "Greenville",
+    "country": "unknown (North America)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "url": "https://basf.jobs/light_green_NA/job/Greenville-Regional-Digitalization-Lead-OH-45331/1406652033/"
   },
   {
     "job_id": "987746301",
