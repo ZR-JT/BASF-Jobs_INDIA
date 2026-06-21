@@ -13,7 +13,7 @@
     "posted_at": "Date the job was first posted (YYYY-MM-DD) — null if not available",
     "scraped_at": "Date this record was last fetched (YYYY-MM-DD)"
   },
-  "_generated_at": "2026-06-20",
+  "_generated_at": "2026-06-21",
   "_total_jobs": 167,
   "jobs": [
     {
