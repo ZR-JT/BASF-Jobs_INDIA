@@ -104,19 +104,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1370891933",
-    "name": "Officer / Senior Officer, Order Management (Mandarin Speaker) (MY)",
-    "location": "Petaling",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Officer / Senior Officer, Order Management (Mandarin Speaker) (MY) Job Details | BASF SE Skip to mai",
-    "url": "https://basf.jobs/light_blue_AP/job/Petaling-Jaya-Officer-Senior-Officer%2C-Order-Management-%28Mandarin-Speaker%29-%28MY%29/1370891933/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1371319733",
     "name": "Financial Reporting (Senior Analyst) - Mandarin Speaker",
     "location": "Kuala",
@@ -507,19 +494,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1398029033",
-    "name": "Account Manager",
-    "location": "Melbourne",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Account Manager Job Details | BASF SE Skip to main content Find jobs Language Ceština (Ceská republi",
-    "url": "https://basf.jobs/light_blue_AP/job/Melbourne-Account-Manager/1398029033/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1398029533",
     "name": "Business Development Manager - Protected Crops",
     "location": "Melbourne",
@@ -659,19 +633,6 @@
     "flexible_work": null,
     "description": "Assistant Manager, Regional Trainer Job Details | BASF SE Skip to main content Find jobs Language Ce",
     "url": "https://basf.jobs/light_blue_AP/job/Guangzhou-Assistant-Manager%2C-Regional-Trainer/1398545233/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
-    "job_id": "1398546133",
-    "name": "Manager, Regional EHS",
-    "location": "Shanghai",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Manager, Regional EHS Job Details | BASF SE Skip to main content Find jobs Language Ceština (Ceská r",
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Manager%2C-Regional-EHS/1398546133/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
   },
@@ -1324,5 +1285,31 @@
     "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Transport-Management-%28Executive%29-1-1-1-1-1-1/1406269833/",
     "posted_at": null,
     "scraped_at": "2026-06-19"
+  },
+  {
+    "job_id": "1406773133",
+    "name": "Officer / Senior Officer, Order Management (Mandarin Speaker)",
+    "location": "Petaling",
+    "country": "unknown (Asia-Pacific)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "description": "Officer / Senior Officer, Order Management (Mandarin Speaker) Job Details | BASF SE Skip to main con",
+    "url": "https://basf.jobs/light_blue_AP/job/Petaling-Jaya-Officer-Senior-Officer%2C-Order-Management-%28Mandarin-Speaker%29/1406773133/",
+    "posted_at": null,
+    "scraped_at": "2026-06-22"
+  },
+  {
+    "job_id": "1406879733",
+    "name": "Global Supply Chain Excellence - APAC & NA (Manager - Expert)",
+    "location": "Kuala",
+    "country": "unknown (Asia-Pacific)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "description": "Global Supply Chain Excellence - APAC & NA (Manager - Expert) Job Details | BASF SE Skip to main con",
+    "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Global-Supply-Chain-Excellence-APAC-&-NA-%28Manager-Expert%29/1406879733/",
+    "posted_at": null,
+    "scraped_at": "2026-06-22"
   }
 ]
