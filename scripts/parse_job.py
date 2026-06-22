@@ -447,6 +447,9 @@ def parse_job(url: str, session: requests.Session | None = None) -> dict | None:
         meta = _extract_template_a(text)
 
     location_raw = meta.get("location_raw") or ""
+    # Remove "Country: X" and "Requisition ID: X" suffixes from the location block
+    location_raw = re.sub(r"\s*Country:\s*.+$", "", location_raw, flags=re.I).strip()
+    location_raw = re.sub(r"\s*Requisition ID:\s*.+$", "", location_raw, flags=re.I).strip()
     if location_raw.lower().startswith("country:"):
         location_raw = ""
 
@@ -457,9 +460,18 @@ def parse_job(url: str, session: requests.Session | None = None) -> dict | None:
         url,
     )
 
-    location = location_raw.strip() if location_raw.strip() else (
-        _city_from_url(url).title() or "unknown"
-    )
+    # Build location: strip trailing country code (e.g. "Hyderabad, IND" -> "Hyderabad")
+    loc = location_raw.strip()
+    if "," in loc:
+        loc = loc.split(",")[0].strip()
+
+    # If still empty, try URL slug — but only accept known city names
+    if not loc:
+        url_city = _city_from_url(url)
+        if url_city in _INDIA_CITIES:
+            loc = url_city.title()
+
+    location = loc or "unknown"
 
     description = _extract_description(text)
     if len(description) < 30:

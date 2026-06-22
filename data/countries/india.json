@@ -2,7 +2,7 @@
   {
     "job_id": "1050403501",
     "name": "Team Leader Fungicide research",
-    "location": "Team",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Research & Development",
@@ -15,7 +15,7 @@
   {
     "job_id": "1157373101",
     "name": "Executive - Production",
-    "location": "Executive",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Production, Maintenance & Technical Services",
@@ -28,7 +28,7 @@
   {
     "job_id": "1172786401",
     "name": "Assistant Manager Production",
-    "location": "Assistant",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Production, Maintenance & Technical Services",
@@ -41,7 +41,7 @@
   {
     "job_id": "1255847301",
     "name": "Assistant Manager  - Production",
-    "location": "Assistant",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Production, Maintenance & Technical Services",
@@ -54,7 +54,7 @@
   {
     "job_id": "1270131001",
     "name": "Deputy Manager - Application Technology Rinse-off",
-    "location": "Deputy",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Research & Development",
@@ -67,7 +67,7 @@
   {
     "job_id": "1271354201",
     "name": "Deputy Manager - Sales, Acrylic Acid & Esters",
-    "location": "Deputy",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Marketing & Sales",
@@ -80,7 +80,7 @@
   {
     "job_id": "1276182501",
     "name": "Lab Team Leader",
-    "location": "Lab",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Research & Development",
@@ -93,7 +93,7 @@
   {
     "job_id": "1276967101",
     "name": "Assistant Manager - Application Development 1",
-    "location": "Assistant",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Marketing & Sales",
@@ -106,7 +106,7 @@
   {
     "job_id": "1277825201",
     "name": "Research Chemist",
-    "location": "Research",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Research & Development",
@@ -119,7 +119,7 @@
   {
     "job_id": "1279113601",
     "name": "Business Development and TD - CASE Applications",
-    "location": "Business",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Marketing & Sales",
@@ -132,7 +132,7 @@
   {
     "job_id": "1282375601",
     "name": "Assistant Manager - Technical Development Flexible PU",
-    "location": "Assistant",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Production, Maintenance & Technical Services",
@@ -145,7 +145,7 @@
   {
     "job_id": "1285536001",
     "name": "Lead - Technical Development, FSL and Head - PU Application Development Lab",
-    "location": "Lead",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Marketing & Sales",
@@ -158,7 +158,7 @@
   {
     "job_id": "1287429301",
     "name": "Production Executive",
-    "location": "Production",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Production, Maintenance & Technical Services",
@@ -171,7 +171,7 @@
   {
     "job_id": "1288755701",
     "name": "Manager - Process Safety & Emergency Response",
-    "location": "Manager",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Environment, Health & Safety",
@@ -197,7 +197,7 @@
   {
     "job_id": "1290520901",
     "name": "Production Executive",
-    "location": "Production",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Production, Maintenance & Technical Services",
@@ -210,7 +210,7 @@
   {
     "job_id": "1367329833",
     "name": "Technical Service Lab Executive",
-    "location": "Technical",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Production, Maintenance & Technical Services",
@@ -223,7 +223,7 @@
   {
     "job_id": "1368942833",
     "name": "Site Controller",
-    "location": "Site",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Production, Maintenance & Technical Services",
@@ -236,7 +236,7 @@
   {
     "job_id": "1370328333",
     "name": "Manager-Occupational, Transport & Environment Safety",
-    "location": "Manager",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Environment, Health & Safety",
@@ -249,7 +249,7 @@
   {
     "job_id": "1379373433",
     "name": "Deputy Manager - Reporting & MIS",
-    "location": "Deputy",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Finance, Controlling & Audit",
@@ -262,7 +262,7 @@
   {
     "job_id": "1380920933",
     "name": "Asst Manager - Customer Service",
-    "location": "Asst",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Logistics & Supply Chain Management",
@@ -275,7 +275,7 @@
   {
     "job_id": "1381015733",
     "name": "Research chemist",
-    "location": "Research",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Research & Development",
@@ -288,7 +288,7 @@
   {
     "job_id": "1381017333",
     "name": "Research chemist",
-    "location": "Research",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Research & Development",
@@ -301,7 +301,7 @@
   {
     "job_id": "1381538333",
     "name": "Business Controller - Performance Materials, India",
-    "location": "Business",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Finance, Controlling & Audit",
@@ -314,7 +314,7 @@
   {
     "job_id": "1382003233",
     "name": "Manager, Sales India",
-    "location": "Manager,",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Marketing & Sales",
@@ -327,7 +327,7 @@
   {
     "job_id": "1382991533",
     "name": "Process engineer",
-    "location": "Process",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Engineering",
@@ -340,7 +340,7 @@
   {
     "job_id": "1383422633",
     "name": "Assistant Sales Manager, Pharma Solutions",
-    "location": "Assistant",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Marketing & Sales",
@@ -353,7 +353,7 @@
   {
     "job_id": "1394776833",
     "name": "Frontend Developer",
-    "location": "Frontend",
+    "location": "unknown",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Procurement",
@@ -366,7 +366,7 @@
   {
     "job_id": "1394829833",
     "name": "Architect Data Products(M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -379,7 +379,7 @@
   {
     "job_id": "1394833133",
     "name": "Cloud Data Engineer(M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -392,7 +392,7 @@
   {
     "job_id": "1394833233",
     "name": "Product Owner Data Products (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -405,7 +405,7 @@
   {
     "job_id": "1394884833",
     "name": "GDF/CS_Senior Developer",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -418,7 +418,7 @@
   {
     "job_id": "1394886333",
     "name": "DevOps Engineer OMP OPR",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -431,7 +431,7 @@
   {
     "job_id": "1394974033",
     "name": "Full Stack Developer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -444,7 +444,7 @@
   {
     "job_id": "1395187033",
     "name": "GDE/EB - Solution Designer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -457,7 +457,7 @@
   {
     "job_id": "1395206233",
     "name": "GDD/PH - Test Automation Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -470,7 +470,7 @@
   {
     "job_id": "1395709633",
     "name": "GDE/FD - SAP Consultant (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -483,7 +483,7 @@
   {
     "job_id": "1395717533",
     "name": "GDE/MF - AI Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -496,7 +496,7 @@
   {
     "job_id": "1395718133",
     "name": "GDE/MF - Solution Architect Automotive (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -509,7 +509,7 @@
   {
     "job_id": "1395723333",
     "name": "GDE/MF - SAP Developer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -522,7 +522,7 @@
   {
     "job_id": "1395727733",
     "name": "GDE/MB - SAP Consultant - functional output (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -535,7 +535,7 @@
   {
     "job_id": "1395733833",
     "name": "GDF/AF - Solution Consultant System Integration (EDI, Purchase-to-Pay) (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -548,7 +548,7 @@
   {
     "job_id": "1395862033",
     "name": "Manager - Business/Site Controller 1",
-    "location": "Mangalore, IND",
+    "location": "Mangalore",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Finance, Controlling & Audit",
@@ -561,7 +561,7 @@
   {
     "job_id": "1395864333",
     "name": "Deputy Manager - Engineering & Maintenance",
-    "location": "Mangalore, IND",
+    "location": "Mangalore",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Engineering",
@@ -574,7 +574,7 @@
   {
     "job_id": "1395973833",
     "name": "GDF/AF - Solution Consultant System Integration (EDI, Order-to-Invoice) (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -587,7 +587,7 @@
   {
     "job_id": "1396093933",
     "name": "GDF/AF - Solution Consultant System Integration (EDI, Logistics & Transport) (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -600,7 +600,7 @@
   {
     "job_id": "1396203433",
     "name": "GDF/AF - Middleware Product Owner - System Integration (EDI, SAP CPI) (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -613,7 +613,7 @@
   {
     "job_id": "1396214033",
     "name": "GDF/AF - Middleware Engineer - System Integration (EDI, SAP CPI) (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -626,7 +626,7 @@
   {
     "job_id": "1396222933",
     "name": "GDD/GA - Full Stack Mobile Developer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -639,7 +639,7 @@
   {
     "job_id": "1396223333",
     "name": "GDD/BA - SAP Production Consultant (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -652,7 +652,7 @@
   {
     "job_id": "1396228533",
     "name": "GDD/PE - Digital Solution Designer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -665,7 +665,7 @@
   {
     "job_id": "1396231333",
     "name": "GD/C - Specialist for Digitalization in the Area of Service Charging and Data Analysis (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -678,7 +678,7 @@
   {
     "job_id": "1396324133",
     "name": "GD/C - Finance Manager (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -691,7 +691,7 @@
   {
     "job_id": "1396504633",
     "name": "GD/C - Controlling Specialist (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -704,7 +704,7 @@
   {
     "job_id": "1396508133",
     "name": "GDE/FC - SAP Consultant (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -717,7 +717,7 @@
   {
     "job_id": "1396520733",
     "name": "GDS/A - Cyber Security Compliance and Assurance  (M/F/A)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -730,7 +730,7 @@
   {
     "job_id": "1396547433",
     "name": "GDD/GC - Specialist Warehouse Management (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -743,7 +743,7 @@
   {
     "job_id": "1396619433",
     "name": "GDE/ED - SAP Consultant HR Time Management",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -756,7 +756,7 @@
   {
     "job_id": "1396621233",
     "name": "GDE/DB - SAP Consultant (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -769,7 +769,7 @@
   {
     "job_id": "1396627733",
     "name": "GDE/AE - Platform Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -782,7 +782,7 @@
   {
     "job_id": "1396694133",
     "name": "GDE/FF - SAP Consultant (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -795,7 +795,7 @@
   {
     "job_id": "1396697333",
     "name": "GDE/EA - SAP Consultant HR Payroll (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -808,7 +808,7 @@
   {
     "job_id": "1396699533",
     "name": "GDE/DD - SAP Consultant- FI/CO (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -821,7 +821,7 @@
   {
     "job_id": "1396706433",
     "name": "GDE/DD - SAP Consultant Finance & Tax (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -834,7 +834,7 @@
   {
     "job_id": "1396706633",
     "name": "GDE/DC - SAP Consultant - COPC (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -847,7 +847,7 @@
   {
     "job_id": "1396707233",
     "name": "GDD/GD - Yard Management DevOps - Back-End (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -860,7 +860,7 @@
   {
     "job_id": "1396709533",
     "name": "GDD/GD - Yard Management - SAP TM Functional Consultant (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -873,7 +873,7 @@
   {
     "job_id": "1396715533",
     "name": "GDB/DG - Senior Platform Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -886,7 +886,7 @@
   {
     "job_id": "1396720833",
     "name": "GDB/DG - Cloud System Engiineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -899,7 +899,7 @@
   {
     "job_id": "1396723933",
     "name": "GDB/DG - Platform Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -912,7 +912,7 @@
   {
     "job_id": "1396726433",
     "name": "GDB/DG - DevOps Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -925,7 +925,7 @@
   {
     "job_id": "1396731733",
     "name": "GDB/ZI - API Management Specialist (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -938,7 +938,7 @@
   {
     "job_id": "1396732233",
     "name": "GDB/ZI - Integration Platform Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -964,7 +964,7 @@
   {
     "job_id": "1396736333",
     "name": "GDB/ZI - Integration Specialist (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -977,7 +977,7 @@
   {
     "job_id": "1396738433",
     "name": "GDB/ZI - Service Engineer Owner (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -990,7 +990,7 @@
   {
     "job_id": "1396784833",
     "name": "GDD/EK - Senior DevOps Engineer Plant Maintenance & Engineering Project Solutions (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1003,7 +1003,7 @@
   {
     "job_id": "1396786233",
     "name": "GDS/AB - Cyber Security Risk Manager (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1016,7 +1016,7 @@
   {
     "job_id": "1396786433",
     "name": "GDF/BB - Salesforce Platform Administrator (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1029,7 +1029,7 @@
   {
     "job_id": "1396786733",
     "name": "GDF/BB - IT Program Architect (Salesforce and CRM Digital Solutions Expert) (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1042,7 +1042,7 @@
   {
     "job_id": "1396793033",
     "name": "GDD/GE - Specialist Warehouse Management (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1055,7 +1055,7 @@
   {
     "job_id": "1396793133",
     "name": "GDD/GE - MM Functional Consultant (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1068,7 +1068,7 @@
   {
     "job_id": "1396793433",
     "name": "GDE/EG - SAP BDC/Dataspher/BW4Hana expert (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1081,7 +1081,7 @@
   {
     "job_id": "1396793633",
     "name": "GDD/BH - Senior Business Solution Consultant - SAP QM (Quality Management) (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1094,7 +1094,7 @@
   {
     "job_id": "1396793733",
     "name": "GDA/AT - Senior System Engineer - Application Owner (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1107,7 +1107,7 @@
   {
     "job_id": "1396793933",
     "name": "GDD/BH - Senior Full Stack SAP Developer - SAP QM (Quality Management) Knowledge (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1120,7 +1120,7 @@
   {
     "job_id": "1396794033",
     "name": "GDA/AT- Systems Engineer - Application Specialist (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1133,7 +1133,7 @@
   {
     "job_id": "1396794133",
     "name": "GDE/AC - Senior Automation Engineer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1146,7 +1146,7 @@
   {
     "job_id": "1396794633",
     "name": "GDD/BG - Senior Business Solution Consultant NCM (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1159,7 +1159,7 @@
   {
     "job_id": "1396794833",
     "name": "GD/CD - Controlling Specialist (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1172,7 +1172,7 @@
   {
     "job_id": "1396795133",
     "name": "GDE/EC - SAP Developer - Personnel Administration & Organizational Management (SAP HCM) (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1198,7 +1198,7 @@
   {
     "job_id": "1396795433",
     "name": "GDE/EC - SAP Consultant- SAP SuccessFactors Onboarding 2.0 (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1211,7 +1211,7 @@
   {
     "job_id": "1396795633",
     "name": "GDE/EC - SAP Developer - HR Authorizations in SAP HCM (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1224,7 +1224,7 @@
   {
     "job_id": "1396795733",
     "name": "GDB/DC - Senior Full-Stack Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1237,7 +1237,7 @@
   {
     "job_id": "1396795833",
     "name": "GDE/DA - SAP Consultant (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1250,7 +1250,7 @@
   {
     "job_id": "1396795933",
     "name": "GDB/DC - DevOps Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1263,7 +1263,7 @@
   {
     "job_id": "1396796033",
     "name": "GDE/A - Product Manager SAP Authorization (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1276,7 +1276,7 @@
   {
     "job_id": "1396796133",
     "name": "GDE/ME - SAP Developer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1289,7 +1289,7 @@
   {
     "job_id": "1396796233",
     "name": "GDE/FE - Software Engineer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1302,7 +1302,7 @@
   {
     "job_id": "1396796433",
     "name": "GDE/AD - SAP Authorization Specialist (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1315,7 +1315,7 @@
   {
     "job_id": "1396796633",
     "name": "GDE/MC - Senior DevOps Engineer SAP SD (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1328,7 +1328,7 @@
   {
     "job_id": "1396796933",
     "name": "GDE/MC - SAP Developer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1341,7 +1341,7 @@
   {
     "job_id": "1396797233",
     "name": "GDF/BF - Digital Pricing Expert (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1354,7 +1354,7 @@
   {
     "job_id": "1396799233",
     "name": "GDB/X - Senior Agentic AI Engineer (M/F/D)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1367,7 +1367,7 @@
   {
     "job_id": "1396799733",
     "name": "GDF/CN - DevOps Engineer OMP SnOP (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1380,7 +1380,7 @@
   {
     "job_id": "1396799933",
     "name": "GDF/CR - DevOps Engineer Integration (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1393,7 +1393,7 @@
   {
     "job_id": "1396800033",
     "name": "GDB/X - Junior Agentic AI Engineer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1406,7 +1406,7 @@
   {
     "job_id": "1396800133",
     "name": "GDB/X - Agentic AI Architect (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1419,7 +1419,7 @@
   {
     "job_id": "1396804233",
     "name": "GDD/EN - Solution designer 3rd party SW solutions (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1432,7 +1432,7 @@
   {
     "job_id": "1396804333",
     "name": "GDD/EN - Platform engineer CAE solutions  (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1445,7 +1445,7 @@
   {
     "job_id": "1396804433",
     "name": "GDB/Z - SAP Datasphere Platform Engineer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1471,7 +1471,7 @@
   {
     "job_id": "1396907233",
     "name": "GDE/MA - Solution Architect (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1484,7 +1484,7 @@
   {
     "job_id": "1396911033",
     "name": "GDE/MA - SAP Consultant - ATP (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1497,7 +1497,7 @@
   {
     "job_id": "1396912733",
     "name": "GDE/DF - Integration engineer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1510,7 +1510,7 @@
   {
     "job_id": "1396919033",
     "name": "GDE/DF - SAP Consultant - MM (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1523,7 +1523,7 @@
   {
     "job_id": "1396919833",
     "name": "GDE/DF - SAP Developer - ABAP (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1536,7 +1536,7 @@
   {
     "job_id": "1396930333",
     "name": "GD/CK - Controlling Specialist (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1549,7 +1549,7 @@
   {
     "job_id": "1396931633",
     "name": "GDF/BA - Salesforce Senior Specialist Digitalization (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1562,7 +1562,7 @@
   {
     "job_id": "1396933733",
     "name": "GDF/BA - Salesforce Power BI / Databricks Architect (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1575,7 +1575,7 @@
   {
     "job_id": "1396935833",
     "name": "GDD/EQ - Junior SAP PM Support Engineer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1588,7 +1588,7 @@
   {
     "job_id": "1396937733",
     "name": "GDD/EQ - Senior DevOps Engineer SAP PM (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1601,7 +1601,7 @@
   {
     "job_id": "1396939133",
     "name": "GDD/EQ - Senior Full Stack Developer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1614,7 +1614,7 @@
   {
     "job_id": "1396940233",
     "name": "GDS/CA - Solution Architect Device Security (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1627,7 +1627,7 @@
   {
     "job_id": "1396942233",
     "name": "GDE/FB - SAP Consultant (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1640,7 +1640,7 @@
   {
     "job_id": "1396944633",
     "name": "GDS/BA- Senior Specialist Cyber Security Strategy Architecture (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1653,7 +1653,7 @@
   {
     "job_id": "1396946333",
     "name": "GDD/EK - SAP PM & Cross-Product Manager (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1666,7 +1666,7 @@
   {
     "job_id": "1396947733",
     "name": "GDD/PH - Application Support Engineer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1679,7 +1679,7 @@
   {
     "job_id": "1396949333",
     "name": "GDB/A - Product Owner Orchestration (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1692,7 +1692,7 @@
   {
     "job_id": "1396950733",
     "name": "GDS/CG - Solution Architect IAM  (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1705,7 +1705,7 @@
   {
     "job_id": "1396952233",
     "name": "GDS/CC - Solution Architect IDM (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1718,7 +1718,7 @@
   {
     "job_id": "1396953633",
     "name": "GD/CX - Controlling Specialist (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1731,7 +1731,7 @@
   {
     "job_id": "1396955933",
     "name": "GDE/DG - Product Manager/ S4 Hana AMS (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1744,7 +1744,7 @@
   {
     "job_id": "1396960333",
     "name": "GDS/CD - Solution Architect Directory Services (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1757,7 +1757,7 @@
   {
     "job_id": "1396961633",
     "name": "GDB/XD - Senior Specialist Data Governance (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1770,7 +1770,7 @@
   {
     "job_id": "1396967733",
     "name": "GDE/MD - SAP Developer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1783,7 +1783,7 @@
   {
     "job_id": "1396970733",
     "name": "GDE/FB - Software Engineer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1796,7 +1796,7 @@
   {
     "job_id": "1396972833",
     "name": "GDB/ZF - External data management specialist (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1809,7 +1809,7 @@
   {
     "job_id": "1398694733",
     "name": "Sales Manager - Animal Nutrition, Vitamins and Carotenoids",
-    "location": "Mumbia, IND",
+    "location": "Mumbia",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Marketing & Sales",
@@ -1822,7 +1822,7 @@
   {
     "job_id": "1399723533",
     "name": "GDE/MA - SAP Developer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1835,7 +1835,7 @@
   {
     "job_id": "1399788133",
     "name": "GDB/DH - Scrum Master (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1848,7 +1848,7 @@
   {
     "job_id": "1399814433",
     "name": "GD/IC - Digital Portfolio Steering Specialist (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1861,7 +1861,7 @@
   {
     "job_id": "1399819833",
     "name": "GDA/AH - Senior Digital Experience Engineer (m/f/d)",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Digitalization",
@@ -1887,7 +1887,7 @@
   {
     "job_id": "1400651433",
     "name": "Assistant Manager - Pigment and Paste",
-    "location": "Mangalore, IND",
+    "location": "Mangalore",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Research & Development",
@@ -1900,7 +1900,7 @@
   {
     "job_id": "1400801733",
     "name": "GB/G Head of Finance Services",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Finance, Controlling & Audit",
@@ -1913,7 +1913,7 @@
   {
     "job_id": "1400803433",
     "name": "GB/G Head of HR Services",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -1926,7 +1926,7 @@
   {
     "job_id": "1401639333",
     "name": "Sales Manager, Rigids PU - Performance Materials",
-    "location": "Delhi, IND",
+    "location": "Delhi",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Marketing & Sales",
@@ -1939,7 +1939,7 @@
   {
     "job_id": "1402772033",
     "name": "Executive - Customization Lab",
-    "location": "Mangalore, IND",
+    "location": "Mangalore",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Research & Development",
@@ -1952,7 +1952,7 @@
   {
     "job_id": "1403165233",
     "name": "GB/G Learning Administration Analyst",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -1965,7 +1965,7 @@
   {
     "job_id": "1403289633",
     "name": "RnD Logistics Associate",
-    "location": "Navi Mumbai - HO (Innovation Campus) Country: India",
+    "location": "Navi Mumbai",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Logistics & Supply Chain Management",
@@ -1978,7 +1978,7 @@
   {
     "job_id": "1403295333",
     "name": "R&D Inventory & Logistics lead",
-    "location": "Navi Mumbai - HO (Innovation Campus) Country: India",
+    "location": "Navi Mumbai",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Logistics & Supply Chain Management",
@@ -1991,7 +1991,7 @@
   {
     "job_id": "1403335133",
     "name": "GB/G Learning Administration Specialist",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -2004,7 +2004,7 @@
   {
     "job_id": "1403671333",
     "name": "Invoice Associate",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -2017,7 +2017,7 @@
   {
     "job_id": "1404203833",
     "name": "Recognition Specialist",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -2030,7 +2030,7 @@
   {
     "job_id": "1404206433",
     "name": "Learning Administration Analyst MX/SA",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -2043,7 +2043,7 @@
   {
     "job_id": "1404573933",
     "name": "Product Costing Analyst",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Finance, Controlling & Audit",
@@ -2056,7 +2056,7 @@
   {
     "job_id": "1404579233",
     "name": "GB/G Project Accounting Analyst",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Finance, Controlling & Audit",
@@ -2069,7 +2069,7 @@
   {
     "job_id": "1404581633",
     "name": "GB/G Cost Center & Profitability Analyst",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Finance, Controlling & Audit",
@@ -2082,7 +2082,7 @@
   {
     "job_id": "1404832033",
     "name": "Talent Development Specialist",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -2095,7 +2095,7 @@
   {
     "job_id": "1404832233",
     "name": "Talent Development Sr Associate Specialist",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -2108,7 +2108,7 @@
   {
     "job_id": "1404832333",
     "name": "Talent Management Manager",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -2121,7 +2121,7 @@
   {
     "job_id": "1404832433",
     "name": "People Analytics Specialist",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
@@ -2134,7 +2134,7 @@
   {
     "job_id": "1404832533",
     "name": "People Analytics Analyst",
-    "location": "Hyderabad, IND",
+    "location": "Hyderabad",
     "country": "India",
     "job_type": "Permanent",
     "job_field": "Human Resources",
