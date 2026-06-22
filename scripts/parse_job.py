@@ -1,20 +1,31 @@
 """
 parse_job.py — Fetch and parse a single BASF job detail page.
 
-Actual BASF/SuccessFactors page structure (verified from inspected HTML):
+BASF SuccessFactors pages use two different rendering templates:
+
+Template A (older):  colon-separated text labels
   Job Title: <value>
   Company: <value>
-  Posting Location: Country: <country>  Requisition ID: <id>
-  Field: <job_field>   Job Type: <job_type>   Work model: <flexible_work>
-  Posting Start Date: <date M/D/YY>
-  Job Description Header: ...
+  Posting Location: Country: <country>   Requisition ID: <id>
+  Field: <job_field>   Job Type: <job_type>   Work model: <work_model>
+  Posting Start Date: <M/D/YY>
   Job Description: <text>
-  Apply now  Credits  ...  Copyright © BASF SE
+  Apply now  Credits  Copyright © BASF SE
+
+Template B (newer):  icon-based labels, values in fontcolorc63bfd23 divs
+  [icon] LOCATION  [icon] COMPANY  [icon] JOB FIELD  [icon] JOB TYPE
+  [icon] JOB ID   [icon] FLEXIBLE WORK OPTIONS
+  Apply now
+  <description text>
+  Apply now
+  A unique total offer: you@BASF ...
+  Values stored as 8 fontcolorc63bfd23 spans:
+  [location, company, job_field, job_type, req_id, job_area, country, work_model]
 """
 
 import re
 import logging
-from datetime import date, datetime
+from datetime import date
 from urllib.parse import urlparse, parse_qs, unquote
 
 import requests
@@ -34,7 +45,7 @@ HEADERS = {
 REQUEST_TIMEOUT = 30
 
 # ---------------------------------------------------------------------------
-# Known Indian cities (for country inference when "Country:" label is absent)
+# Known Indian cities for country inference
 # ---------------------------------------------------------------------------
 _INDIA_CITIES = frozenset({
     "hyderabad", "mumbai", "navi mumbai", "new mumbai",
@@ -46,46 +57,59 @@ _INDIA_CITIES = frozenset({
     "visakhapatnam", "bhubaneswar", "indore",
 })
 
-# Phrases in the Company field that indicate India
 _INDIA_COMPANY_TOKENS = frozenset({
     "india", "basf india", "basf digital solutions private",
 })
 
 # ---------------------------------------------------------------------------
-# Country code → full name map
+# Controlled vocabularies for Template B field identification
+# ---------------------------------------------------------------------------
+_JOB_TYPES = frozenset({
+    "permanent", "internship", "intern", "fixed-term", "fixed term",
+    "contract", "temporary", "part-time", "full-time", "apprenticeship",
+    "dual study", "working student",
+})
+
+_WORK_MODELS = frozenset({
+    "hybrid", "remote", "on-site", "onsite", "on site",
+    "in office", "in-office", "flexible",
+})
+
+# ---------------------------------------------------------------------------
+# Country code -> full name map
 # ---------------------------------------------------------------------------
 _COUNTRY_CODES: dict[str, str] = {
-    "IND": "India",   "INDIA": "India",
-    "CHN": "China",   "CHINA": "China",
-    "MYS": "Malaysia","MALAYSIA": "Malaysia",
+    "IND": "India",    "INDIA": "India",
+    "CHN": "China",    "CHINA": "China",
+    "MYS": "Malaysia", "MALAYSIA": "Malaysia",
     "SGP": "Singapore","SINGAPORE": "Singapore",
-    "JPN": "Japan",   "JAPAN": "Japan",
+    "JPN": "Japan",    "JAPAN": "Japan",
     "KOR": "South Korea",
-    "THA": "Thailand","THAILAND": "Thailand",
+    "THA": "Thailand", "THAILAND": "Thailand",
     "IDN": "Indonesia","INDONESIA": "Indonesia",
     "PHL": "Philippines","PHILIPPINES": "Philippines",
-    "VNM": "Vietnam", "VIETNAM": "Vietnam",
+    "VNM": "Vietnam",  "VIETNAM": "Vietnam",
     "AUS": "Australia","AUSTRALIA": "Australia",
     "NZL": "New Zealand",
-    "DEU": "Germany", "GERMANY": "Germany", "GER": "Germany",
-    "FRA": "France",  "FRANCE": "France",
+    "DEU": "Germany",  "GERMANY": "Germany",  "GER": "Germany",
+    "FRA": "France",   "FRANCE": "France",
     "GBR": "United Kingdom",
     "USA": "United States","US": "United States",
-    "CAN": "Canada",  "CANADA": "Canada",
-    "BRA": "Brazil",  "BRAZIL": "Brazil",
-    "MEX": "Mexico",  "MEXICO": "Mexico",
+    "CAN": "Canada",   "CANADA": "Canada",
+    "BRA": "Brazil",   "BRAZIL": "Brazil",
+    "MEX": "Mexico",   "MEXICO": "Mexico",
     "CHE": "Switzerland",
-    "BEL": "Belgium", "BELGIUM": "Belgium",
+    "BEL": "Belgium",  "BELGIUM": "Belgium",
     "NLD": "Netherlands",
-    "ESP": "Spain",   "SPAIN": "Spain",
-    "ITA": "Italy",   "ITALY": "Italy",
-    "POL": "Poland",  "POLAND": "Poland",
+    "ESP": "Spain",    "SPAIN": "Spain",
+    "ITA": "Italy",    "ITALY": "Italy",
+    "POL": "Poland",   "POLAND": "Poland",
     "HKG": "Hong Kong",
-    "TWN": "Taiwan",  "TAIWAN": "Taiwan",
+    "TWN": "Taiwan",   "TAIWAN": "Taiwan",
     "ZAF": "South Africa",
-    "AUT": "Austria", "AUSTRIA": "Austria",
+    "AUT": "Austria",  "AUSTRIA": "Austria",
     "BGD": "Bangladesh","BANGLADESH": "Bangladesh",
-    "MMR": "Myanmar", "PHL": "Philippines",
+    "MMR": "Myanmar",
 }
 
 _KNOWN_FULL = {v.lower() for v in _COUNTRY_CODES.values()}
@@ -96,13 +120,11 @@ _KNOWN_FULL = {v.lower() for v in _COUNTRY_CODES.values()}
 # ---------------------------------------------------------------------------
 
 def extract_job_id_from_url(url: str) -> str | None:
-    """Return the numeric job ID from the end of a BASF job URL."""
     m = re.search(r"/(\d{6,})/?(?:\?.*)?$", url)
     return m.group(1) if m else None
 
 
 def _add_locale(url: str, locale: str = "en_US") -> str:
-    """Append ?locale=en_US if not already present."""
     parsed = urlparse(url)
     qs = parse_qs(parsed.query)
     if "locale" not in qs:
@@ -112,7 +134,6 @@ def _add_locale(url: str, locale: str = "en_US") -> str:
 
 
 def _page_text(html: str) -> str:
-    """Convert raw HTML to clean visible text (no scripts/styles)."""
     soup = BeautifulSoup(html, "lxml")
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
@@ -121,20 +142,12 @@ def _page_text(html: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Field extraction
+# Template A -- colon-label pages ("Job Title:", "Field:", "Job Type:", ...)
 # ---------------------------------------------------------------------------
 
-def _extract_fields(text: str) -> dict:
-    """
-    Extract job metadata from the clean page text using the known
-    label patterns that BASF SuccessFactors pages use.
-    """
-
+def _extract_template_a(text: str) -> dict:
     def _capture(prefix: str, stop: str) -> str | None:
-        m = re.search(
-            prefix + rf"(.+?)(?=\s*(?:{stop}|$))",
-            text, re.I | re.S,
-        )
+        m = re.search(prefix + rf"(.+?)(?=\s*(?:{stop}|$))", text, re.I | re.S)
         if m:
             val = m.group(1).strip()
             if val and len(val) < 300:
@@ -150,7 +163,6 @@ def _extract_fields(text: str) -> dict:
         r"Work model:|Posting Start Date:|Job Description",
     )
 
-    # Work model: the value ends before "Posting Start Date:" or end-of-header
     work_model_m = re.search(
         r"Work model:\s*([^\n:]{1,60})(?=\s*(?:Posting Start Date:|Duration|Job Description|$))",
         text, re.I,
@@ -159,36 +171,25 @@ def _extract_fields(text: str) -> dict:
     if work_model and ("Posting" in work_model or len(work_model) > 60):
         work_model = None
 
-    # Country — appears as "Country: <value>" (within "Posting Location:")
     country_m = re.search(
         r"Country:\s*([A-Za-z][A-Za-z ()]{1,40}?)(?=\s*(?:Requisition ID:|Field:|$))",
         text, re.I,
     )
     country_raw = country_m.group(1).strip() if country_m else None
 
-    # Location block
     location_m = re.search(
         r"Posting Location:\s*(.+?)(?=\s*(?:Requisition ID:|Field:|Job Description|$))",
         text, re.I,
     )
     location_raw = location_m.group(1).strip() if location_m else None
 
-    # Company — for India inference when country label is missing
     company_m = re.search(
         r"Company:\s*(.+?)(?=\s*(?:Posting Location:|Country:|Field:|Job Description|$))",
         text, re.I,
     )
     company_raw = company_m.group(1).strip() if company_m else None
 
-    # Job title fallback from text block
-    title_m = re.search(r"Job Title:\s*(.+?)(?=\s*(?:Company:|$))", text, re.I)
-    title_raw = title_m.group(1).strip() if title_m else None
-
-    # Posting date — format "M/D/YY" or "M/D/YYYY"
-    date_m = re.search(
-        r"Posting Start Date:\s*(\d{1,2})/(\d{1,2})/(\d{2,4})",
-        text, re.I,
-    )
+    date_m = re.search(r"Posting Start Date:\s*(\d{1,2})/(\d{1,2})/(\d{2,4})", text, re.I)
     posted_at = None
     if date_m:
         month, day, year_raw = date_m.groups()
@@ -201,7 +202,6 @@ def _extract_fields(text: str) -> dict:
             pass
 
     return {
-        "title_from_text": title_raw,
         "location_raw": location_raw,
         "country_raw": country_raw,
         "company_raw": company_raw,
@@ -213,16 +213,121 @@ def _extract_fields(text: str) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Country inference (multi-strategy)
+# Template B -- icon-label pages (fontcolorc63bfd23 spans)
+# ---------------------------------------------------------------------------
+
+def _extract_template_b(soup: BeautifulSoup) -> dict:
+    """
+    Parse fields from the icon-label template.
+
+    Values appear in up to 8 fontcolorc63bfd23 span elements. We identify
+    each by content pattern rather than position, making the parser resilient
+    to missing or extra entries.
+    """
+    raw_spans = [
+        d.find("span", class_="rtltextaligneligible")
+        for d in soup.find_all("div", class_="fontcolorc63bfd23")
+    ]
+    values = [s.get_text(strip=True) for s in raw_spans if s and s.get_text(strip=True)]
+
+    location_raw = None
+    company_raw = None
+    job_field = None
+    job_type = None
+    flexible_work = None
+    country_raw = None
+
+    for val in values:
+        vl = val.lower()
+
+        if re.match(r"^\d+$", val):
+            continue  # Requisition ID -- skip
+
+        if re.match(r"^[\w][\w\s]+,\s*[A-Z]{2,3}$", val) and location_raw is None:
+            location_raw = val
+            continue
+
+        if vl in _JOB_TYPES and job_type is None:
+            job_type = val
+            continue
+
+        if vl in _WORK_MODELS and flexible_work is None:
+            flexible_work = val
+            continue
+
+        if vl in _KNOWN_FULL and country_raw is None:
+            country_raw = val
+            continue
+
+        if "basf" in vl and company_raw is None:
+            company_raw = val
+            continue
+
+        if job_field is None and val not in (location_raw, company_raw):
+            job_field = val
+
+    return {
+        "location_raw": location_raw,
+        "country_raw": country_raw,
+        "company_raw": company_raw,
+        "job_field": job_field,
+        "job_type": job_type,
+        "flexible_work": flexible_work,
+        "posted_at": None,  # Template B does not expose posting date
+    }
+
+
+def _is_template_b(soup: BeautifulSoup) -> bool:
+    return bool(soup.find("div", class_="fontcolorc63bfd23"))
+
+
+# ---------------------------------------------------------------------------
+# Description extraction (works for both templates)
+# ---------------------------------------------------------------------------
+
+def _extract_description(text: str) -> str:
+    # Template A: "Job Description:" marker
+    start_m = re.search(r"Job Description(?:\s+Header)?:\s*", text, re.I)
+    if start_m:
+        desc = text[start_m.end():]
+        desc = re.sub(
+            r"^Job Description Header:.*?Job Description:\s*", "",
+            desc, flags=re.I | re.S,
+        )
+        end_m = re.search(r"\s*(?:Apply now|Credits\s+Data|Copyright\s+\xc2\xa9)", desc, re.I)
+        if end_m:
+            desc = desc[: end_m.start()]
+        desc = desc.strip()
+        if len(desc) > 30:
+            return desc[:100]
+
+    # Template B: description sits between first and second "Apply now"
+    apply_positions = [m.start() for m in re.finditer(r"\bApply now\b", text, re.I)]
+    if len(apply_positions) >= 2:
+        start = apply_positions[0] + len("Apply now")
+        desc = text[start: apply_positions[1]].strip()
+        if len(desc) > 30:
+            return desc[:100]
+    elif len(apply_positions) == 1:
+        start = apply_positions[0] + len("Apply now")
+        tail = text[start:]
+        end_m = re.search(r"Credits\s+Data|Copyright", tail, re.I)
+        desc = (tail[: end_m.start()] if end_m else tail).strip()
+        if len(desc) > 30:
+            return desc[:100]
+
+    return text[:100]
+
+
+# ---------------------------------------------------------------------------
+# Country inference (shared by both templates)
 # ---------------------------------------------------------------------------
 
 def _city_from_url(url: str) -> str:
-    """Extract city hint from the URL slug."""
     m = re.search(r"/job/([^/]+)/", url)
     if not m:
         return ""
     slug = unquote(m.group(1)).replace("-", " ").replace("%20", " ")
-    # Try 2-word prefix first, then 1-word
     parts = slug.split()
     if len(parts) >= 2:
         two = " ".join(parts[:2]).lower()
@@ -237,59 +342,38 @@ def _infer_country(
     company_raw: str | None,
     url: str,
 ) -> str:
-    """
-    Determine country using several fallback strategies:
-      1. Explicit "Country: <X>" label on page
-      2. Country code at end of location string (", IND")
-      3. Indian city name in location string
-      4. Indian city in URL slug
-      5. Company name contains "India"
-      6. Region slug fallback
-    """
-    # Strategy 1: explicit label
     if country_raw:
         clean = country_raw.strip()
-        up = clean.upper().replace(" ", "")
-        if up in _COUNTRY_CODES:
-            return _COUNTRY_CODES[up]
         if clean.upper() in _COUNTRY_CODES:
             return _COUNTRY_CODES[clean.upper()]
+        if clean.upper().replace(" ", "") in _COUNTRY_CODES:
+            return _COUNTRY_CODES[clean.upper().replace(" ", "")]
         if clean.lower() in _KNOWN_FULL:
             return clean
-        # Could be a partial match
-        for k, v in _COUNTRY_CODES.items():
+        for v in _COUNTRY_CODES.values():
             if clean.lower() == v.lower():
                 return v
 
-    # Strategy 2: country code in location string (",IND" etc.)
-    for src in [location_raw or ""]:
-        code_m = re.search(r",\s*([A-Z]{2,3})\s*$", src)
-        if code_m:
-            code = code_m.group(1).upper()
-            if code in _COUNTRY_CODES:
-                return _COUNTRY_CODES[code]
+    code_m = re.search(r",\s*([A-Z]{2,3})\s*$", location_raw or "")
+    if code_m and code_m.group(1).upper() in _COUNTRY_CODES:
+        return _COUNTRY_CODES[code_m.group(1).upper()]
 
-    # Strategy 3: Indian city in location string
     loc_lower = (location_raw or "").lower()
     for city in _INDIA_CITIES:
         if city in loc_lower:
             return "India"
 
-    # Strategy 4: Indian city in URL slug
     city_url = _city_from_url(url)
-    if city_url and city_url in _INDIA_CITIES:
+    if city_url in _INDIA_CITIES:
         return "India"
-    # Also check 1-word prefix
     parts = city_url.split()
     if parts and parts[0] in _INDIA_CITIES:
         return "India"
 
-    # Strategy 5: company contains "India"
     co_lower = (company_raw or "").lower()
     if any(tok in co_lower for tok in _INDIA_COMPANY_TOKENS):
         return "India"
 
-    # Strategy 6: region fallback
     if "light_blue_AP" in url:
         return "unknown (Asia-Pacific)"
     if "dark_blue_EMEA" in url:
@@ -324,7 +408,6 @@ def _extract_title(soup: BeautifulSoup, text: str) -> str:
         if t and len(t) < 300:
             return t
 
-    # Fallback from page text
     m = re.search(r"Job Title:\s*(.+?)(?=\s*(?:Company:|$))", text, re.I)
     if m:
         return m.group(1).strip()
@@ -333,51 +416,10 @@ def _extract_title(soup: BeautifulSoup, text: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Description extraction
-# ---------------------------------------------------------------------------
-
-def _extract_description(text: str) -> str:
-    """
-    Extract the job description from clean page text.
-    The description lives between "Job Description:" and "Apply now".
-    """
-    # Primary: find "Job Description:" marker
-    start_m = re.search(r"Job Description(?:\s+Header)?:\s*", text, re.I)
-    if start_m:
-        desc = text[start_m.end():]
-        # Strip "Job Description Header: ..." prefix if present
-        desc = re.sub(
-            r"^Job Description Header:.*?Job Description:\s*", "",
-            desc, flags=re.I | re.S,
-        )
-        # Stop at footer markers
-        end_m = re.search(r"\s*(?:Apply now|Credits\s+Data|Copyright\s+©)", desc, re.I)
-        if end_m:
-            desc = desc[: end_m.start()]
-        desc = desc.strip()
-        if len(desc) > 30:
-            return desc[:100]
-
-    # Fallback: between login area and apply button
-    s2 = re.search(r"(?:Employee Login|Profile Login)\s*", text, re.I)
-    e2 = re.search(r"Apply now\s*Credits", text, re.I)
-    if s2 and e2:
-        block = text[s2.end(): e2.start()].strip()
-        if len(block) > 30:
-            return block[:100]
-
-    return text[:100]
-
-
-# ---------------------------------------------------------------------------
 # Main parse function
 # ---------------------------------------------------------------------------
 
 def parse_job(url: str, session: requests.Session | None = None) -> dict | None:
-    """
-    Fetch a BASF job detail page and return a structured dict.
-    Returns None on fetch failure or if description is too short.
-    """
     job_id = extract_job_id_from_url(url)
     if not job_id:
         logger.warning("Cannot extract job_id from URL: %s", url)
@@ -394,14 +436,17 @@ def parse_job(url: str, session: requests.Session | None = None) -> dict | None:
         return None
 
     html = resp.text
-    text = _page_text(html)
     soup = BeautifulSoup(html, "lxml")
+    text = _page_text(html)
 
     title = _extract_title(soup, text)
-    meta = _extract_fields(text)
+
+    if _is_template_b(soup):
+        meta = _extract_template_b(soup)
+    else:
+        meta = _extract_template_a(text)
 
     location_raw = meta.get("location_raw") or ""
-    # If location block only contains "Country: X", clean it up to just the country
     if location_raw.lower().startswith("country:"):
         location_raw = ""
 
@@ -412,8 +457,6 @@ def parse_job(url: str, session: requests.Session | None = None) -> dict | None:
         url,
     )
 
-    # Location: prefer the compact "City, CODE" form embedded in the location block;
-    # fall back to URL-derived city hint
     location = location_raw.strip() if location_raw.strip() else (
         _city_from_url(url).title() or "unknown"
     )
