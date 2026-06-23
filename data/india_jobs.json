@@ -13,8 +13,8 @@
     "posted_at": "Date the job was first posted (YYYY-MM-DD) — null if not available",
     "scraped_at": "Date this record was last fetched (YYYY-MM-DD)"
   },
-  "_generated_at": "2026-06-22",
-  "_total_jobs": 167,
+  "_generated_at": "2026-06-23",
+  "_total_jobs": 168,
   "jobs": [
     {
       "job_id": "1403289633",
@@ -2186,6 +2186,19 @@
       "url": "https://basf.jobs/job/Navi-Mumbai-Global-Supply-Chain-Planner-Cellasto/1406012233/",
       "posted_at": null,
       "scraped_at": "2026-06-22"
+    },
+    {
+      "job_id": "1406924233",
+      "name": "Key Account Manager- Sales CIC",
+      "location": "Mumbai",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Godrej One - Mumbai, IND",
+      "flexible_work": "On-site",
+      "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+      "url": "https://basf.jobs/job/Mumbai-Key-Account-Manager-Sales-CIC/1406924233/",
+      "posted_at": null,
+      "scraped_at": "2026-06-23"
     }
   ]
 }
