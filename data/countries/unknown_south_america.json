@@ -247,19 +247,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1394632633",
-    "name": "Tecnico Desarrollo Mercado",
-    "location": "unknown",
-    "country": "unknown (South America)",
-    "job_type": "Permanent",
-    "job_field": "Tecnico Desarrollo Mercado",
-    "flexible_work": "Remote",
-    "description": "Job Description: Negocio La innovación aplicada al desarrollo de Soluciones para la Agricultura es p",
-    "url": "https://basf.jobs/red_SA/job/Santiago-de-Chile-Tecnico-Desarrollo-Mercado/1394632633/",
-    "posted_at": null,
-    "scraped_at": "2026-06-23"
-  },
-  {
     "job_id": "1394725633",
     "name": "Gerente de Ventas - Plásticos de ingeniería Detalles del puesto",
     "location": "Ciudad",
@@ -546,16 +533,16 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1407192533",
-    "name": "Tecnico Desarrollo Mercado Detalles del puesto",
+    "job_id": "1407521533",
+    "name": "Counsel",
     "location": "unknown",
     "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": "Tecnico Desarrollo Mercado",
-    "flexible_work": null,
-    "description": "Tecnico Desarrollo Mercado Detalles del puesto | BASF SE Saltar al contenido principal Encuentra tra",
-    "url": "https://basf.jobs/red_SA/job/Santiago-de-Chile-Tecnico-Desarrollo-Mercado/1407192533/",
+    "job_type": "Permanent",
+    "job_field": "URY",
+    "flexible_work": "Hybrid",
+    "description": "Who we are: We are BASF, the largest chemical company in the world, with more than 150 years of expe",
+    "url": "https://basf.jobs/red_SA/job/Montevideo-Counsel/1407521533/",
     "posted_at": null,
-    "scraped_at": "2026-06-23"
+    "scraped_at": "2026-06-24"
   }
 ]

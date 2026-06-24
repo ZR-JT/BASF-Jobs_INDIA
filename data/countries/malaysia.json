@@ -104,19 +104,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1392608433",
-    "name": "Import Export & Customs Ops Asia Pacific (Senior Executive)",
-    "location": "Kuala",
-    "country": "Malaysia",
-    "job_type": "Permanent",
-    "job_field": "Logistics & Supply Chain Management",
-    "flexible_work": null,
-    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-    "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Import-Export-&-Customs-Ops-Asia-Pacific-%28Senior-Executive%29/1392608433/",
-    "posted_at": "2026-05-12",
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1395339633",
     "name": "Import Export Asia Pacific (Executive) - Japanese Speaker",
     "location": "Kuala",
@@ -206,5 +193,44 @@
     "url": "https://basf.jobs/job/Kuala-Lumpur-Internship-Openings/1407269333/",
     "posted_at": null,
     "scraped_at": "2026-06-23"
+  },
+  {
+    "job_id": "1407271133",
+    "name": "Fresh Graduates Openings",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Permanent",
+    "job_field": "MYS",
+    "flexible_work": "Hybrid",
+    "description": "Here’s What You Can Expect: •    Start your career with BASF, the world’s leading chemical company, ",
+    "url": "https://basf.jobs/job/Kuala-Lumpur-Fresh-Graduates-Openings/1407271133/",
+    "posted_at": null,
+    "scraped_at": "2026-06-24"
+  },
+  {
+    "job_id": "1407292133",
+    "name": "Intern, Electrical & Instrumentation",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Internship",
+    "job_field": "MYS",
+    "flexible_work": "On-site",
+    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+    "url": "https://basf.jobs/light_blue_AP/job/Pasir-Gudang-Intern%2C-Electrical-&-Instrumentation/1407292133/",
+    "posted_at": null,
+    "scraped_at": "2026-06-24"
+  },
+  {
+    "job_id": "1407705233",
+    "name": "Integrated Facilities Manager, South East Asia",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Permanent",
+    "job_field": "MYS",
+    "flexible_work": "Hybrid",
+    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+    "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Integrated-Facilities-Manager%2C-South-East-Asia/1407705233/",
+    "posted_at": null,
+    "scraped_at": "2026-06-24"
   }
 ]

@@ -13,8 +13,8 @@
     "posted_at": "Date the job was first posted (YYYY-MM-DD) — null if not available",
     "scraped_at": "Date this record was last fetched (YYYY-MM-DD)"
   },
-  "_generated_at": "2026-06-23",
-  "_total_jobs": 168,
+  "_generated_at": "2026-06-24",
+  "_total_jobs": 171,
   "jobs": [
     {
       "job_id": "1403289633",
@@ -2199,6 +2199,45 @@
       "url": "https://basf.jobs/job/Mumbai-Key-Account-Manager-Sales-CIC/1406924233/",
       "posted_at": null,
       "scraped_at": "2026-06-23"
+    },
+    {
+      "job_id": "1407539533",
+      "name": "GB/G Accounts Receivable Team Co-Ordinator",
+      "location": "Hyderabad",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Finance, Controlling & Audit",
+      "flexible_work": "On-site",
+      "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+      "url": "https://basf.jobs/job/Hyderabad-GBG-Accounts-Receivable-Team-Co-Ordinator/1407539533/",
+      "posted_at": null,
+      "scraped_at": "2026-06-24"
+    },
+    {
+      "job_id": "1407698733",
+      "name": "Payroll Manager",
+      "location": "Hyderabad",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Human Resources",
+      "flexible_work": "On-site",
+      "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+      "url": "https://basf.jobs/job/Hyderabad-Payroll-Manager/1407698733/",
+      "posted_at": null,
+      "scraped_at": "2026-06-24"
+    },
+    {
+      "job_id": "1407701933",
+      "name": "GB/G Payroll Tax Senior Associate Specialist",
+      "location": "Hyderabad",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Human Resources",
+      "flexible_work": "On-site",
+      "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+      "url": "https://basf.jobs/job/Hyderabad-GBG-Payroll-Tax-Senior-Associate-Specialist/1407701933/",
+      "posted_at": null,
+      "scraped_at": "2026-06-24"
     }
   ]
 }
