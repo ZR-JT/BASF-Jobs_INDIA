@@ -435,6 +435,9 @@ def parse_job(url: str, session: requests.Session | None = None) -> dict | None:
         logger.error("Failed to fetch %s: %s", fetch_url, exc)
         return None
 
+    # Use the canonical URL (after any redirects) so callers get a stable link
+    canonical_url = resp.url.split("?")[0].rstrip("/") + "/"
+
     html = resp.text
     soup = BeautifulSoup(html, "lxml")
     text = _page_text(html)
@@ -487,7 +490,7 @@ def parse_job(url: str, session: requests.Session | None = None) -> dict | None:
         "job_field": meta.get("job_field"),
         "flexible_work": meta.get("flexible_work"),
         "description": description,
-        "url": url,
+        "url": canonical_url,
         "posted_at": meta.get("posted_at"),
         "scraped_at": date.today().isoformat(),
     }
