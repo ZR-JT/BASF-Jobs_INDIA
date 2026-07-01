@@ -28,10 +28,16 @@ logger = logging.getLogger(__name__)
 REQUIRED_FIELDS = ["job_id", "name", "url"]
 WARN_IF_MISSING = ["country", "job_field", "job_type", "flexible_work"]
 
+# Accepts both URL formats BASF uses:
+#   legacy:    /job/{city-title}/{8-digit-id}/
+#   canonical: /job/{title}/{id}-en_US/   (post-redirect, no city prefix)
 VALID_URL_PATTERN = re.compile(
-    r"^https://basf\.jobs/.*/\d{6,}/?",
+    r"^https://basf\.jobs/(?:.+/)?job/.+/\d+(?:-[a-z_]+)?/?$",
     re.I,
 )
+
+# Patterns that always indicate a broken URL regardless of format
+INVALID_URL_TOKENS = re.compile(r"\bundefined\b|\bnull\b", re.I)
 
 
 def validate(input_path: Path, log_dir: Path | None = None) -> bool:
@@ -80,10 +86,13 @@ def validate(input_path: Path, log_dir: Path | None = None) -> bool:
             else:
                 seen_ids.add(job_id)
 
-        # URL format
+        # URL format — flag truly broken URLs, accept both legacy and canonical formats
         url = job.get("url", "")
-        if url and not VALID_URL_PATTERN.match(url):
-            errors.append(f"{idx} Suspicious URL format: {url}")
+        if url:
+            if INVALID_URL_TOKENS.search(url):
+                errors.append(f"{idx} URL contains invalid token (undefined/null): {url}")
+            elif not VALID_URL_PATTERN.match(url):
+                errors.append(f"{idx} Suspicious URL format: {url}")
 
         # Warn on missing optional fields
         for field in WARN_IF_MISSING:
