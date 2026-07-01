@@ -1,15 +1,54 @@
 [
   {
-    "job_id": "1403008233",
-    "name": "Consultor(a) de Revenue Management (AGRO) - Morumbi/SP",
-    "location": "Morumbi",
+    "job_id": "1392917633",
+    "name": "Técnico(a) de Desenvolvimento de Mercado de Mercado Senior - Biotecnologia - Rondonópolis/MT Detalhes da vaga",
+    "location": "Sao Paulo",
+    "country": "Brazil",
+    "job_type": null,
+    "job_field": "BASF S.A.",
+    "flexible_work": null,
+    "description": "Técnico(a) de Desenvolvimento de Mercado de Mercado Senior - Biotecnologia - Rondonópolis/MT Detalhe",
+    "url": "https://basf.jobs/dark_green_agri/job/T%C3%A9cnico%28a%29-de-Desenvolvimento-de-Mercado-de-Mercado-Senior-Biotecnologia-Rondon%C3%B3polisMT/134942-pt_BR/",
+    "posted_at": null,
+    "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1394183633",
+    "name": "Técnico(a) de Desenvolvimento de Mercado de Mercado Senior - Biotecnologia - Rondonópolis/MT",
+    "location": "Sao Paulo",
+    "country": "Brazil",
+    "job_type": "Permanent",
+    "job_field": "BASF S.A.",
+    "flexible_work": "Hybrid",
+    "description": "Técnico(a) de Desenvolvimento de Mercado Sênior – Biotecnologia – Rondonópolis/MT Negócio “Juntos pe",
+    "url": "https://basf.jobs/dark_green_agri/job/T%C3%A9cnico%28a%29-de-Desenvolvimento-de-Mercado-de-Mercado-Senior-Biotecnologia-Rondon%C3%B3polisMT/134942-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1410039833",
+    "name": "Gerente de Distribuição e Canais América do Sul",
+    "location": "Sao Paulo",
     "country": "Brazil",
     "job_type": "Permanent",
     "job_field": "Marketing & Sales",
-    "flexible_work": "Hybrid",
-    "description": "Job Description: Consultor(a) de Revenue Management (AGRO) – Morumbi/SP Negócio “Juntos pelo seu leg",
-    "url": "https://basf.jobs/red_SA/job/Sao-Paulo-Consultor%28a%29-de-Revenue-Management-%28AGRO%29-MorumbiSP/1403008233/",
-    "posted_at": "2026-06-10",
-    "scraped_at": "2026-06-18"
+    "flexible_work": "Remote",
+    "description": "Negócio Somos focados em nossos parceiros e clientes e por isso oferecemos as melhores soluções para",
+    "url": "https://basf.jobs/dark_blue_SA/job/Gerente-de-Distribui%C3%A7%C3%A3o-e-Canais-Am%C3%A9rica-do-Sul/139508-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1410039933",
+    "name": "Gerente de Distribuição e Canais América do Sul - São Paulo/SP Detalhes da vaga",
+    "location": "Sao Paulo",
+    "country": "Brazil",
+    "job_type": null,
+    "job_field": "BASF S.A.",
+    "flexible_work": null,
+    "description": "Gerente de Distribuição e Canais América do Sul - São Paulo/SP Detalhes da vaga | BASF SE Pular para",
+    "url": "https://basf.jobs/dark_blue_SA/job/Gerente-de-Distribui%C3%A7%C3%A3o-e-Canais-Am%C3%A9rica-do-Sul-S%C3%A3o-PauloSP/139508-pt_BR/",
+    "posted_at": null,
+    "scraped_at": "2026-07-01"
   }
 ]

@@ -1,18 +1,5 @@
 [
   {
-    "job_id": "1395308133",
-    "name": "Demand & Supply Planner",
-    "location": "Singapore",
-    "country": "Singapore",
-    "job_type": "Permanent",
-    "job_field": "Logistics & Supply Chain Management",
-    "flexible_work": null,
-    "description": "Job Description: Objectives of the position : Responsible for driving and improving demand forecast ",
-    "url": "https://basf.jobs/light_blue_AP/job/Singapore-Demand-&-Supply-Planner/1395308133/",
-    "posted_at": "2026-06-17",
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1401069733",
     "name": "Specialist - Regional Commercial Excellence APAC",
     "location": "unknown",
@@ -24,5 +11,18 @@
     "url": "https://basf.jobs/light_blue_AP/job/Singapore-Specialist-Regional-Commercial-Excellence-APAC/1401069733/",
     "posted_at": null,
     "scraped_at": "2026-06-23"
+  },
+  {
+    "job_id": "1410121533",
+    "name": "Intern, Laboratory",
+    "location": "unknown",
+    "country": "Singapore",
+    "job_type": null,
+    "job_field": "SGP",
+    "flexible_work": "On-site",
+    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+    "url": "https://basf.jobs/dark_blue_AP/job/Intern%2C-Laboratory/138729-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-01"
   }
 ]
