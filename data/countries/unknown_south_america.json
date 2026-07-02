@@ -234,32 +234,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1399495833",
-    "name": "Estagiário de Customer Care",
-    "location": "Sao",
-    "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Estagiário de Customer Care Job Details | BASF SE Skip to main content Find jobs Language Ceština (C",
-    "url": "https://basf.jobs/red_SA/job/Sao-Paulo-Estagi%C3%A1rio-de-Customer-Care/1399495833/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
-    "job_id": "1400493133",
-    "name": "Técnico de Pré Tratamento Automotivo - Camaçari BA",
-    "location": "Jundiai",
-    "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Técnico de Pré Tratamento Automotivo - Camaçari BA Job Details | BASF SE Skip to main content Find j",
-    "url": "https://basf.jobs/red_SA/job/Jundiai-T%C3%A9cnico-de-Pr%C3%A9-Tratamento-Automotivo-Cama%C3%A7ari-BA/1400493133/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1400966533",
     "name": "Becario/a de Comunicación Detalles del puesto",
     "location": "Ciudad",
@@ -295,19 +269,6 @@
     "flexible_work": null,
     "description": "Time Management Analyst Brazil (fixed-term project-based) Job Details | BASF SE Skip to main content",
     "url": "https://basf.jobs/red_SA/job/Montevideo-Time-Management-Analyst-Brazil-%28fixed-term-project-based%29/1402973033/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
-    "job_id": "1404608133",
-    "name": "Analista de Tesorería (contrato a término - basada en proyecto)",
-    "location": "Montevideo",
-    "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Analista de Tesorería (contrato a término - basada en proyecto) Job Details | BASF SE Skip to main c",
-    "url": "https://basf.jobs/red_SA/job/Montevideo-Analista-de-Tesorer%C3%ADa-%28contrato-a-t%C3%A9rmino-basada-en-proyecto%29/1404608133/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
   },
@@ -427,5 +388,18 @@
     "url": "https://basf.jobs/dark_blue_SA/job/Becarioa-de-Compras-Indirectas/139984-es_MX/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1410578133",
+    "name": "Product Costing Analyst (fixed-term project based)",
+    "location": "unknown",
+    "country": "unknown (South America)",
+    "job_type": "Temporary",
+    "job_field": "URY",
+    "flexible_work": "Hybrid",
+    "description": "Este puesto se ofrece bajo un contrato a plazo fijo, basado en proyecto, con una duración mínima gar",
+    "url": "https://basf.jobs/dark_blue_SA/job/Product-Costing-Analyst-%28fixed-term-project-based%29/141687-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-02"
   }
 ]

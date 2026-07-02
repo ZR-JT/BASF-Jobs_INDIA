@@ -65,19 +65,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1380675433",
-    "name": "Trade Compliance Manager - Chemicals Trade Control",
-    "location": "Kuala",
-    "country": "Malaysia",
-    "job_type": "Permanent",
-    "job_field": "Logistics & Supply Chain Management",
-    "flexible_work": null,
-    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-    "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Trade-Compliance-Manager-Chemicals-Trade-Control/1380675433/",
-    "posted_at": "2026-04-03",
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1381854133",
     "name": "Senior Executive, Process & Service Optimization",
     "location": "unknown",
@@ -375,5 +362,18 @@
     "url": "https://basf.jobs/dark_blue_AP/job/Global-Supply-Chain-Excellence-APAC-&-NA-%28Specialist%29/139685-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1410594433",
+    "name": "Production Engineer",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Permanent",
+    "job_field": "MYS",
+    "flexible_work": "On-site",
+    "description": "Objective of the Position Responsible for ensuring day-to-day plant operations run smoothly, with a ",
+    "url": "https://basf.jobs/dark_blue_AP/job/Production-Engineer/141606-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-02"
   }
 ]

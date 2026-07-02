@@ -400,26 +400,6 @@
     "url": "https://basf.jobs/job/Ludwigshafen-am-Rhein-Ausbildung-im-Bereich-Technik-oder-Produktion-Jetzt-bewerben-sp%C3%A4ter-entscheiden%21-%28mwd%29-67056/1187936201/"
   },
   {
-    "job_id": "1187936401",
-    "name": "Ausbildung Elektroniker:in (m/w/d) für Betriebstechnik Stellendetails",
-    "location": "Ludwigshafen",
-    "country": "unknown",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/job/Ludwigshafen-am-Rhein-Ausbildung-Elektronikerin-%28mwd%29-f%C3%BCr-Betriebstechnik-67056/1187936401/"
-  },
-  {
-    "job_id": "1187936601",
-    "name": "Ausbildung Elektroniker:in (m/w/d) für Automatisierungstechnik Stellendetails",
-    "location": "Ludwigshafen",
-    "country": "unknown",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/job/Ludwigshafen-am-Rhein-Ausbildung-Elektronikerin-%28mwd%29-f%C3%BCr-Automatisierungstechnik-67056/1187936601/"
-  },
-  {
     "job_id": "1187937201",
     "name": "Ausbildung Mechatroniker:in (m/w/d) Stellendetails",
     "location": "Ludwigshafen",
@@ -988,16 +968,6 @@
     "job_field": "Research & Development",
     "flexible_work": null,
     "url": "https://basf.jobs/job/Research-Chemist/131297-en_US/"
-  },
-  {
-    "job_id": "1278364501",
-    "name": "Ausbildung Elektroniker:in (m/w/d) für Automatisierungstechnik Stellendetails",
-    "location": "Ludwigshafen",
-    "country": "unknown (Agriculture)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/dark_green_agri/job/Ludwigshafen-am-Rhein-Ausbildung-Elektronikerin-%28mwd%29-f%C3%BCr-Automatisierungstechnik-67056/1278364501/"
   },
   {
     "job_id": "1278364901",
@@ -1860,16 +1830,6 @@
     "url": "https://basf.jobs/dark_green_agri/job/Ludwigshafen-am-Rhein-Chemikantin-%28mwd%29/1380326533/"
   },
   {
-    "job_id": "1380675433",
-    "name": "Trade Compliance Manager - Chemicals Trade Control",
-    "location": "Kuala",
-    "country": "Malaysia",
-    "job_type": "Permanent",
-    "job_field": "Logistics & Supply Chain Management",
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Kuala-Lumpur-Trade-Compliance-Manager-Chemicals-Trade-Control/1380675433/"
-  },
-  {
     "job_id": "1380740433",
     "name": "Global SC Excellence - APAC & NA (Specialist)",
     "location": "Kuala",
@@ -1920,6 +1880,16 @@
     "url": "https://basf.jobs/light_blue_AP/job/SHANGHAI-Global-Category-Buyer%2C-Intermediates-&-Renewables-%28007284%29-200000/1381145433/"
   },
   {
+    "job_id": "1381423533",
+    "name": "Sr. Turf & Ornamentals Sales Rep - Texas (South Texas - Houston, College Station, San Antonio areas)",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Sr. Turf & Ornamentals Sales Rep - Texas (South Texas - Houston, College Station, San Antonio areas)",
+    "flexible_work": "Remote",
+    "url": "https://basf.jobs/dark_green_agri/job/Sr_-Turf-&-Ornamentals-Sales-Rep-Texas-%28South-Texas-Houston%2C-College-Station%2C-San-Antonio-areas%29/134726-en_US/"
+  },
+  {
     "job_id": "1381512433",
     "name": "Facilities Assistant   (BASF-Chemetall)",
     "location": "New",
@@ -1958,6 +1928,16 @@
     "job_field": "MYS",
     "flexible_work": "On-site",
     "url": "https://basf.jobs/dark_blue_AP/job/Senior-Executive%2C-Process-&-Service-Optimization/135168-en_US/"
+  },
+  {
+    "job_id": "1381907433",
+    "name": "Sr. Turf Sales Rep - California (Southern CA) - Field",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Sr. Turf Sales Rep - California (Southern CA) - Field",
+    "flexible_work": "Remote",
+    "url": "https://basf.jobs/dark_green_agri/job/Sr_-Turf-Sales-Rep-California-%28Southern-CA%29-Field/135347-en_US/"
   },
   {
     "job_id": "1381981533",
@@ -2028,6 +2008,16 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/dark_blue_EMEA/job/Ecully-Alternance-Agronomie-et-Marketing-Lancement-d'une-innovation-herbicide-%28hf%29/1382801133/"
+  },
+  {
+    "job_id": "1382962133",
+    "name": "Breeding Agronomist",
+    "location": "Longerenong",
+    "country": "Australia",
+    "job_type": "Permanent",
+    "job_field": "BASF Australia Ltd.",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_green_agri/job/Breeding-Agronomist/134838-en_US/"
   },
   {
     "job_id": "1382965733",
@@ -2330,16 +2320,6 @@
     "url": "https://basf.jobs/job/Breitnau-Ausbildung-KochK%C3%B6chin-%28mwd%29-79874/1383633833/"
   },
   {
-    "job_id": "1383642733",
-    "name": "Regional Technical Project Manager - Electrocoat   (BASF-Chemetall)",
-    "location": "Jackson",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Jackson-Regional-Technical-Project-Manager-Electrocoat-%28BASF-Chemetall%29-MI-49201/1383642733/"
-  },
-  {
     "job_id": "1383762233",
     "name": "Ausbildung Chemielaborant:in (m/w/d) Stellendetails",
     "location": "Ludwigshafen",
@@ -2448,6 +2428,16 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/red_SA/job/Ciudad-de-Mexico-Becarioa-de-Comunicaci%C3%B3n/1386131433/"
+  },
+  {
+    "job_id": "1386367733",
+    "name": "Technisch Specialist Autolakken & Applicatie Functiedetails",
+    "location": "unknown",
+    "country": "unknown (EMEA)",
+    "job_type": "Permanent",
+    "job_field": "NLD",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/TSA/job/Technisch-Specialist-Autolakken-&-Applicatie/135800-nl_NL/"
   },
   {
     "job_id": "1386614733",
@@ -3290,16 +3280,6 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Sandefjord-Project-Manager-Engineer%2C-Plant-Development/1397742333/"
   },
   {
-    "job_id": "1397962233",
-    "name": "Consignment Manager",
-    "location": "New",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/New-Providence-Consignment-Manager-NJ-07974/1397962233/"
-  },
-  {
     "job_id": "1398029333",
     "name": "Business Development Manager - Cucurbits",
     "location": "Melbourne-Freshwater Place",
@@ -3380,26 +3360,6 @@
     "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Regional-ComplianceLegal-Intern/1398498933/"
   },
   {
-    "job_id": "1398545233",
-    "name": "Assistant Manager, Regional Trainer",
-    "location": "Guangzhou",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Guangzhou-Assistant-Manager%2C-Regional-Trainer/1398545233/"
-  },
-  {
-    "job_id": "1398547833",
-    "name": "Assistant Manager, APAC Technical and Documentation Services",
-    "location": "Shanghai",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Assistant-Manager%2C-APAC-Technical-and-Documentation-Services/1398547833/"
-  },
-  {
     "job_id": "1398586633",
     "name": "Assistant Manager, Sales - Engineering Plastics (Chongqing)",
     "location": "Chengdu",
@@ -3410,26 +3370,6 @@
     "url": "https://basf.jobs/light_blue_AP/job/Chengdu-Assistant-Manager%2C-Sales-Engineering-Plastics-%28Chongqing%29/1398586633/"
   },
   {
-    "job_id": "1398595133",
-    "name": "Senior Officer, New Substance Notification",
-    "location": "Shanghai",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Senior-Officer%2C-New-Substance-Notification/1398595133/"
-  },
-  {
-    "job_id": "1398595633",
-    "name": "Assistant Manager, Finance & Tax",
-    "location": "Shanghai",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Assistant-Manager%2C-Finance-&-Tax/1398595633/"
-  },
-  {
     "job_id": "1398596133",
     "name": "Supervisor, Sales, Standard Surfactants, South China",
     "location": "Guangzhou",
@@ -3438,16 +3378,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/light_blue_AP/job/Guangzhou-Supervisor%2C-Sales%2C-Standard-Surfactants%2C-South-China/1398596133/"
-  },
-  {
-    "job_id": "1398596833",
-    "name": "Customs Classification Specialist",
-    "location": "Shanghai",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Customs-Classification-Specialist/1398596833/"
   },
   {
     "job_id": "1398597133",
@@ -3560,16 +3490,6 @@
     "url": "https://basf.jobs/job/Lampertheim-Ausbildung-Chemikantin-%28mwd%29-68623/1399226533/"
   },
   {
-    "job_id": "1399495833",
-    "name": "Estagiário de Customer Care",
-    "location": "Sao",
-    "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/red_SA/job/Sao-Paulo-Estagi%C3%A1rio-de-Customer-Care/1399495833/"
-  },
-  {
     "job_id": "1399615433",
     "name": "Sales Manager PU - Footwear, Sports & Leisure 1",
     "location": "Sales",
@@ -3578,16 +3498,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/light_blue_AP/job/Sales-Manager-PU-Footwear%2C-Sports-&-Leisure-1/1399615433/"
-  },
-  {
-    "job_id": "1399704433",
-    "name": "Officer Accounts Payable with Spanish (m/f/d)",
-    "location": "Berlin",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Berlin-Officer-Accounts-Payable-with-Spanish-%28mfd%29/1399704433/"
   },
   {
     "job_id": "1399723533",
@@ -3620,46 +3530,6 @@
     "url": "https://basf.jobs/light_green_NA/job/Technical-Sales-Rep-PA/1400064533/"
   },
   {
-    "job_id": "1400137833",
-    "name": "Manager, Product Development",
-    "location": "Shanghai",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Manager%2C-Product-Development/1400137833/"
-  },
-  {
-    "job_id": "1400138333",
-    "name": "Senior Specialist Digitalization",
-    "location": "Nanjing",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Nanjing-Senior-Specialist-Digitalization/1400138333/"
-  },
-  {
-    "job_id": "1400139033",
-    "name": "Officer, Procurement Operations & Process Excellence (1 Year Contract)",
-    "location": "Shanghai",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Officer%2C-Procurement-Operations-&-Process-Excellence-%281-Year-Contract%29/1400139033/"
-  },
-  {
-    "job_id": "1400139433",
-    "name": "Officer, Procurement Operations & Process Excellence (1 Year Contract) 1",
-    "location": "Shanghai",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Officer%2C-Procurement-Operations-&-Process-Excellence-%281-Year-Contract%29-1/1400139433/"
-  },
-  {
     "job_id": "1400347933",
     "name": "HR Officer in Teilzeit 50% (m/w/d) Stellendetails",
     "location": "Ludwigshafen",
@@ -3690,16 +3560,6 @@
     "url": "https://basf.jobs/dark_blue_AP/job/CSO-Lead/139348-en_US/"
   },
   {
-    "job_id": "1400493133",
-    "name": "Técnico de Pré Tratamento Automotivo - Camaçari BA",
-    "location": "Jundiai",
-    "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/red_SA/job/Jundiai-T%C3%A9cnico-de-Pr%C3%A9-Tratamento-Automotivo-Cama%C3%A7ari-BA/1400493133/"
-  },
-  {
     "job_id": "1400516433",
     "name": "Executive - Customer Service, Demand Planner",
     "location": "unknown",
@@ -3708,16 +3568,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/light_blue_AP/job/Executive-Customer-Service%2C-Demand-Planner/1400516433/"
-  },
-  {
-    "job_id": "1400601233",
-    "name": "Chemical Plant Operator I",
-    "location": "Wyandotte",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Wyandotte-Chemical-Plant-Operator-I-MI-48192/1400601233/"
   },
   {
     "job_id": "1400630333",
@@ -4090,16 +3940,6 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Berlin-Junior-Specialist-Master-Data-%28mfd%29-Hybrid-Option-GER/1402920733/"
   },
   {
-    "job_id": "1402921533",
-    "name": "Senior Officer Master Data (m/f/d) - Hybrid Option GER",
-    "location": "Berlin",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Berlin-Senior-Officer-Master-Data-%28mfd%29-Hybrid-Option-GER/1402921533/"
-  },
-  {
     "job_id": "1402973033",
     "name": "Time Management Analyst Brazil (fixed-term project-based)",
     "location": "Montevideo",
@@ -4300,16 +4140,6 @@
     "url": "https://basf.jobs/light_blue_AP/job/Samut-Prakan-Senior-Officer-Procurement/1404326533/"
   },
   {
-    "job_id": "1404608133",
-    "name": "Analista de Tesorería (contrato a término - basada en proyecto)",
-    "location": "Montevideo",
-    "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/red_SA/job/Montevideo-Analista-de-Tesorer%C3%ADa-%28contrato-a-t%C3%A9rmino-basada-en-proyecto%29/1404608133/"
-  },
-  {
     "job_id": "1404628533",
     "name": "Gerente Desarrollo Técnico Mercado Pampa Húmeda Centro Detalles del puesto",
     "location": "Cordoba",
@@ -4500,16 +4330,6 @@
     "url": "https://basf.jobs/job/Gent-Plant-Cell-Biology-&-Engineering-Scientist-Curious-by-nature-%28mfd%29/1405654333/"
   },
   {
-    "job_id": "1405681633",
-    "name": "Shipper",
-    "location": "Attapulgus",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_green_NA/job/Attapulgus-Shipper-GA-39815/1405681633/"
-  },
-  {
     "job_id": "1405691333",
     "name": "Becario/a de Recursos Humanos Detalles del puesto",
     "location": "San",
@@ -4528,16 +4348,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/job/Limburgerhof-Laborassistenz-%C3%96kotoxikologie-%28mwd%29/1405837833/"
-  },
-  {
-    "job_id": "1405866233",
-    "name": "Finance Intern",
-    "location": "Shanghai",
-    "country": "unknown",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/job/Shanghai-Finance-Intern/1405866233/"
   },
   {
     "job_id": "1405870133",
@@ -4838,26 +4648,6 @@
     "job_field": "BTC Europe GmbH",
     "flexible_work": "On-site",
     "url": "https://basf.jobs/job/Burgbernheim-Kaufmann_frau-im-Gro%C3%9F-und-Au%C3%9Fenhandel-%28mwd%29-91593/1407298433/"
-  },
-  {
-    "job_id": "1407323933",
-    "name": "Regional Data & AI Engineer, Operations, Asia Pacific",
-    "location": "Shanghai",
-    "country": "China",
-    "job_type": "Permanent",
-    "job_field": "Information Technology & Services",
-    "flexible_work": "On-site",
-    "url": "https://basf.jobs/job/Shanghai-Regional-Data-&-AI-Engineer%2C-Operations%2C-Asia-Pacific/1407323933/"
-  },
-  {
-    "job_id": "1407339933",
-    "name": "Regional Automation Engineer, Operations, Asia Pacific",
-    "location": "Shanghai",
-    "country": "China",
-    "job_type": "Permanent",
-    "job_field": "Applications Technology",
-    "flexible_work": "On-site",
-    "url": "https://basf.jobs/job/Shanghai-Regional-Automation-Engineer%2C-Operations%2C-Asia-Pacific/1407339933/"
   },
   {
     "job_id": "1407356733",
@@ -5608,6 +5398,206 @@
     "job_field": "NLD",
     "flexible_work": "On-site",
     "url": "https://basf.jobs/dark_blue_EMEA/job/Heerenveen-Assistant-Sample-Logistics-(mfd)/141636-nl_NL/"
+  },
+  {
+    "job_id": "1410245033",
+    "name": "Praktikum Sustainability Relations (m/w/d) Stellendetails",
+    "location": "Ludwigshafen",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "BASF SE",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Ludwigshafen-am-Rhein-Praktikum-Sustainability-Relations-(mwd)/141794-de_DE/"
+  },
+  {
+    "job_id": "1410291533",
+    "name": "Chemikant:in Wechselschicht in der Spezialitätenproduktion (m/w/d) - mit Gehaltsangabe Stellendetails",
+    "location": "Düsseldorf",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "BASF Personal Care and Nutrition GmbH",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/D%C3%BCsseldorf-Chemikantin-Wechselschicht-in-der-Spezialit%C3%A4tenproduktion-(mwd)-mit-Gehaltsangabe/141832-de_DE/"
+  },
+  {
+    "job_id": "1410305433",
+    "name": "Chemical Plant Operator (m/f/d)",
+    "location": "Ludwigshafen",
+    "country": "Germany",
+    "job_type": "Permanent",
+    "job_field": "BASF Agricultural Solutions Deutschland GmbH",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_green_agri/job/Ludwigshafen-am-Rhein-Chemical-Plant-Operator-(mfd)/134692-en_US/"
+  },
+  {
+    "job_id": "1410306633",
+    "name": "Working Student - Field Trials (m/f/d)",
+    "location": "Köln",
+    "country": "Germany",
+    "job_type": "Temporary",
+    "job_field": "BASF Digital Farming GmbH",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_green_agri/job/Working-Student-Field-Trials-%28mfd%29/138644-en_US/"
+  },
+  {
+    "job_id": "1410311533",
+    "name": "Laboratory Assistant - Ecotoxicology (m/f/d)",
+    "location": "Limburgerhof",
+    "country": "Germany",
+    "job_type": "Temporary",
+    "job_field": "BASF Agricultural Solutions Deutschland GmbH",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_green_agri/job/Laboratory-Assistant-Ecotoxicology-%28mfd%29/139573-en_US/"
+  },
+  {
+    "job_id": "1410330433",
+    "name": "Sales Consultant for Plant Protection Products - Field Sales Saxony-Anhalt (m/f/d)",
+    "location": "Limburgerhof",
+    "country": "Germany",
+    "job_type": "Permanent",
+    "job_field": "BASF Agricultural Solutions Deutschland GmbH",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_green_agri/job/Limburgerhof-Sales-Consultant-for-Plant-Protection-Products-Field-Sales-Saxony-Anhalt-(mfd)/135920-en_US/"
+  },
+  {
+    "job_id": "1410416933",
+    "name": "Global Strategic Marketing Manager",
+    "location": "Mumbai",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Godrej One - Mumbai, IND",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_AP/job/Global-Strategic-Marketing-Manager/141613-en_US/"
+  },
+  {
+    "job_id": "1410425333",
+    "name": "Chef Patisserie (m/w/d) Stellendetails",
+    "location": "Ludwigshafen",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "BASF Gastronomie GmbH",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Chef-Patisserie-%28mwd%29/141564-de_DE/"
+  },
+  {
+    "job_id": "1410427033",
+    "name": "Technology Manager- Hydrogenation",
+    "location": "Mumbai",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Godrej One - Mumbai, IND",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_AP/job/Technology-Manager-Hydrogenation/141625-en_US/"
+  },
+  {
+    "job_id": "1410473533",
+    "name": "Quality Control Technician",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Vidalia, LA, USA, 71373",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_NA/job/Quality-Control-Technician/141853-en_US/"
+  },
+  {
+    "job_id": "1410541333",
+    "name": "GB/G Competence Center - FRC Analyst",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/GBG-Competence-Center-FRC-Analyst/140009-en_US/"
+  },
+  {
+    "job_id": "1410541733",
+    "name": "GB/G Senior Associate Specialist, Competence Center (FRC & Accounting Compliance)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/GBG-Senior-Associate-Specialist%2C-Competence-Center-%28FRC-&-Accounting-Compliance%29/141753-en_US/"
+  },
+  {
+    "job_id": "1410542433",
+    "name": "GB/G Accounts Receivable Analyst",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/GBG-Accounts-Receivable-Analyst/141757-en_US/"
+  },
+  {
+    "job_id": "1410543433",
+    "name": "GB/G T&E Associate Analyst",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/GBG-T&E-Associate-Analyst/140000-en_US/"
+  },
+  {
+    "job_id": "1410544033",
+    "name": "GB/G T&E Analyst",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/GBG-T&E-Analyst/140001-en_US/"
+  },
+  {
+    "job_id": "1410544533",
+    "name": "GB/G T&E Senior Associate Specialist",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/GBG-T&E-Senior-Associate-Specialist/140002-en_US/"
+  },
+  {
+    "job_id": "1410545133",
+    "name": "GB/G Competence Center Accounting Compliance Analyst",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/GBG-Competence-Center-Accounting-Compliance-Analyst/140008-en_US/"
+  },
+  {
+    "job_id": "1410566433",
+    "name": "Production Operator 1",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Louisville, KY, USA, 40212",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_NA/job/Production-Operator-1/141860-en_US/"
+  },
+  {
+    "job_id": "1410578133",
+    "name": "Product Costing Analyst (fixed-term project based)",
+    "location": "unknown",
+    "country": "unknown (South America)",
+    "job_type": "Temporary",
+    "job_field": "URY",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_SA/job/Product-Costing-Analyst-%28fixed-term-project-based%29/141687-en_US/"
+  },
+  {
+    "job_id": "1410594433",
+    "name": "Production Engineer",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Permanent",
+    "job_field": "MYS",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/Production-Engineer/141606-en_US/"
   },
   {
     "job_id": "987746301",
