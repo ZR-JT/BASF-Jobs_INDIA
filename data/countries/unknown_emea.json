@@ -650,19 +650,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1292632801",
-    "name": "Responsable Clients - Territoire Centre Ouest (Indre-et-Loir, Loir-et-Cher) Home office (h/f) Détails du poste",
-    "location": "À",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Responsable Clients - Territoire Centre Ouest (Indre-et-Loir, Loir-et-Cher) Home office (h/f) Détail",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/%C3%80-distance-Responsable-Clients-Territoire-Centre-Ouest-%28Indre-et-Loir%2C-Loir-et-Cher%29-Home-office-%28hf%29/1292632801/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1293184301",
     "name": "Rechtsreferendar:in (m/w/d) Stellendetails",
     "location": "Lemförde",
@@ -988,19 +975,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1377349933",
-    "name": "Alternance - Procédés Industriels (h/f) Détails du poste",
-    "location": "Gravelines",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Alternance - Procédés Industriels (h/f) Détails du poste | BASF SE Passer au contenu principal Trouv",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Gravelines-Alternance-Proc%C3%A9d%C3%A9s-Industriels-%28hf%29/1377349933/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1377906233",
     "name": "Alternance - Chef de Projet Outils Digitaux - 12 mois (h/f) Détails du poste",
     "location": "Pulnoy",
@@ -1231,19 +1205,6 @@
     "flexible_work": null,
     "description": "Litigation-Licensing Manager Intellectual Properties (m/f/d) Job Details | BASF SE Skip to main cont",
     "url": "https://basf.jobs/dark_blue_EMEA/job/Monheim-am-Rhein-Litigation-Licensing-Manager-Intellectual-Properties-%28mfd%29/1389248233/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
-    "job_id": "1389781833",
-    "name": "Alternance - Développement Commercial - Solutions Digitales xarvio Vigne (h/f) Détails du poste",
-    "location": "Ecully",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Alternance - Développement Commercial - Solutions Digitales xarvio Vigne (h/f) Détails du poste | BA",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Ecully-Alternance-D%C3%A9veloppement-Commercial-Solutions-Digitales-xarvio-Vigne-%28hf%29/1389781833/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
   },
@@ -1508,19 +1469,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1397742333",
-    "name": "Project Manager / Engineer, Plant Development Jobbdetaljer",
-    "location": "Sandefjord",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Project Manager / Engineer, Plant Development Jobbdetaljer | BASF SE Hopp til hovedinnhold Finn jobb",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Sandefjord-Project-Manager-Engineer%2C-Plant-Development/1397742333/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1398050033",
     "name": "Applicatie Specialist Commercial Vehicles Functiedetails",
     "location": "Maarssen",
@@ -1608,19 +1556,6 @@
     "flexible_work": null,
     "description": "HR Officer in Teilzeit 50% (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache C",
     "url": "https://basf.jobs/dark_blue_EMEA/job/Ludwigshafen-am-Rhein-HR-Officer-in-Teilzeit-50-%28mwd%29/1400347933/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
-    "job_id": "1400348933",
-    "name": "Ferienhelfer:in Produktion/Logistik (m/w/d) Stellendetails",
-    "location": "Lemförde",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Ferienhelfer:in Produktion/Logistik (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden ",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Lemf%C3%B6rde-Ferienhelferin-ProduktionLogistik-%28mwd%29/1400348933/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
   },
@@ -1935,6 +1870,19 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Heerenveen-Assistant-Sample-Logistics-(mfd)/141636-nl_NL/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1411214933",
+    "name": "BASF Türk Kimya Kişisel Bakım Dpt. (Pazarlama) Uzun Dönem Stajyer",
+    "location": "unknown",
+    "country": "unknown (EMEA)",
+    "job_type": "Temporary",
+    "job_field": "TUR",
+    "flexible_work": "On-site",
+    "description": "GENEL NİTELİKLER VE İŞ TANIMI Dünyanın lider kimya şirketi BASF Türk Kimya Kişisel Bakım Departmanı ",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Istanbul-BASF-T%C3%BCrk-Kimya-Ki%C5%9Fisel-Bak%C4%B1m-Dpt_-(Pazarlama)-Uzun-D%C3%B6nem-Stajyer/141914-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "987746301",
