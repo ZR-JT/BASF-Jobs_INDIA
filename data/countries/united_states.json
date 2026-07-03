@@ -1,5 +1,44 @@
 [
   {
+    "job_id": "1206126901",
+    "name": "Process Engineer II - Chemicals",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Process Engineer II - Chemicals Greenville, OH (Onsite) We are looking for an experience",
+    "url": "https://basf.jobs/TSA/job/Process-Engineer-II-Chemicals/122607-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1232958701",
+    "name": "Lead Electrical Project Engineer",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Lead Electrical Engineer Greenville,OH We are seeking a professional like you to join ou",
+    "url": "https://basf.jobs/TSA/job/Lead-Electrical-Project-Engineer/125974-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1244359601",
+    "name": "Senior Quality Specialist",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Senior Quality Specialist Greenville, OH  - Onsite - Domestic Relocation Availalable - W",
+    "url": "https://basf.jobs/TSA/job/Senior-Quality-Specialist/126968-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1280293001",
     "name": "Laboratory Technician I",
     "location": "Geismar",
@@ -11,6 +50,45 @@
     "url": "https://basf.jobs/light_green_NA/job/Geismar-Laboratory-Technician-I-LA-70734-0457/1280293001/",
     "posted_at": "2026-01-05",
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1283958901",
+    "name": "Account Representative - Automotive Refinish - Maryland, DC",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "MD, USA,  | Washington DC, DC, USA, 20005",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Account Representative - Automotive Refinish - Maryland, DC Maryland, Washington, D.C (R",
+    "url": "https://basf.jobs/TSA/job/Account-Representative-Automotive-Refinish-Maryland%2C-DC/132167-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1293355901",
+    "name": "Account Representative II - Georgia - Automotive Refinish",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Atlanta, GA, USA,  | GA, USA,",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Account Representative II - Georgia - Automotive Refinish Georgia (Remote) **Field role ",
+    "url": "https://basf.jobs/TSA/job/Account-Representative-II-Georgia-Automotive-Refinish/133091-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1371153833",
+    "name": "Business Development Specialist - Automotive Refinish, Minneapolis/St.Paul",
+    "location": "Automotive Refinish Technologies",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Minneapolis, MN, USA,  | MN, USA,",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Business Development Specialist - Minneapolis/St.Paul ** Field Role: Minneapolis/St.Paul",
+    "url": "https://basf.jobs/TSA/job/Business-Development-Specialist-Automotive-Refinish%2C-MinneapolisSt_Paul/133775-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1381423533",
@@ -52,6 +130,45 @@
     "scraped_at": "2026-07-01"
   },
   {
+    "job_id": "1386671933",
+    "name": "Customer Site Service Manager",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Louisville, KY, USA, 40212",
+    "flexible_work": "On-site",
+    "description": "Now Hiring! Customer Site Service Manager Customer Site Service Manager (CSSM) Location: Louisville,",
+    "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Manager/135541-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1386698633",
+    "name": "Customer Site Service Rep II",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Louisville, KY, USA, 40212",
+    "flexible_work": "On-site",
+    "description": "Now Hiring! Customer Site Service Rep II Customer Site Service Representative II Location: Louisvill",
+    "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Rep-II/135540-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1389613033",
+    "name": "Maintenance Technician",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Maintenance Technician Southfield, MI We are looking for a Maintenance Technician to joi",
+    "url": "https://basf.jobs/TSA/job/Maintenance-Technician/136114-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1389621533",
     "name": "Automation/Digitalization Engineer",
     "location": "unknown",
@@ -63,6 +180,19 @@
     "url": "https://basf.jobs/light_green_NA/job/McIntyre-AutomationDigitalization-Engineer-GA-31042/1389621533/",
     "posted_at": null,
     "scraped_at": "2026-06-24"
+  },
+  {
+    "job_id": "1391497633",
+    "name": "Digital Process Optimization Lead",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Digital Process Optimization Greenville, OH As the world’s leading chemical company, we ",
+    "url": "https://basf.jobs/TSA/job/Digital-Process-Optimization-Lead/135770-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1391883233",
@@ -91,6 +221,58 @@
     "scraped_at": "2026-06-23"
   },
   {
+    "job_id": "1397470933",
+    "name": "E-coat Process Engineer I",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Southfield, MI, USA, 48033-2442",
+    "flexible_work": "On-site",
+    "description": "Now hiring! E-Coat Process Engineer Southfield, MI - Travel up to 50% (US, Canada and Mexico) We are",
+    "url": "https://basf.jobs/TSA/job/E-coat-Process-Engineer-I/138425-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1401263733",
+    "name": "Customer Site Service Manager",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Southfield, MI, USA, 48033-2442",
+    "flexible_work": "On-site",
+    "description": "Now Hiring! Customer Site Service Manager Customer Site Service Manager (CSSM) Ford Michigan Assembl",
+    "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Manager/139259-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1404167233",
+    "name": "Automation Engineer",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now Hiring! Automation Engineer Greenville, OH At Surventis, we create chemistry through the power o",
+    "url": "https://basf.jobs/TSA/job/Automation-Engineer/139543-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1406500633",
+    "name": "Maintenance Planner",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Maintenance Planner Greenville, OH (On-site) Surventis Coatings division is a global exp",
+    "url": "https://basf.jobs/TSA/job/Maintenance-Planner/139654-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1406646733",
     "name": "Sr. Site Chemist - Environmental Lab",
     "location": "Missouri",
@@ -102,6 +284,32 @@
     "url": "https://basf.jobs/light_green_NA/job/Palmyra-Sr_-Site-Chemist-Environmental-Lab-MO-63461/1406646733/",
     "posted_at": "2026-06-19",
     "scraped_at": "2026-06-20"
+  },
+  {
+    "job_id": "1406652033",
+    "name": "Regional Digitalization Lead",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Regional Digitalization Lead We are looking for a Regional Digitalization Lead to join o",
+    "url": "https://basf.jobs/TSA/job/Regional-Digitalization-Lead/139788-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1407170633",
+    "name": "Maintenance Scheduler",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Maintenance Scheduler Now hiring! Maintenance Scheduler Greenville, OH We are looking fo",
+    "url": "https://basf.jobs/TSA/job/Maintenance-Scheduler/139849-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1407488433",
@@ -271,5 +479,44 @@
     "url": "https://basf.jobs/dark_blue_NA/job/Production-Operator-1/141860-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-02"
+  },
+  {
+    "job_id": "1410877533",
+    "name": "Lab Specialist - Molecular Technologies",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "NC, USA,  | NC, USA,  | Research Triangle Park, NC, USA, 27709-3528",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Lab Specialist - Molecular Technologies We are looking for a Lab Specialist - Molecular ",
+    "url": "https://basf.jobs/dark_green_agri/job/Lab-Specialist-Molecular-Technologies/141760-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410913733",
+    "name": "Quality Management Lead",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Hillsboro, OR, USA, 97124",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Quality Management Lead Hillsboro, OR (Onsite) Come create chemistry with us! The purpos",
+    "url": "https://basf.jobs/dark_blue_NA/job/Quality-Management-Lead/141806-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410998433",
+    "name": "Customer Site Service Rep II (CSSR II)",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "GA, USA,  | MI, USA,",
+    "flexible_work": "On-site",
+    "description": "Job Title: Customer Site Service Rep II ( Magna, Decostar Industries) Customer Site Service Represen",
+    "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Rep-II-%28CSSR-II%29/141895-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   }
 ]

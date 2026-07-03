@@ -91,6 +91,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1004064001",
+    "name": "Praktikum Personalmarketing (m/w/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Personal",
+    "flexible_work": "On-site",
+    "description": "Praktikum Personalmarketing (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache ",
+    "url": "https://basf.jobs/TSA/job/Praktikum-Personalmarketing-%28mwd%29/89122-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1009121101",
     "name": "Rechtsreferendar:in Wirtschaftsrecht / Öffentliches Recht (m/w/d) Stellendetails",
     "location": "Ludwigshafen",
@@ -141,6 +154,19 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Ludwigshafen-am-Rhein-Notfallsanit%C3%A4terin-als-Leitstellendisponentin-Werkfeuerwehr-%28mwd%29/1034035001/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1036118501",
+    "name": "Lagermitarbeiter:in (m/w/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Logistik und Supply Chain",
+    "flexible_work": "On-site",
+    "description": "Lagermitarbeiter:in (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache Ceština ",
+    "url": "https://basf.jobs/TSA/job/Lagermitarbeiterin-%28mwd%29/90573-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1049892201",
@@ -676,19 +702,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1197591201",
-    "name": "Ausbildung Werkstoffprüfer:in (m/w/d) Stellendetails",
-    "location": "Lemförde",
-    "country": "unknown",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Ausbildung Werkstoffprüfer:in (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprach",
-    "url": "https://basf.jobs/job/Lemf%C3%B6rde-Ausbildung-Werkstoffpr%C3%BCferin-%28mwd%29-49448/1197591201/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1200581201",
     "name": "Minijob / Aushilfe Service und Gästebetreuung  Haus Breitnau - 603 €-Basis (m/w/d) Stellendetails",
     "location": "Breitnau",
@@ -726,6 +739,19 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Genay-Technicien-de-Maintenance-Post%C3%A9-28-%C3%89lectrom%C3%A9canicien-%28hf%29/1203363601/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1206126901",
+    "name": "Process Engineer II - Chemicals",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Process Engineer II - Chemicals Greenville, OH (Onsite) We are looking for an experience",
+    "url": "https://basf.jobs/TSA/job/Process-Engineer-II-Chemicals/122607-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1211291701",
@@ -871,6 +897,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1232958701",
+    "name": "Lead Electrical Project Engineer",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Lead Electrical Engineer Greenville,OH We are seeking a professional like you to join ou",
+    "url": "https://basf.jobs/TSA/job/Lead-Electrical-Project-Engineer/125974-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1234363901",
     "name": "Dummy Stellendetails",
     "location": "Ludwigshafen",
@@ -882,6 +921,19 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Ludwigshafen-am-Rhein-Dummy/1234363901/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1244359601",
+    "name": "Senior Quality Specialist",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Senior Quality Specialist Greenville, OH  - Onsite - Domestic Relocation Availalable - W",
+    "url": "https://basf.jobs/TSA/job/Senior-Quality-Specialist/126968-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1245225101",
@@ -1077,6 +1129,19 @@
     "url": "https://basf.jobs/light_green_NA/job/Cincinnati-Chemical-Operator-OH-45224/1263800801/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1265117001",
+    "name": "unknown",
+    "location": "unknown",
+    "country": "unknown (North America)",
+    "job_type": null,
+    "job_field": null,
+    "flexible_work": null,
+    "description": "Job Details | BASF SE Skip to main content Language Ceština (Ceská republika) Dansk (Danmark) Deutsc",
+    "url": "https://basf.jobs/light_green_NA/job/Greenville-Operator-Associate-Greenville-OH-OH-45331/129768-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1268965001",
@@ -1326,6 +1391,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1280833601",
+    "name": "Senior Specialist Global Functional Process Owner O2C - Finance (m/f/d)",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": "Permanent",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "Hybrid",
+    "description": "WELCOME In the Coatings division, we offer far more than just paints and coatings. Our approach is t",
+    "url": "https://basf.jobs/TSA/job/Senior-Specialist-Global-Functional-Process-Owner-O2C-Finance-%28mfd%29/131834-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1280929801",
     "name": "Senior SAP SD DevOps Engineer (Order-to-Cash / Output Management) (m/f/d)",
     "location": "Madrid",
@@ -1454,6 +1532,19 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Albersweiler-Mitarbeiterin-Service-Studienhaus-St_-Johann-%28mwd%29/1283860101/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1283958901",
+    "name": "Account Representative - Automotive Refinish - Maryland, DC",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "MD, USA,  | Washington DC, DC, USA, 20005",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Account Representative - Automotive Refinish - Maryland, DC Maryland, Washington, D.C (R",
+    "url": "https://basf.jobs/TSA/job/Account-Representative-Automotive-Refinish-Maryland%2C-DC/132167-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1284055301",
@@ -1677,6 +1768,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1293355901",
+    "name": "Account Representative II - Georgia - Automotive Refinish",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Atlanta, GA, USA,  | GA, USA,",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Account Representative II - Georgia - Automotive Refinish Georgia (Remote) **Field role ",
+    "url": "https://basf.jobs/TSA/job/Account-Representative-II-Georgia-Automotive-Refinish/133091-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1293841001",
     "name": "Lab Technician I",
     "location": "Savannah",
@@ -1701,6 +1805,19 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Ludwigshafen-am-Rhein-Industrieklettererin-Seilzugangstechnikerin-mit-Level-3-%28mwd%29/1293900801/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1364880533",
+    "name": "Anwendungstechnische:r Lackierer:in (m/w/d) Stellendetails",
+    "location": "Würzburg",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Anwendungstechnik",
+    "flexible_work": "On-site",
+    "description": "Anwendungstechnische:r Lackierer:in (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden ",
+    "url": "https://basf.jobs/TSA/job/Anwendungstechnischer-Lackiererin-%28mwd%29/133498-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1364888633",
@@ -1885,6 +2002,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1369222733",
+    "name": "Industrielackierer:in (m/w/d) Stellendetails",
+    "location": "Würzburg",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Anwendungstechnik",
+    "flexible_work": "On-site",
+    "description": "Industrielackierer:in (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache Ceštin",
+    "url": "https://basf.jobs/TSA/job/Industrielackiererin-%28mwd%29/133989-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1369759233",
     "name": "Software Engineering & Operations Manager",
     "location": "Software",
@@ -1974,6 +2104,19 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Freiburg-im-Breisgau-Aushilfe-Studentenjob-in-der-Produktion-4-Schicht-Betrieb-%28mwd%29/1371150633/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1371153833",
+    "name": "Business Development Specialist - Automotive Refinish, Minneapolis/St.Paul",
+    "location": "Automotive Refinish Technologies",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Minneapolis, MN, USA,  | MN, USA,",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Business Development Specialist - Minneapolis/St.Paul ** Field Role: Minneapolis/St.Paul",
+    "url": "https://basf.jobs/TSA/job/Business-Development-Specialist-Automotive-Refinish%2C-MinneapolisSt_Paul/133775-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1371179733",
@@ -2455,19 +2598,6 @@
     "url": "https://basf.jobs/dark_green_agri/job/Sr_-Turf-&-Ornamentals-Sales-Rep-Texas-%28South-Texas-Houston%2C-College-Station%2C-San-Antonio-areas%29/134726-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-02"
-  },
-  {
-    "job_id": "1381512433",
-    "name": "Facilities Assistant   (BASF-Chemetall)",
-    "location": "New",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Facilities Assistant (BASF-Chemetall) Job Details | BASF SE Skip to main content Find jobs Language ",
-    "url": "https://basf.jobs/light_green_NA/job/New-Providence-Facilities-Assistant-%28BASF-Chemetall%29-NJ-07974/1381512433/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
   },
   {
     "job_id": "1381538333",
@@ -3055,6 +3185,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1384230333",
+    "name": "SAP Consultant für SAP Order-to-Cash (m/w/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Digitalisierung",
+    "flexible_work": "Hybrid",
+    "description": "SAP Consultant für SAP Order-to-Cash (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden",
+    "url": "https://basf.jobs/TSA/job/SAP-Consultant-f%C3%BCr-SAP-Order-to-Cash-%28mwd%29/135370-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1385170033",
     "name": "Becario/a de Producción Detalles del puesto",
     "location": "Altamira",
@@ -3133,19 +3276,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1386029733",
-    "name": "Bachelorstage Chemie - Optimalisatie van een meetopstelling bij procesanalyse (PAT) Functiedetails",
-    "location": "Antwerpen",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Bachelorstage Chemie - Optimalisatie van een meetopstelling bij procesanalyse (PAT) Functiedetails |",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Antwerpen-Bachelorstage-Chemie-Optimalisatie-van-een-meetopstelling-bij-procesanalyse-%28PAT%29/1386029733/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1386131433",
     "name": "Becario/a de Comunicación Detalles del puesto",
     "location": "Ciudad",
@@ -3196,6 +3326,32 @@
     "url": "https://basf.jobs/dark_blue_NA/job/Control-Systems-Project-Engineer/135247-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1386671933",
+    "name": "Customer Site Service Manager",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Louisville, KY, USA, 40212",
+    "flexible_work": "On-site",
+    "description": "Now Hiring! Customer Site Service Manager Customer Site Service Manager (CSSM) Location: Louisville,",
+    "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Manager/135541-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1386698633",
+    "name": "Customer Site Service Rep II",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Louisville, KY, USA, 40212",
+    "flexible_work": "On-site",
+    "description": "Now Hiring! Customer Site Service Rep II Customer Site Service Representative II Location: Louisvill",
+    "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Rep-II/135540-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1387256033",
@@ -3393,6 +3549,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1389613033",
+    "name": "Maintenance Technician",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Maintenance Technician Southfield, MI We are looking for a Maintenance Technician to joi",
+    "url": "https://basf.jobs/TSA/job/Maintenance-Technician/136114-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1389621533",
     "name": "Automation/Digitalization Engineer",
     "location": "unknown",
@@ -3521,6 +3690,58 @@
     "url": "https://basf.jobs/light_blue_AP/job/Chonburi-Chemist/1390818633/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1390875133",
+    "name": "Produktionsmitarbeiter:in (m/w/d) Stellendetails",
+    "location": "Würzburg",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Produktion, Instandhaltung & technischer Service",
+    "flexible_work": "On-site",
+    "description": "Produktionsmitarbeiter:in (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache Ce",
+    "url": "https://basf.jobs/TSA/job/Produktionsmitarbeiterin-%28mwd%29/138191-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1391369933",
+    "name": "Senior Auditor (m/w/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Finanzen, Controlling & Audit",
+    "flexible_work": "Hybrid",
+    "description": "Senior Auditor (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache Ceština (Cesk",
+    "url": "https://basf.jobs/TSA/job/Senior-Auditor-%28mwd%29/136083-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1391370033",
+    "name": "Senior Auditor (m/f/d)",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": "Permanent",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "Hybrid",
+    "description": "WELCOME In the Coatings division, we offer far more than just paints and coatings. Our approach is t",
+    "url": "https://basf.jobs/TSA/job/Senior-Auditor-%28mfd%29/136083-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1391497633",
+    "name": "Digital Process Optimization Lead",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Digital Process Optimization Greenville, OH As the world’s leading chemical company, we ",
+    "url": "https://basf.jobs/TSA/job/Digital-Process-Optimization-Lead/135770-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1391736033",
@@ -3978,6 +4199,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1395609033",
+    "name": "Ingenieur:in Automatisierung (m/w/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Digitalisierung",
+    "flexible_work": "On-site",
+    "description": "Ingenieur:in Automatisierung (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache",
+    "url": "https://basf.jobs/TSA/job/Ingenieurin-Automatisierung-%28mwd%29/138263-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1395679433",
     "name": "Alternance - Ingénieur Industrie 4.0 / Digitalisation Industrielle (h/f) Détails du poste",
     "location": "Genay",
@@ -4082,19 +4316,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1397081533",
-    "name": "Assistant Manager, Production Planning",
-    "location": "Pasir",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Assistant Manager, Production Planning Job Details | BASF SE Skip to main content Find jobs Language",
-    "url": "https://basf.jobs/light_blue_AP/job/Pasir-Gudang-Assistant-Manager%2C-Production-Planning/1397081533/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1397343133",
     "name": "Personal Protection Officer (m/w/d) Stellendetails",
     "location": "Ludwigshafen",
@@ -4106,6 +4327,19 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Ludwigshafen-am-Rhein-Personal-Protection-Officer-%28mwd%29/1397343133/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1397470933",
+    "name": "E-coat Process Engineer I",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Southfield, MI, USA, 48033-2442",
+    "flexible_work": "On-site",
+    "description": "Now hiring! E-Coat Process Engineer Southfield, MI - Travel up to 50% (US, Canada and Mexico) We are",
+    "url": "https://basf.jobs/TSA/job/E-coat-Process-Engineer-I/138425-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1397489033",
@@ -4849,6 +5083,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1401263733",
+    "name": "Customer Site Service Manager",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Southfield, MI, USA, 48033-2442",
+    "flexible_work": "On-site",
+    "description": "Now Hiring! Customer Site Service Manager Customer Site Service Manager (CSSM) Ford Michigan Assembl",
+    "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Manager/139259-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1401296333",
     "name": "HR Administration & Payroll Specialist mit Französisch (m/w/d) Stellendetails",
     "location": "Berlin",
@@ -5122,6 +5369,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1402954233",
+    "name": "Disponent:in Materialmanagement (m/w/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Logistik und Supply Chain",
+    "flexible_work": "On-site",
+    "description": "Disponent:in Materialmanagement (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Spra",
+    "url": "https://basf.jobs/TSA/job/Disponentin-Materialmanagement-%28mwd%29/139499-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1402973033",
     "name": "Time Management Analyst Brazil (fixed-term project-based)",
     "location": "Montevideo",
@@ -5341,6 +5601,32 @@
     "url": "https://basf.jobs/job/Limburgerhof-Head-of-Treasury-and-M&A-%28mfd%29/1403847333/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "1403985633",
+    "name": "Business Development Manager - Atlantic Canada",
+    "location": "unknown",
+    "country": "Canada",
+    "job_type": "Permanent",
+    "job_field": "NS, CAN,  | Prince Edward, CAN,",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Business Development Manager -  Atlantic Canada New Brunswick, NewFoundland, Nova Scotia",
+    "url": "https://basf.jobs/TSA/job/Business-Development-Manager-Atlantic-Canada/138288-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1404167233",
+    "name": "Automation Engineer",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now Hiring! Automation Engineer Greenville, OH At Surventis, we create chemistry through the power o",
+    "url": "https://basf.jobs/TSA/job/Automation-Engineer/139543-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1404280433",
@@ -5733,19 +6019,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1406210033",
-    "name": "EHS Specialist",
-    "location": "Jackson",
-    "country": "unknown (North America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "EHS Specialist Job Details | BASF SE Skip to main content Find jobs Language Ceština (Ceská republik",
-    "url": "https://basf.jobs/light_green_NA/job/Jackson-EHS-Specialist-MI-49201/1406210033/",
-    "posted_at": null,
-    "scraped_at": "2026-06-19"
-  },
-  {
     "job_id": "1406403833",
     "name": "Global Bulk Parcel Operations, Manager",
     "location": "Kuala",
@@ -5772,6 +6045,19 @@
     "scraped_at": "2026-06-20"
   },
   {
+    "job_id": "1406500633",
+    "name": "Maintenance Planner",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Maintenance Planner Greenville, OH (On-site) Surventis Coatings division is a global exp",
+    "url": "https://basf.jobs/TSA/job/Maintenance-Planner/139654-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1406615733",
     "name": "Account Manager - Beauty Care Solutions",
     "location": "Florham",
@@ -5796,6 +6082,19 @@
     "url": "https://basf.jobs/light_green_NA/job/Palmyra-Sr_-Site-Chemist-Environmental-Lab-MO-63461/1406646733/",
     "posted_at": "2026-06-19",
     "scraped_at": "2026-06-20"
+  },
+  {
+    "job_id": "1406652033",
+    "name": "Regional Digitalization Lead",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Regional Digitalization Lead We are looking for a Regional Digitalization Lead to join o",
+    "url": "https://basf.jobs/TSA/job/Regional-Digitalization-Lead/139788-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1406773133",
@@ -5954,6 +6253,19 @@
     "scraped_at": "2026-06-23"
   },
   {
+    "job_id": "1407170633",
+    "name": "Maintenance Scheduler",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Greenville, OH, USA, 45331",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Maintenance Scheduler Now hiring! Maintenance Scheduler Greenville, OH We are looking fo",
+    "url": "https://basf.jobs/TSA/job/Maintenance-Scheduler/139849-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "1407184933",
     "name": "Data & Analytics Specialist",
     "location": "unknown",
@@ -5976,19 +6288,6 @@
     "flexible_work": "On-site",
     "description": "About BASF in Vietnam BASF has been active in Vietnam since the establishment of its representative ",
     "url": "https://basf.jobs/job/Ho-Chi-Minh-City-Deputy-Manager%2C-Technical-Sales-PU-Footwear/1407228833/",
-    "posted_at": null,
-    "scraped_at": "2026-06-23"
-  },
-  {
-    "job_id": "1407244533",
-    "name": "Pigment and Paste Lab, Intern",
-    "location": "Shanghai",
-    "country": "China",
-    "job_type": "Internship",
-    "job_field": "Research & Development",
-    "flexible_work": "On-site",
-    "description": "About The Role -    Supporting for paste related lab activities run smoothly by following BCTS/BSC g",
-    "url": "https://basf.jobs/job/Shanghai-Pigment-and-Paste-Lab%2C-Intern/1407244533/",
     "posted_at": null,
     "scraped_at": "2026-06-23"
   },
@@ -6136,19 +6435,6 @@
     "scraped_at": "2026-06-24"
   },
   {
-    "job_id": "1407692233",
-    "name": "Senior Software QA Engineer",
-    "location": "Nanjing",
-    "country": "China",
-    "job_type": "Permanent",
-    "job_field": "Digitalization",
-    "flexible_work": "On-site",
-    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-    "url": "https://basf.jobs/job/Nanjing-Senior-Software-QA-Engineer/1407692233/",
-    "posted_at": null,
-    "scraped_at": "2026-06-24"
-  },
-  {
     "job_id": "1407698733",
     "name": "Payroll Manager",
     "location": "Hyderabad",
@@ -6236,19 +6522,6 @@
     "flexible_work": "On-site",
     "description": "Werkstudent:in Dokumentation Assetmanagement (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stelle",
     "url": "https://basf.jobs/dark_blue_EMEA/job/Mannheim-Werkstudentin-Dokumentation-Assetmanagement-(mwd)/139338-de_DE/",
-    "posted_at": null,
-    "scraped_at": "2026-07-01"
-  },
-  {
-    "job_id": "1407908533",
-    "name": "Paste  Engineer",
-    "location": "Shanghai",
-    "country": "China",
-    "job_type": "Permanent",
-    "job_field": "Research & Development",
-    "flexible_work": "On-site",
-    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-    "url": "https://basf.jobs/dark_blue_AP/job/Paste-Engineer/140017-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
   },
@@ -6435,19 +6708,6 @@
     "scraped_at": "2026-07-01"
   },
   {
-    "job_id": "1408603233",
-    "name": "APAC Digital Solution Specialist",
-    "location": "Shanghai",
-    "country": "China",
-    "job_type": "Permanent",
-    "job_field": "Digitalization",
-    "flexible_work": "On-site",
-    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-    "url": "https://basf.jobs/dark_blue_AP/job/APAC-Digital-Solution-Specialist/140020-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-01"
-  },
-  {
     "job_id": "1408719333",
     "name": "Ontdek de externe opleiding tot procesoperator tijdens onze oriëntatiedagen Functiedetails",
     "location": "Antwerpen",
@@ -6459,6 +6719,32 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Ontdek-de-externe-opleiding-tot-procesoperator-tijdens-onze-ori%C3%ABntatiedagen/141704-nl_NL/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1408721033",
+    "name": "Global Production Data Architect (m/f/d)",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "On-site",
+    "description": "WELCOME In the Coatings division, we offer far more than just paints and coatings. Our approach is t",
+    "url": "https://basf.jobs/TSA/job/Global-Production-Data-Architect-%28mfd%29/139023-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1408721133",
+    "name": "Global Production Data Architect (m/f/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Digitalisierung",
+    "flexible_work": "On-site",
+    "description": "Global Production Data Architect (m/f/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Spr",
+    "url": "https://basf.jobs/TSA/job/Global-Production-Data-Architect-%28mfd%29/139023-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "1408768733",
@@ -7280,6 +7566,188 @@
     "scraped_at": "2026-07-02"
   },
   {
+    "job_id": "1410636633",
+    "name": "Technical Manager and Technical Field Support Automotive OEM SEA",
+    "location": "unknown",
+    "country": "Thailand",
+    "job_type": "Permanent",
+    "job_field": "THA",
+    "flexible_work": "On-site",
+    "description": "Objectives of the position : 50% Local Application Technology Team lead in South East Asia (SEA): To",
+    "url": "https://basf.jobs/TSA/job/Technical-Manager-and-Technical-Field-Support-Automotive-OEM-SEA/141817-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410670933",
+    "name": "Intern - Digitalization",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Internship",
+    "job_field": "MYS",
+    "flexible_work": "Hybrid",
+    "description": "BASF Shared Services Center Kuala Lumpur was established in 2005 to provide functional services in F",
+    "url": "https://basf.jobs/dark_blue_AP/job/Intern-Digitalization/141736-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410677833",
+    "name": "Account Manager Personal Care (m/f/d)",
+    "location": "Monheim am Rhein",
+    "country": "Germany",
+    "job_type": "Permanent",
+    "job_field": "BTC Europe GmbH",
+    "flexible_work": "Remote",
+    "description": "WELCOME TO BASF As a European distribution organization of the BASF Group, BTC Europe sells highly-r",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Monheim-am-Rhein-Account-Manager-Personal-Care-(mfd)/141770-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410712133",
+    "name": "Praktikum & Abschlussarbeit Verfahrens- und Umwelttechnik/Chemieingenieurwesen (m/w/d) Stellendetails",
+    "location": "Schwarzheide",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "BASF Battery Materials and Recycling Schwarzheide GmbH",
+    "flexible_work": "Hybrid",
+    "description": "Praktikum & Abschlussarbeit Verfahrens- und Umwelttechnik/Chemieingenieurwesen (m/w/d) Stellendetail",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Schwarzheide-Praktikum-&-Abschlussarbeit-Verfahrens-und-UmwelttechnikChemieingenieurwesen-(mwd)/141612-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410877533",
+    "name": "Lab Specialist - Molecular Technologies",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "NC, USA,  | NC, USA,  | Research Triangle Park, NC, USA, 27709-3528",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Lab Specialist - Molecular Technologies We are looking for a Lab Specialist - Molecular ",
+    "url": "https://basf.jobs/dark_green_agri/job/Lab-Specialist-Molecular-Technologies/141760-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410912833",
+    "name": "Assistant Administration des Ventes (h/f) Détails du poste",
+    "location": "Compans",
+    "country": "France",
+    "job_type": null,
+    "job_field": "Fonctions de Support",
+    "flexible_work": null,
+    "description": "Assistant Administration des Ventes (h/f) Détails du poste | BASF SE Passer au contenu principal Tro",
+    "url": "https://basf.jobs/TSA/job/Assistant-Administration-des-Ventes-%28hf%29/141874-fr_FR/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410913733",
+    "name": "Quality Management Lead",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Hillsboro, OR, USA, 97124",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Quality Management Lead Hillsboro, OR (Onsite) Come create chemistry with us! The purpos",
+    "url": "https://basf.jobs/dark_blue_NA/job/Quality-Management-Lead/141806-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410932433",
+    "name": "Project Lead Strategy Consulting (m/w/d) Stellendetails",
+    "location": "Monheim am Rhein",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "BASF Personal Care and Nutrition GmbH",
+    "flexible_work": "Hybrid",
+    "description": "Project Lead Strategy Consulting (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Spr",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/D%C3%BCsseldorf-Project-Lead-Strategy-Consulting-(mwd)/133997-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410980933",
+    "name": "Senior Project Lead Strategy Consulting (m/w/d) Stellendetails",
+    "location": "Monheim am Rhein",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "BASF Personal Care and Nutrition GmbH",
+    "flexible_work": "Hybrid",
+    "description": "Senior Project Lead Strategy Consulting (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen fin",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/D%C3%BCsseldorf-Senior-Project-Lead-Strategy-Consulting-(mwd)/134000-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1410998433",
+    "name": "Customer Site Service Rep II (CSSR II)",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "GA, USA,  | MI, USA,",
+    "flexible_work": "On-site",
+    "description": "Job Title: Customer Site Service Rep II ( Magna, Decostar Industries) Customer Site Service Represen",
+    "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Rep-II-%28CSSR-II%29/141895-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1411099233",
+    "name": "Global Customs Operations (Executive)",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Permanent",
+    "job_field": "MYS",
+    "flexible_work": "Hybrid",
+    "description": "Objectives of the Position Global Customs Operations (Executive) is responsible for customs related ",
+    "url": "https://basf.jobs/dark_blue_AP/job/Global-Customs-Operations-%28Executive%29/141701-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1411100433",
+    "name": "Global Customs Performance Management (Senior Executive)",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Permanent",
+    "job_field": "MYS",
+    "flexible_work": "Hybrid",
+    "description": "O bjectives of the Position The Global Customs Performance Management (Senior Executive) monitors op",
+    "url": "https://basf.jobs/dark_blue_AP/job/Global-Customs-Performance-Management-%28Senior-Executive%29/141703-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1411101733",
+    "name": "Global Customs Operations & Performance Management (Manager)",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Permanent",
+    "job_field": "MYS",
+    "flexible_work": "Hybrid",
+    "description": "O bjectives of the Position Lead and oversee the team in delivering customs services, including cust",
+    "url": "https://basf.jobs/dark_blue_AP/job/Global-Customs-Operations-&-Performance-Management-%28Manager%29/141700-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1411106833",
+    "name": "Technische:r Anlagenfahrer:in (m/w/d) Stellendetails",
+    "location": "Rudolstadt",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "BASF Performance Polymers GmbH",
+    "flexible_work": "On-site",
+    "description": "Technische:r Anlagenfahrer:in (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprach",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Rudolstadt-Technischer-Anlagenfahrerin-(mwd)/141878-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
+  },
+  {
     "job_id": "987746301",
     "name": "Produktionsmitarbeiter:in mit berufsbegleitender Qualifizierung zum \"Chemikant:in\"(m/w/d) Stellendetails",
     "location": "Ludwigshafen",
@@ -7395,6 +7863,19 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Ludwigshafen-am-Rhein-Internship-Thesis-Automation-and-Information-Technology-%28mfd%29/997501101/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
+  },
+  {
+    "job_id": "999334001",
+    "name": "Rechtsreferendar:in (m/w/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Recht, Steuern & Versicherung",
+    "flexible_work": "Hybrid",
+    "description": "Rechtsreferendar:in (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache Ceština ",
+    "url": "https://basf.jobs/TSA/job/Rechtsreferendarin-%28mwd%29/88338-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-03"
   },
   {
     "job_id": "999859901",
