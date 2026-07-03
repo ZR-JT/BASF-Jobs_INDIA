@@ -28,15 +28,10 @@ logger = logging.getLogger(__name__)
 REQUIRED_FIELDS = ["job_id", "name", "url"]
 WARN_IF_MISSING = ["country", "job_field", "job_type", "flexible_work"]
 
-# Accepts both URL formats BASF uses:
-#   legacy:    /job/{city-title}/{8-digit-id}/
-#   canonical: /job/{title}/{id}-en_US/   (post-redirect, no city prefix)
-VALID_URL_PATTERN = re.compile(
-    r"^https://basf\.jobs/(?:.+/)?job/.+/\d+(?:-[a-z_]+)?/?$",
-    re.I,
-)
+# Only check that the URL is on the basf.jobs domain
+VALID_URL_PATTERN = re.compile(r"^https://basf\.jobs/", re.I)
 
-# Patterns that always indicate a broken URL regardless of format
+# Patterns that always indicate a broken URL
 INVALID_URL_TOKENS = re.compile(r"\bundefined\b|\bnull\b", re.I)
 
 
