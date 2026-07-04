@@ -39,32 +39,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1390571733",
-    "name": "Millwright",
-    "location": "Regina",
-    "country": "Canada",
-    "job_type": "Permanent",
-    "job_field": "Production, Maintenance & Technical Services",
-    "flexible_work": "On-site",
-    "description": "Job Description: Now hiring! Millwright Regina, SK (On-site) Annual bonus / Overtime pay eligible We",
-    "url": "https://basf.jobs/light_green_NA/job/Regina-Millwright-SK-S4W-0E6/1390571733/",
-    "posted_at": "2026-06-19",
-    "scraped_at": "2026-06-20"
-  },
-  {
-    "job_id": "1395240933",
-    "name": "Production Engineer",
-    "location": "Regina",
-    "country": "Canada",
-    "job_type": "Permanent",
-    "job_field": "Engineering",
-    "flexible_work": "On-site",
-    "description": "Job Description: Now hiring! Production Engineer Regina, SK (Onsite) We are looking for a Production",
-    "url": "https://basf.jobs/light_green_NA/job/Regina-Production-Engineer-SK-S4W-0E6/1395240933/",
-    "posted_at": "2026-06-19",
-    "scraped_at": "2026-06-20"
-  },
-  {
     "job_id": "1403985633",
     "name": "Business Development Manager - Atlantic Canada",
     "location": "unknown",
@@ -76,18 +50,5 @@
     "url": "https://basf.jobs/TSA/job/Business-Development-Manager-Atlantic-Canada/138288-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-03"
-  },
-  {
-    "job_id": "1407184933",
-    "name": "Data & Analytics Specialist",
-    "location": "unknown",
-    "country": "Canada",
-    "job_type": "Permanent",
-    "job_field": "Data & Analytics Specialist",
-    "flexible_work": "Hybrid",
-    "description": "Now hiring! Data & Analytics Specialist Calgary, AB (Hybrid) We are looking for a Data & Analytics S",
-    "url": "https://basf.jobs/light_green_NA/job/Calgary-Data-&-Analytics-Specialist-AB-T2C-5P9/1407184933/",
-    "posted_at": null,
-    "scraped_at": "2026-06-23"
   }
 ]

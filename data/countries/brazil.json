@@ -1,5 +1,18 @@
 [
   {
+    "job_id": "1392910333",
+    "name": "Representate de Licenciamento Biotecnologia (AGRO) - Rondonópolis/MT",
+    "location": "Sao Paulo",
+    "country": "Brazil",
+    "job_type": "Permanent",
+    "job_field": "BASF S.A.",
+    "flexible_work": "Remote",
+    "description": "Representante de Licenciamento de Biotecnologia Sênior – Rondonópolis/MT Negócio “Juntos pelo seu le",
+    "url": "https://basf.jobs/dark_green_agri/job/Representate-de-Licenciamento-Biotecnologia-%28AGRO%29-Rondon%C3%B3polisMT/135065-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-04"
+  },
+  {
     "job_id": "1392917633",
     "name": "Técnico(a) de Desenvolvimento de Mercado de Mercado Senior - Biotecnologia - Rondonópolis/MT Detalhes da vaga",
     "location": "Sao Paulo",
@@ -50,5 +63,18 @@
     "url": "https://basf.jobs/dark_blue_SA/job/Gerente-de-Distribui%C3%A7%C3%A3o-e-Canais-Am%C3%A9rica-do-Sul-S%C3%A3o-PauloSP/139508-pt_BR/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1411400333",
+    "name": "Representate de Licenciamento Biotecnologia Senior (AGRO) - Rondonópolis/MT Detalhes da vaga",
+    "location": "Sao Paulo",
+    "country": "Brazil",
+    "job_type": null,
+    "job_field": "BASF S.A.",
+    "flexible_work": null,
+    "description": "Representate de Licenciamento Biotecnologia Senior (AGRO) - Rondonópolis/MT Detalhes da vaga | BASF ",
+    "url": "https://basf.jobs/dark_green_agri/job/Representate-de-Licenciamento-Biotecnologia-Senior-%28AGRO%29-Rondon%C3%B3polisMT/135065-pt_BR/",
+    "posted_at": null,
+    "scraped_at": "2026-07-04"
   }
 ]

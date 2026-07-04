@@ -13,8 +13,8 @@
     "posted_at": "Date the job was first posted (YYYY-MM-DD) — null if not available",
     "scraped_at": "Date this record was last fetched (YYYY-MM-DD)"
   },
-  "_generated_at": "2026-07-03",
-  "_total_jobs": 71,
+  "_generated_at": "2026-07-04",
+  "_total_jobs": 70,
   "jobs": [
     {
       "job_id": "1403289633",
@@ -459,19 +459,6 @@
       "scraped_at": "2026-06-22"
     },
     {
-      "job_id": "1400358833",
-      "name": "CSO Lead",
-      "location": "Pune",
-      "country": "India",
-      "job_type": "Permanent",
-      "job_field": "Pune, IND  | Pune, IND  | Pune, IND",
-      "flexible_work": "On-site",
-      "description": "Objectives of the Position • Responsible to drive the O2C process effectively for ECO business. As a",
-      "url": "https://basf.jobs/dark_blue_AP/job/CSO-Lead/139348-en_US/",
-      "posted_at": null,
-      "scraped_at": "2026-06-22"
-    },
-    {
       "job_id": "1400651433",
       "name": "Assistant Manager - Pigment and Paste",
       "location": "Mangalore",
@@ -574,19 +561,6 @@
       "url": "https://basf.jobs/job/Mumbai-Key-Account-Manager-Sales-CIC/1406924233/",
       "posted_at": null,
       "scraped_at": "2026-06-23"
-    },
-    {
-      "job_id": "1407539533",
-      "name": "GB/G Accounts Receivable Team Co-Ordinator",
-      "location": "Hyderabad",
-      "country": "India",
-      "job_type": "Permanent",
-      "job_field": "Finance, Controlling & Audit",
-      "flexible_work": "On-site",
-      "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-      "url": "https://basf.jobs/job/Hyderabad-GBG-Accounts-Receivable-Team-Co-Ordinator/1407539533/",
-      "posted_at": null,
-      "scraped_at": "2026-06-24"
     },
     {
       "job_id": "1407698733",
@@ -938,6 +912,19 @@
       "url": "https://basf.jobs/dark_green_agri/job/Head-Legal-&-Company-Secretary-BASF-Agricultural-Solutions-India-Ltd_/141881-en_US/",
       "posted_at": null,
       "scraped_at": "2026-07-03"
+    },
+    {
+      "job_id": "1411414233",
+      "name": "Technology Manager Petrochemical Purification",
+      "location": "unknown",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Godrej One - Mumbai, IND",
+      "flexible_work": "On-site",
+      "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+      "url": "https://basf.jobs/dark_blue_AP/job/Technology-Manager-Petrochemical-Purification/141782-en_US/",
+      "posted_at": null,
+      "scraped_at": "2026-07-04"
     }
   ]
 }
