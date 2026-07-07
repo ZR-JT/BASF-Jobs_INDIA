@@ -208,19 +208,6 @@
     "scraped_at": "2026-07-01"
   },
   {
-    "job_id": "1394723433",
-    "name": "Senior Chemical Process Technician - Pilot Plant",
-    "location": "unknown",
-    "country": "United States",
-    "job_type": "Permanent",
-    "job_field": "Beachwood, OH, USA, 44122",
-    "flexible_work": "On-site",
-    "description": "Now hiring! Senior Chemical Process Technician - Pilot Plant Beachwood, OH Day Shift We are looking ",
-    "url": "https://basf.jobs/light_green_NA/job/Senior-Chemical-Process-Technician-Pilot-Plant/1394723433/",
-    "posted_at": null,
-    "scraped_at": "2026-06-23"
-  },
-  {
     "job_id": "1397470933",
     "name": "E-coat Process Engineer I",
     "location": "unknown",
@@ -232,6 +219,19 @@
     "url": "https://basf.jobs/TSA/job/E-coat-Process-Engineer-I/138425-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1398850433",
+    "name": "Account Manager",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Houston, TX, USA, 77079",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Account Manager Houston, TX (Remote) Company vehicle offered We are looking for an Accou",
+    "url": "https://basf.jobs/dark_blue_NA/job/Account-Manager/138820-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
   },
   {
     "job_id": "1401263733",
@@ -377,19 +377,6 @@
     "scraped_at": "2026-07-01"
   },
   {
-    "job_id": "1408094133",
-    "name": "Area Production Manager - Vegetable Seeds (Parma, ID)",
-    "location": "unknown",
-    "country": "United States",
-    "job_type": "Permanent",
-    "job_field": "ID, USA,  | Parma, ID, USA, 83660",
-    "flexible_work": "Hybrid",
-    "description": "Now hiring! Area Production Manager - Vegetable Seeds (Parma, ID) Parma, ID (hybrid) Relocation assi",
-    "url": "https://basf.jobs/dark_green_agri/job/Area-Production-Manager-Vegetable-Seeds-%28Parma%2C-ID%29/141584-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-01"
-  },
-  {
     "job_id": "1409028433",
     "name": "Global Supply Planner",
     "location": "unknown",
@@ -507,6 +494,19 @@
     "scraped_at": "2026-07-03"
   },
   {
+    "job_id": "1410959933",
+    "name": "Utility Technician",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Central, SC, USA, 29630",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Utility Technician Central, SC Night Shift differential We are looking for a Utility Tec",
+    "url": "https://basf.jobs/dark_blue_NA/job/Utility-Technician/141764-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
+  },
+  {
     "job_id": "1410998433",
     "name": "Customer Site Service Rep II (CSSR II)",
     "location": "unknown",
@@ -518,5 +518,44 @@
     "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Rep-II-%28CSSR-II%29/141895-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1411956633",
+    "name": "Sales Account Manager - Aftermarket and Distribution",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Houston, TX, USA, 77079",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Sales Account Manager - Aftermarket and Distribution Remote Pay Range: $113,600 - $153,0",
+    "url": "https://basf.jobs/dark_blue_NA/job/Sales-Account-Manager-Aftermarket-and-Distribution/141861-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
+  },
+  {
+    "job_id": "1412008133",
+    "name": "Sr. Analyzer Engineer",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Freeport, TX, USA, 77541",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Sr. Analyzer Engineer Freeport, TX We are looking for a Sr. Analyzer Engineer to join ou",
+    "url": "https://basf.jobs/dark_blue_NA/job/Sr_-Analyzer-Engineer/141902-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
+  },
+  {
+    "job_id": "1412038233",
+    "name": "Global Key Account Manager - Automotive OEM (ECT-Chemetall) 1",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "New Providence, NJ, USA, 07974",
+    "flexible_work": "Remote",
+    "description": "Now Hiring! Global Key Account Manager - Automotive OEM (ECT-Chemetall) 1 Come create chemistry with",
+    "url": "https://basf.jobs/TSA/job/Global-Key-Account-Manager-Automotive-OEM-%28ECT-Chemetall%29-1/142009-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
   }
 ]

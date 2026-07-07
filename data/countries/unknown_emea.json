@@ -494,19 +494,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1277299101",
-    "name": "Anlagenfahrer:in Abwasserreinigung (m/w/d) Stellendetails",
-    "location": "Grenzach",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Anlagenfahrer:in Abwasserreinigung (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden S",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Grenzach-Wyhlen-Anlagenfahrerin-Abwasserreinigung-%28mwd%29/1277299101/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1277529901",
     "name": "Produktionsmitarbeiter:in im 4-Schicht-Betrieb (m/w/d) Stellendetails",
     "location": "Freiburg",
@@ -620,19 +607,6 @@
     "flexible_work": null,
     "description": "Account Manager Glysantin DACH (m/f/d) Job Details | BASF SE Skip to main content Find jobs Language",
     "url": "https://basf.jobs/dark_blue_EMEA/job/Monheim-am-Rhein-Account-Manager-Glysantin-DACH-%28mfd%29/1289868001/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
-    "job_id": "1289878701",
-    "name": "Kreditorenbuchhalter:in (m/w/d) - Hybrid Option DE Stellendetails",
-    "location": "Berlin",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Kreditorenbuchhalter:in (m/w/d) - Hybrid Option DE Stellendetails | BASF SE Zum Hauptinhalt Stellen ",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Berlin-Kreditorenbuchhalterin-%28mwd%29-Hybrid-Option-DE/1289878701/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
   },
@@ -893,19 +867,6 @@
     "flexible_work": null,
     "description": "Senior PKI Engineer (m/f/d) Job Details | BASF SE Skip to main content Find jobs Language Ceština (C",
     "url": "https://basf.jobs/dark_blue_EMEA/job/Madrid-Senior-PKI-Engineer-%28mfd%29/1374052533/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
-    "job_id": "1374179333",
-    "name": "Responsable de Territoire Nord (h/f) Détails du poste",
-    "location": "À",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Responsable de Territoire Nord (h/f) Détails du poste | BASF SE Passer au contenu principal Trouver ",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/%C3%80-distance-Responsable-de-Territoire-Nord-%28hf%29/1374179333/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
   },
@@ -1218,19 +1179,6 @@
     "flexible_work": null,
     "description": "CDD 6 mois - Technicien de Laboratoire (h/f) Détails du poste | BASF SE Passer au contenu principal ",
     "url": "https://basf.jobs/dark_blue_EMEA/job/Merville-CDD-6-mois-Technicien-de-Laboratoire-%28hf%29/1390027533/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
-    "job_id": "1391736033",
-    "name": "Transport Officer (m/w/d) Stellendetails",
-    "location": "Freiburg",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Transport Officer (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache Ceština (C",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Freiburg-im-Breisgau-Transport-Officer-%28mwd%29/1391736033/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
   },
@@ -1703,19 +1651,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1403842633",
-    "name": "BASF ICT Kişisel Bakım Lab. Uzun Dönem Stajyer",
-    "location": "Pendik",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "BASF ICT Kişisel Bakım Lab. Uzun Dönem Stajyer Job Details | BASF SE Skip to main content Find jobs ",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Pendik-BASF-ICT-Ki%C5%9Fisel-Bak%C4%B1m-Lab_-Uzun-D%C3%B6nem-Stajyer/1403842633/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1404280433",
     "name": "Werkstudent:in Technik und Digitalisierung (m/w/d) Stellendetails",
     "location": "Ludwigshafen",
@@ -1844,6 +1779,32 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Istanbul-BASF-T%C3%BCrk-Kimya-Ki%C5%9Fisel-Bak%C4%B1m-Dpt_-(Pazarlama)-Uzun-D%C3%B6nem-Stajyer/141914-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1411721233",
+    "name": "BASF ICT Home Care, Industrial & Institutional Cleaning Lab. Long-Term Intern",
+    "location": "unknown",
+    "country": "unknown (EMEA)",
+    "job_type": "Internship",
+    "job_field": "TUR",
+    "flexible_work": "On-site",
+    "description": "Support laboratory activities related to new product and formulation development. Conduct stability ",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Pendik-BASF-ICT-Home-Care,-Industrial-&-Institutional-Cleaning-Lab_-Long-Term-Intern/141969-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
+  },
+  {
+    "job_id": "1411773033",
+    "name": "Technical Commercial Manager",
+    "location": "Abu Dhabi",
+    "country": "unknown (EMEA)",
+    "job_type": "Permanent",
+    "job_field": "Marketing & Sales",
+    "flexible_work": "On-site",
+    "description": "WHAT YOU CAN EXPECT The Technical Commercial Manager is responsible for supporting customers across ",
+    "url": "https://basf.jobs/TSA/job/Technical-Commercial-Manager/141750-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
   },
   {
     "job_id": "987746301",

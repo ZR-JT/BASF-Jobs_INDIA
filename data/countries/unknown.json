@@ -208,19 +208,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1222184501",
-    "name": "Ausbildung Chemikant:in (m/w/d) Stellendetails",
-    "location": "Schwarzheide",
-    "country": "unknown",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Ausbildung Chemikant:in (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache Cešt",
-    "url": "https://basf.jobs/job/Schwarzheide-Ausbildung-Chemikantin-%28mwd%29-01986/1222184501/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1222595201",
     "name": "Ausbildung Elektroniker:in für Automatisierungstechnik (m/w/d) Stellendetails",
     "location": "Düsseldorf",
@@ -856,5 +843,31 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Qualit%C3%A4tsmanager-ReklamationsbearbeitungCustomer-Quality-Representative-Langelsheim-%28mwd%29/141675-de_DE/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1411774333",
+    "name": "Commercial Account Manager",
+    "location": "Abu Dhabi",
+    "country": "unknown",
+    "job_type": "Permanent",
+    "job_field": "Marketing & Sales",
+    "flexible_work": "On-site",
+    "description": "WHAT YOU CAN EXPECT The Commercial Account Manager is responsible for driving profitable growth acro",
+    "url": "https://basf.jobs/TSA/job/Commercial-Account-Manager/141970-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
+  },
+  {
+    "job_id": "1412041933",
+    "name": "Staff Supply Planner,AP,Tokyo 求人詳細",
+    "location": "unknown",
+    "country": "unknown",
+    "job_type": null,
+    "job_field": "Staff Supply Planner,AP,Tokyo",
+    "flexible_work": null,
+    "description": "Staff Supply Planner,AP,Tokyo 求人詳細 | BASF SE 目次にスキップ 求人を検索 言語 Ceština (Ceská republika) Dansk (Danma",
+    "url": "https://basf.jobs/dark_green_agri/job/Staff-Supply-Planner%2CAP%2CTokyo/142013-ja_JP/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
   }
 ]

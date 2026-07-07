@@ -260,19 +260,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1402973033",
-    "name": "Time Management Analyst Brazil (fixed-term project-based)",
-    "location": "Montevideo",
-    "country": "unknown (South America)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Time Management Analyst Brazil (fixed-term project-based) Job Details | BASF SE Skip to main content",
-    "url": "https://basf.jobs/red_SA/job/Montevideo-Time-Management-Analyst-Brazil-%28fixed-term-project-based%29/1402973033/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1404628533",
     "name": "Gerente Desarrollo Técnico Mercado Pampa Húmeda Centro Detalles del puesto",
     "location": "Cordoba",
@@ -390,16 +377,42 @@
     "scraped_at": "2026-07-01"
   },
   {
-    "job_id": "1410578133",
-    "name": "Product Costing Analyst (fixed-term project based)",
+    "job_id": "1411975233",
+    "name": "Programa de Pasantías BASF Services Americas",
     "location": "unknown",
     "country": "unknown (South America)",
-    "job_type": "Temporary",
+    "job_type": "Internship",
     "job_field": "URY",
     "flexible_work": "Hybrid",
-    "description": "Este puesto se ofrece bajo un contrato a plazo fijo, basado en proyecto, con una duración mínima gar",
-    "url": "https://basf.jobs/dark_blue_SA/job/Product-Costing-Analyst-%28fixed-term-project-based%29/141687-en_US/",
+    "description": "Sumate al Programa de Pasantías BASF Abrimos un nuevo período de Pasantías con foco en la formación ",
+    "url": "https://basf.jobs/dark_blue_SA/job/Programa-de-Pasant%C3%ADas-BASF-Services-Americas/142000-en_US/",
     "posted_at": null,
-    "scraped_at": "2026-07-02"
+    "scraped_at": "2026-07-07"
+  },
+  {
+    "job_id": "1411994633",
+    "name": "Representante de Desarrollo Comercial (AGRO) - Los Ríos/Los Lagos",
+    "location": "Santiago de Chile",
+    "country": "unknown (South America)",
+    "job_type": "Permanent",
+    "job_field": "BASF Agricultural Solutions Chile SpA",
+    "flexible_work": "On-site",
+    "description": "Negocio La innovación aplicada al desarrollo de Soluciones para la Agricultura es parte de nuestro A",
+    "url": "https://basf.jobs/dark_green_agri/job/Representante-de-Desarrollo-Comercial-%28AGRO%29-Los-R%C3%ADosLos-Lagos/141725-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
+  },
+  {
+    "job_id": "1411994733",
+    "name": "Representante de Desarrollo Comercial (AGRO) - Los Ríos/Los Lagos Detalles del puesto",
+    "location": "Santiago de Chile",
+    "country": "unknown (South America)",
+    "job_type": null,
+    "job_field": "BASF Agricultural Solutions Chile SpA",
+    "flexible_work": null,
+    "description": "Representante de Desarrollo Comercial (AGRO) - Los Ríos/Los Lagos Detalles del puesto | BASF SE Salt",
+    "url": "https://basf.jobs/dark_green_agri/job/Representante-de-Desarrollo-Comercial-%28AGRO%29-Los-R%C3%ADosLos-Lagos/141725-es_MX/",
+    "posted_at": null,
+    "scraped_at": "2026-07-07"
   }
 ]
