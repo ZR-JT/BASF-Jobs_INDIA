@@ -78,6 +78,19 @@
     "scraped_at": "2026-07-03"
   },
   {
+    "job_id": "1374873733",
+    "name": "Manufacturing Operator",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Sparks, GA, USA, 31647",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Manufacturing Operator Sparks, Georgia Starting pay at $18. You will work 14 out of 28 d",
+    "url": "https://basf.jobs/dark_green_agri/job/Manufacturing-Operator/134741-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-09"
+  },
+  {
     "job_id": "1381423533",
     "name": "Sr. Turf & Ornamentals Sales Rep - Texas (South Texas - Houston, College Station, San Antonio areas)",
     "location": "unknown",
@@ -180,6 +193,19 @@
     "url": "https://basf.jobs/dark_blue_NA/job/Maintenance-Specialist/138311-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
+  },
+  {
+    "job_id": "1396204833",
+    "name": "Chemical Plant Operator",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Wyandotte, MI, USA, 48192",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Chemical Plant Operator Wyandotte, MI We are looking for a Chemical Plant Operator  to j",
+    "url": "https://basf.jobs/dark_blue_NA/job/Chemical-Plant-Operator/138811-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-09"
   },
   {
     "job_id": "1397470933",
@@ -321,19 +347,6 @@
     "flexible_work": "Hybrid",
     "description": "Now hiring! Group Lead, US Tax - Ag Solutions We are looking for a Group Lead US Tax to join our Agr",
     "url": "https://basf.jobs/dark_green_agri/job/Group-Lead%2C-US-Tax-Ag-Solutions/141588-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-01"
-  },
-  {
-    "job_id": "1408069633",
-    "name": "TPU Operator",
-    "location": "unknown",
-    "country": "United States",
-    "job_type": "Permanent",
-    "job_field": "Wyandotte, MI, USA, 48192",
-    "flexible_work": "On-site",
-    "description": "Now hiring! TPU Operator Wyandotte, MI We are looking for an Operator to join our PM team in Wyandot",
-    "url": "https://basf.jobs/dark_blue_NA/job/TPU-Operator/141640-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
   },
@@ -557,5 +570,18 @@
     "url": "https://basf.jobs/dark_green_agri/job/Processing-Operator-III/141901-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-08"
+  },
+  {
+    "job_id": "1412862533",
+    "name": "Pack/Ship Operator",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Vidalia, LA, USA, 71373",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Pack/Ship Operator Vidalia, LA. (Onsite) We are looking for a Pack/Ship Operator to join",
+    "url": "https://basf.jobs/dark_blue_NA/job/PackShip-Operator/142058-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-09"
   }
 ]

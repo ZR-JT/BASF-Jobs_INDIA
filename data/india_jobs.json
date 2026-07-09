@@ -13,8 +13,8 @@
     "posted_at": "Date the job was first posted (YYYY-MM-DD) — null if not available",
     "scraped_at": "Date this record was last fetched (YYYY-MM-DD)"
   },
-  "_generated_at": "2026-07-08",
-  "_total_jobs": 163,
+  "_generated_at": "2026-07-09",
+  "_total_jobs": 162,
   "jobs": [
     {
       "job_id": "1403289633",
@@ -1148,6 +1148,19 @@
       "scraped_at": "2026-07-07"
     },
     {
+      "job_id": "1396794833",
+      "name": "Controlling Specialist (m/f/d)",
+      "location": "Hyderabad",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Digitalization",
+      "flexible_work": "Hybrid",
+      "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+      "url": "https://basf.jobs/dark_blue_AP/job/Controlling-Specialist-%28mfd%29/138900-en_US/",
+      "posted_at": null,
+      "scraped_at": "2026-07-09"
+    },
+    {
       "job_id": "1396795133",
       "name": "SAP Developer - Personnel Administration & Organizational Management (SAP HCM) (m/f/d)",
       "location": "Hyderabad",
@@ -1913,32 +1926,6 @@
       "url": "https://basf.jobs/job/Mumbai-Key-Account-Manager-Sales-CIC/1406924233/",
       "posted_at": null,
       "scraped_at": "2026-06-23"
-    },
-    {
-      "job_id": "1407698733",
-      "name": "Payroll Manager",
-      "location": "Hyderabad",
-      "country": "India",
-      "job_type": "Permanent",
-      "job_field": "Human Resources",
-      "flexible_work": "On-site",
-      "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-      "url": "https://basf.jobs/job/Hyderabad-Payroll-Manager/1407698733/",
-      "posted_at": null,
-      "scraped_at": "2026-06-24"
-    },
-    {
-      "job_id": "1407701933",
-      "name": "GB/G Payroll Tax Senior Associate Specialist",
-      "location": "Hyderabad",
-      "country": "India",
-      "job_type": "Permanent",
-      "job_field": "Human Resources",
-      "flexible_work": "On-site",
-      "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-      "url": "https://basf.jobs/job/Hyderabad-GBG-Payroll-Tax-Senior-Associate-Specialist/1407701933/",
-      "posted_at": null,
-      "scraped_at": "2026-06-24"
     },
     {
       "job_id": "1408235833",

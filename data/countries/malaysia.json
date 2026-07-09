@@ -143,6 +143,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1401172633",
+    "name": "Payroll & People Data Analyst - Mandarin Speaker (Leasing, 12 month contract)",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Temporary",
+    "job_field": "MYS  | MYS  | MYS",
+    "flexible_work": "Hybrid",
+    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+    "url": "https://basf.jobs/dark_blue_AP/job/Payroll-&-People-Data-Analyst-Mandarin-Speaker-%28Leasing%2C-12-month-contract%29/138986-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-09"
+  },
+  {
     "job_id": "1406891233",
     "name": "Global Supply Chain Excellence - APAC & NA (Manager - Expert)",
     "location": "unknown",
@@ -364,19 +377,6 @@
     "scraped_at": "2026-07-02"
   },
   {
-    "job_id": "1410670933",
-    "name": "Intern - Digitalization",
-    "location": "unknown",
-    "country": "Malaysia",
-    "job_type": "Internship",
-    "job_field": "MYS",
-    "flexible_work": "Hybrid",
-    "description": "BASF Shared Services Center Kuala Lumpur was established in 2005 to provide functional services in F",
-    "url": "https://basf.jobs/dark_blue_AP/job/Intern-Digitalization/141736-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-03"
-  },
-  {
     "job_id": "1411099233",
     "name": "Global Customs Operations (Executive)",
     "location": "unknown",
@@ -466,5 +466,31 @@
     "url": "https://basf.jobs/dark_blue_AP/job/Talent-Acquisition-Specialist-%281-Year-Contract%29/141726-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-07"
+  },
+  {
+    "job_id": "1412680933",
+    "name": "ustoms Asia Pacific (Manager)",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Permanent",
+    "job_field": "MYS",
+    "flexible_work": "Hybrid",
+    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+    "url": "https://basf.jobs/dark_blue_AP/job/ustoms-Asia-Pacific-%28Manager%29/141919-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-09"
+  },
+  {
+    "job_id": "1413069733",
+    "name": "Talent Acquisition Analyst - Internship",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Temporary",
+    "job_field": "MYS  | MYS  | MYS",
+    "flexible_work": "Hybrid",
+    "description": "Job Purpose Support the Talent Acquisition (TA) team in day-to-day hiring operations by assisting re",
+    "url": "https://basf.jobs/dark_blue_AP/job/Talent-Acquisition-Analyst-Internship/141737-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-09"
   }
 ]

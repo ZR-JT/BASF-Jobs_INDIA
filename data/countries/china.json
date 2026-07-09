@@ -130,19 +130,6 @@
     "scraped_at": "2026-07-07"
   },
   {
-    "job_id": "1407714933",
-    "name": "Global Strategic Marketing Manager",
-    "location": "Shanghai",
-    "country": "China",
-    "job_type": "Permanent",
-    "job_field": "Marketing & Sales",
-    "flexible_work": "On-site",
-    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Global-Strategic-Marketing-Manager/1407714933/",
-    "posted_at": null,
-    "scraped_at": "2026-06-24"
-  },
-  {
     "job_id": "1407908533",
     "name": "Paste  Engineer",
     "location": "Shanghai",
@@ -208,19 +195,6 @@
     "scraped_at": "2026-07-01"
   },
   {
-    "job_id": "1410077433",
-    "name": "Lab intern",
-    "location": "Shanghai",
-    "country": "China",
-    "job_type": "Internship",
-    "job_field": "Research & Development",
-    "flexible_work": "On-site",
-    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-    "url": "https://basf.jobs/dark_blue_AP/job/Lab-intern/141778-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-01"
-  },
-  {
     "job_id": "1411623433",
     "name": "Assistant Manager, Technical Development (Shanghai)",
     "location": "Shanghai",
@@ -258,5 +232,44 @@
     "url": "https://basf.jobs/dark_blue_AP/job/Senior-Engineer%2C-EP-Material-Testing-%28ID-&-Failure-Analysis%29/141732-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-08"
+  },
+  {
+    "job_id": "1412666633",
+    "name": "Chemist/Senior Chemist, Lab",
+    "location": "Shanghai",
+    "country": "China",
+    "job_type": "Permanent",
+    "job_field": "Research & Development",
+    "flexible_work": "On-site",
+    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+    "url": "https://basf.jobs/dark_blue_AP/job/ChemistSenior-Chemist%2C-Lab/141915-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-09"
+  },
+  {
+    "job_id": "1413073933",
+    "name": "Post-doc, R&D",
+    "location": "Shanghai",
+    "country": "China",
+    "job_type": null,
+    "job_field": "Research & Development",
+    "flexible_work": "On-site",
+    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+    "url": "https://basf.jobs/dark_blue_AP/job/Post-doc%2C-R&D/141759-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-09"
+  },
+  {
+    "job_id": "1413074633",
+    "name": "Assistant Manager, Technical Sales",
+    "location": "Shanghai",
+    "country": "China",
+    "job_type": "Permanent",
+    "job_field": "Marketing & Sales",
+    "flexible_work": "On-site",
+    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
+    "url": "https://basf.jobs/dark_blue_AP/job/Assistant-Manager%2C-Technical-Sales/141756-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-09"
   }
 ]
