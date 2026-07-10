@@ -13,8 +13,8 @@
     "posted_at": "Date the job was first posted (YYYY-MM-DD) — null if not available",
     "scraped_at": "Date this record was last fetched (YYYY-MM-DD)"
   },
-  "_generated_at": "2026-07-09",
-  "_total_jobs": 162,
+  "_generated_at": "2026-07-10",
+  "_total_jobs": 167,
   "jobs": [
     {
       "job_id": "1403289633",
@@ -2121,6 +2121,71 @@
       "url": "https://basf.jobs/dark_blue_AP/job/SAP-Developer-%28mfd%29/138970-en_US/",
       "posted_at": null,
       "scraped_at": "2026-07-08"
+    },
+    {
+      "job_id": "1413580133",
+      "name": "Specialist Cyber Security Culture (m/f/d)",
+      "location": "Hyderabad",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Digitalization",
+      "flexible_work": "Hybrid",
+      "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+      "url": "https://basf.jobs/dark_blue_AP/job/Specialist-Cyber-Security-Culture-%28mfd%29/142177-en_US/",
+      "posted_at": null,
+      "scraped_at": "2026-07-10"
+    },
+    {
+      "job_id": "1413585433",
+      "name": "SAP CO Consultant (m/f/d)",
+      "location": "Hyderabad",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Digitalization",
+      "flexible_work": "Hybrid",
+      "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+      "url": "https://basf.jobs/dark_blue_AP/job/SAP-CO-Consultant-%28mfd%29/142179-en_US/",
+      "posted_at": null,
+      "scraped_at": "2026-07-10"
+    },
+    {
+      "job_id": "1413588033",
+      "name": "Front End Developer (m/f/d)",
+      "location": "Hyderabad",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Digitalization",
+      "flexible_work": "Hybrid",
+      "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+      "url": "https://basf.jobs/dark_blue_AP/job/Front-End-Developer-%28mfd%29/142178-en_US/",
+      "posted_at": null,
+      "scraped_at": "2026-07-10"
+    },
+    {
+      "job_id": "1413589033",
+      "name": "Service Desk Subject Matter Expert Workspace - (m/f/d)",
+      "location": "Hyderabad",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Digitalization",
+      "flexible_work": "Hybrid",
+      "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+      "url": "https://basf.jobs/dark_blue_AP/job/Service-Desk-Subject-Matter-Expert-Workspace-%28mfd%29/142180-en_US/",
+      "posted_at": null,
+      "scraped_at": "2026-07-10"
+    },
+    {
+      "job_id": "1413600733",
+      "name": "Category Buyer, Digital Procurement - (m/f/d)",
+      "location": "Hyderabad",
+      "country": "India",
+      "job_type": "Permanent",
+      "job_field": "Digitalization",
+      "flexible_work": "Hybrid",
+      "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+      "url": "https://basf.jobs/dark_blue_AP/job/Category-Buyer%2C-Digital-Procurement-%28mfd%29/142183-en_US/",
+      "posted_at": null,
+      "scraped_at": "2026-07-10"
     }
   ]
 }

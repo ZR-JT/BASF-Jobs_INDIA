@@ -52,6 +52,19 @@
     "scraped_at": "2026-06-18"
   },
   {
+    "job_id": "1289595301",
+    "name": "2026 Instrumentation Technician Internship",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Internship",
+    "job_field": "Geismar, LA, USA, 70734-0457",
+    "flexible_work": "On-site",
+    "description": "Now hiring! 2026 Instrumentation Technician Internship We are looking for an Instrumentation Intern ",
+    "url": "https://basf.jobs/dark_blue_NA/job/2026-Instrumentation-Technician-Internship/132885-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-10"
+  },
+  {
     "job_id": "1293355901",
     "name": "Account Representative II - Georgia - Automotive Refinish",
     "location": "unknown",
@@ -115,19 +128,6 @@
     "url": "https://basf.jobs/dark_green_agri/job/Sr_-Turf-Sales-Rep-California-%28Southern-CA%29-Field/135347-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-02"
-  },
-  {
-    "job_id": "1386657333",
-    "name": "Control Systems Project Engineer",
-    "location": "unknown",
-    "country": "United States",
-    "job_type": "Permanent",
-    "job_field": "Freeport, TX, USA, 77541",
-    "flexible_work": "On-site",
-    "description": "Now hiring! Control Systems Project Engineer Freeport, TX (Onsite) We are looking for a Control Syst",
-    "url": "https://basf.jobs/dark_blue_NA/job/Control-Systems-Project-Engineer/135247-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-01"
   },
   {
     "job_id": "1386671933",
@@ -442,19 +442,6 @@
     "scraped_at": "2026-07-02"
   },
   {
-    "job_id": "1410877533",
-    "name": "Lab Specialist - Molecular Technologies",
-    "location": "unknown",
-    "country": "United States",
-    "job_type": "Permanent",
-    "job_field": "NC, USA,  | NC, USA,  | Research Triangle Park, NC, USA, 27709-3528",
-    "flexible_work": "On-site",
-    "description": "Now hiring! Lab Specialist - Molecular Technologies We are looking for a Lab Specialist - Molecular ",
-    "url": "https://basf.jobs/dark_green_agri/job/Lab-Specialist-Molecular-Technologies/141760-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-03"
-  },
-  {
     "job_id": "1410913733",
     "name": "Quality Management Lead",
     "location": "unknown",
@@ -583,5 +570,44 @@
     "url": "https://basf.jobs/dark_blue_NA/job/PackShip-Operator/142058-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-09"
+  },
+  {
+    "job_id": "1413514433",
+    "name": "Field Technical Service Representative",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Central, SC, USA, 29630",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Field Technical Service Representative Remote. Territories: Southeast United States. ( F",
+    "url": "https://basf.jobs/dark_blue_NA/job/Field-Technical-Service-Representative/142003-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-10"
+  },
+  {
+    "job_id": "1413519933",
+    "name": "Technical Service Specialist - SoCal - Automotive Refinish",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Anaheim, CA, USA,  | Buena Park, CA, USA, 90620  | Los Angeles, CA, USA,  | San Diego, CA, USA, 92121",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Technical Service Specialist - SoCal - Automotive Refinish ** Field Role: Orange County,",
+    "url": "https://basf.jobs/TSA/job/Technical-Service-Specialist-SoCal-Automotive-Refinish/142110-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-10"
+  },
+  {
+    "job_id": "1413525733",
+    "name": "Zone Operations Manager - Automotive Refinish - West",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "AZ, USA,  | CA, USA,  | NV, USA,  | OR, USA,  | Washington, NJ, USA, 07882",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Zone Operations Manager - Automotive Refinish - West West USA **Field position / company",
+    "url": "https://basf.jobs/TSA/job/Zone-Operations-Manager-Automotive-Refinish-West/142111-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-10"
   }
 ]
