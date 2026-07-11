@@ -117,6 +117,19 @@
     "scraped_at": "2026-07-01"
   },
   {
+    "job_id": "1384086933",
+    "name": "Accountant Trade Invoicing Services (m/f/d) - Hybrid Option GER",
+    "location": "Berlin",
+    "country": "Germany",
+    "job_type": "Temporary",
+    "job_field": "Finance, Controlling & Audit",
+    "flexible_work": "Hybrid",
+    "description": "WELCOME TO BASF In Global Business Services, we support BASF's divisions with a cross-functional net",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Berlin-Accountant-Trade-Invoicing-Services-(mfd)-Hybrid-Option-GER/135597-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-11"
+  },
+  {
     "job_id": "1384230333",
     "name": "SAP Consultant für SAP Order-to-Cash (m/w/d) Stellendetails",
     "location": "Münster",
@@ -206,6 +219,32 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Berlin-Officer-Accounts-Payable-Team-Intercompany-(mfd)/138590-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-03"
+  },
+  {
+    "job_id": "1399159233",
+    "name": "Praktikum Regional Container Management (m/w/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Logistik und Supply Chain",
+    "flexible_work": "On-site",
+    "description": "Praktikum Regional Container Management (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen fin",
+    "url": "https://basf.jobs/TSA/job/Praktikum-Regional-Container-Management-%28mwd%29/139046-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-11"
+  },
+  {
+    "job_id": "1400348933",
+    "name": "Ferienhelfer:in Produktion/Logistik (m/w/d) Stellendetails",
+    "location": "Lemförde",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "BASF Polyurethanes GmbH",
+    "flexible_work": "On-site",
+    "description": "Ferienhelfer:in Produktion/Logistik (m/w/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden ",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Lemf%C3%B6rde-Ferienhelferin-ProduktionLogistik-(mwd)/139334-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-11"
   },
   {
     "job_id": "1402954233",
@@ -856,6 +895,45 @@
     "url": "https://basf.jobs/dark_blue_EMEA/job/Lemf%C3%B6rde-Werkstudentin-Kommunikation-(mwd)/142094-de_DE/",
     "posted_at": null,
     "scraped_at": "2026-07-10"
+  },
+  {
+    "job_id": "1413841033",
+    "name": "Working student Frontend Engineering (m/f/d) - Remote GER",
+    "location": "Ludwigshafen am Rhein",
+    "country": "Germany",
+    "job_type": "Temporary",
+    "job_field": "Other",
+    "flexible_work": "Hybrid",
+    "description": "WELCOME TO BASF The Global Procurement division is responsible for BASF's purchasing activities worl",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Working-student-Frontend-Engineering-%28mfd%29-Remote-GER/141918-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-11"
+  },
+  {
+    "job_id": "1413853433",
+    "name": "Automation Engineer (m/f/d) Stellendetails",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "Digitalisierung",
+    "flexible_work": "Hybrid",
+    "description": "Automation Engineer (m/f/d) Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache Ceština ",
+    "url": "https://basf.jobs/TSA/job/Automation-Engineer-%28mfd%29/141616-de_DE/",
+    "posted_at": null,
+    "scraped_at": "2026-07-11"
+  },
+  {
+    "job_id": "1413853533",
+    "name": "Automation Engineer (m/f/d)",
+    "location": "Münster",
+    "country": "Germany",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "description": "WELCOME If you're someone who inspires others, owns their impact and wants to elevate what they do, ",
+    "url": "https://basf.jobs/TSA/job/Automation-Engineer-%28mfd%29/141616-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-11"
   },
   {
     "job_id": "999334001",

@@ -390,19 +390,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1234363901",
-    "name": "Dummy Stellendetails",
-    "location": "Ludwigshafen",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Dummy Stellendetails | BASF SE Zum Hauptinhalt Stellen finden Sprache Ceština (Ceská republika) Dans",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Ludwigshafen-am-Rhein-Dummy/1234363901/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1247626601",
     "name": "Notfallsanitäter:in Werkrettungsdienst für Wechselschicht oder Tagdienststelle (m/w/d) Stellendetails",
     "location": "Ludwigshafen",
@@ -923,19 +910,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1382788833",
-    "name": "Alternance - Développeur Full Stack (h/f) Détails du poste",
-    "location": "Ecully",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Alternance - Développeur Full Stack (h/f) Détails du poste | BASF SE Passer au contenu principal Tro",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Ecully-Alternance-D%C3%A9veloppeur-Full-Stack-%28hf%29/1382788833/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1382801133",
     "name": "Alternance - Agronomie et Marketing - Lancement d'une innovation herbicide (h/f) Détails du poste",
     "location": "Ecully",
@@ -1140,19 +1114,6 @@
     "flexible_work": null,
     "description": "Accountmanager Regio Zuid Functiedetails | BASF SE Verdergaan naar primaire inhoud Zoek banen Taal C",
     "url": "https://basf.jobs/dark_blue_EMEA/job/Maarssen-Accountmanager-Regio-Zuid/1393979433/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
-    "job_id": "1394625633",
-    "name": "Agile Facilitator (m/f/d)",
-    "location": "Madrid",
-    "country": "unknown (EMEA)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Agile Facilitator (m/f/d) Job Details | BASF SE Skip to main content Find jobs Language Ceština (Ces",
-    "url": "https://basf.jobs/dark_blue_EMEA/job/Madrid-Agile-Facilitator-%28mfd%29/1394625633/",
     "posted_at": null,
     "scraped_at": "2026-06-18"
   },
