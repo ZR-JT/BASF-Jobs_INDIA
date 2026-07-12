@@ -1950,19 +1950,6 @@
     "scraped_at": "2026-07-02"
   },
   {
-    "job_id": "1410541333",
-    "name": "GB/G Competence Center - FRC Analyst",
-    "location": "Hyderabad",
-    "country": "India",
-    "job_type": "Permanent",
-    "job_field": "Finance, Controlling & Audit",
-    "flexible_work": "On-site",
-    "description": "We are a leading chemical company, with the best teams developing intelligent solutions for our cust",
-    "url": "https://basf.jobs/dark_blue_AP/job/GBG-Competence-Center-FRC-Analyst/140009-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-02"
-  },
-  {
     "job_id": "1411255233",
     "name": "Head - Legal & Company Secretary",
     "location": "unknown",
@@ -2078,5 +2065,57 @@
     "url": "https://basf.jobs/dark_blue_AP/job/Category-Buyer%2C-Digital-Procurement-%28mfd%29/142183-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-10"
+  },
+  {
+    "job_id": "1414043833",
+    "name": "Software Engineer SAP Environment Management EHS - (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+    "url": "https://basf.jobs/dark_blue_AP/job/Software-Engineer-SAP-Environment-Management-EHS-%28mfd%29/142221-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-12"
+  },
+  {
+    "job_id": "1414043933",
+    "name": "Software Engineer SAP product Safety and  Stewardship - (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+    "url": "https://basf.jobs/dark_blue_AP/job/Software-Engineer-SAP-product-Safety-and-Stewardship-%28mfd%29/142222-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-12"
+  },
+  {
+    "job_id": "1414044233",
+    "name": "Product Manager Procurement Solutions - (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+    "url": "https://basf.jobs/dark_blue_AP/job/Product-Manager-Procurement-Solutions-%28mfd%29/142223-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-12"
+  },
+  {
+    "job_id": "1414044633",
+    "name": "Product Manager Order to Invoice - (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "description": "WELCOME TO BASF At BASF Digital Hub Hyderabad we develop innovative digital solutions for BASF, crea",
+    "url": "https://basf.jobs/dark_blue_AP/job/Product-Manager-Order-to-Invoice-%28mfd%29/142224-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-12"
   }
 ]
