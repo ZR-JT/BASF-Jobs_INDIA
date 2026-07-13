@@ -715,19 +715,6 @@
     "scraped_at": "2026-06-18"
   },
   {
-    "job_id": "1405654333",
-    "name": "Plant Cell Biology & Engineering Scientist - Curious by nature (m/f/d)",
-    "location": "Gent",
-    "country": "unknown",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "description": "Plant Cell Biology & Engineering Scientist - Curious by nature (m/f/d) Job Details | BASF SE Skip to",
-    "url": "https://basf.jobs/job/Gent-Plant-Cell-Biology-&-Engineering-Scientist-Curious-by-nature-%28mfd%29/1405654333/",
-    "posted_at": null,
-    "scraped_at": "2026-06-18"
-  },
-  {
     "job_id": "1405837833",
     "name": "Laborassistenz Ökotoxikologie (m/w/d) Stellendetails",
     "location": "Limburgerhof",
@@ -908,5 +895,18 @@
     "url": "https://basf.jobs/dark_blue_AP/job/Yeosu-AEM-Production-Manager/142195-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-11"
+  },
+  {
+    "job_id": "1414087033",
+    "name": "Intern (6months)",
+    "location": "unknown",
+    "country": "unknown",
+    "job_type": "Internship",
+    "job_field": "KOR",
+    "flexible_work": "On-site",
+    "description": "BASF has been a committed partner to Korea since 1954. As a leading foreign investor in the chemical",
+    "url": "https://basf.jobs/dark_blue_AP/job/Intern-%286months%29/142080-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-13"
   }
 ]

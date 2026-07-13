@@ -4280,16 +4280,6 @@
     "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Postdoc%2C-Solid-Process/1398471333/"
   },
   {
-    "job_id": "1398495833",
-    "name": "Legal Intern",
-    "location": "Shanghai",
-    "country": "unknown (Asia-Pacific)",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/light_blue_AP/job/Shanghai-Legal-Intern/1398495833/"
-  },
-  {
     "job_id": "1398498233",
     "name": "Assistant Manager, Sales - Cellasto",
     "location": "Shanghai",
@@ -4688,16 +4678,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/light_blue_AP/job/Huizhou-Production-Operator%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E5%91%98/1401064733/"
-  },
-  {
-    "job_id": "1401069733",
-    "name": "Specialist - Regional Commercial Excellence APAC",
-    "location": "unknown",
-    "country": "Singapore",
-    "job_type": "Permanent",
-    "job_field": "SGP",
-    "flexible_work": "Hybrid",
-    "url": "https://basf.jobs/light_blue_AP/job/Singapore-Specialist-Regional-Commercial-Excellence-APAC/1401069733/"
   },
   {
     "job_id": "1401133833",
@@ -5268,16 +5248,6 @@
     "job_field": null,
     "flexible_work": null,
     "url": "https://basf.jobs/red_SA/job/Altamira-Becarioa-de-Proyectos%2C-Mejora-Continua-y-Confiabilidad/1405649233/"
-  },
-  {
-    "job_id": "1405654333",
-    "name": "Plant Cell Biology & Engineering Scientist - Curious by nature (m/f/d)",
-    "location": "Gent",
-    "country": "unknown",
-    "job_type": null,
-    "job_field": null,
-    "flexible_work": null,
-    "url": "https://basf.jobs/job/Gent-Plant-Cell-Biology-&-Engineering-Scientist-Curious-by-nature-%28mfd%29/1405654333/"
   },
   {
     "job_id": "1405691333",
@@ -6560,16 +6530,6 @@
     "url": "https://basf.jobs/dark_green_agri/job/Nematologist-Scientist-%28mfd%29/139787-nl_NL/"
   },
   {
-    "job_id": "1411755533",
-    "name": "Plant Cell Biology & Engineering Scientist - Curious by nature (m/f/d) Functiedetails",
-    "location": "Gent",
-    "country": "Belgium",
-    "job_type": "Permanent",
-    "job_field": "BASF Belgium Coordination Center CommV",
-    "flexible_work": "Hybrid",
-    "url": "https://basf.jobs/dark_green_agri/job/Plant-Cell-Biology-&-Engineering-Scientist-Curious-by-nature-%28mfd%29/139786-nl_NL/"
-  },
-  {
     "job_id": "1411769633",
     "name": "Alternance - Ressources Humaines (h/f) Détails du poste",
     "location": "unknown",
@@ -6788,6 +6748,16 @@
     "job_field": "BTC Europe GmbH",
     "flexible_work": "Remote",
     "url": "https://basf.jobs/dark_blue_EMEA/job/Monheim-am-Rhein-Account-Manager-Personal-Care-(mwd)/141770-de_DE/"
+  },
+  {
+    "job_id": "1412326733",
+    "name": "Industriemechaniker:in (m/w/d) Stellendetails",
+    "location": "unknown",
+    "country": "unknown (EMEA)",
+    "job_type": null,
+    "job_field": "Grenzach-Wyhlen, DEU",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Grenzach-Wyhlen-Industriemechanikerin-(mwd)/141710-de_DE/"
   },
   {
     "job_id": "1412374433",
@@ -7398,6 +7368,96 @@
     "job_field": "Digitalization",
     "flexible_work": "Hybrid",
     "url": "https://basf.jobs/dark_blue_AP/job/Product-Manager-Order-to-Invoice-%28mfd%29/142224-en_US/"
+  },
+  {
+    "job_id": "1414069133",
+    "name": "2nd Level Support Analyst Order-to-Cash (SAP S/4HANA) - (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_AP/job/2nd-Level-Support-Analyst-Order-to-Cash-%28SAP-S4HANA%29-%28mfd%29/142226-en_US/"
+  },
+  {
+    "job_id": "1414069333",
+    "name": "2nd Level Support Analyst Order to Cash (SAP S/4HANA) - (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_AP/job/2nd-Level-Support-Analyst-Order-to-Cash-%28SAP-S4HANA%29-%28mfd%29/142227-en_US/"
+  },
+  {
+    "job_id": "1414069633",
+    "name": "SAP Consultant FI-AR & FSCM - (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_AP/job/SAP-Consultant-FI-AR-&-FSCM-%28mfd%29/142228-en_US/"
+  },
+  {
+    "job_id": "1414069933",
+    "name": "Service Desk Process Expert - (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_AP/job/Service-Desk-Process-Expert-%28mfd%29/142229-en_US/"
+  },
+  {
+    "job_id": "1414070333",
+    "name": "SAP Stock Room Management Consultant - (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_AP/job/SAP-Stock-Room-Management-Consultant-%28mfd%29/142230-en_US/"
+  },
+  {
+    "job_id": "1414086633",
+    "name": "SAP Consultant Finance (m/f/d)",
+    "location": "Hyderabad",
+    "country": "India",
+    "job_type": "Permanent",
+    "job_field": "Digitalization",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_AP/job/SAP-Consultant-Finance-%28mfd%29/142233-en_US/"
+  },
+  {
+    "job_id": "1414087033",
+    "name": "Intern (6months)",
+    "location": "unknown",
+    "country": "unknown",
+    "job_type": "Internship",
+    "job_field": "KOR",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/Intern-%286months%29/142080-en_US/"
+  },
+  {
+    "job_id": "1414089933",
+    "name": "Intern, Digitalization",
+    "location": "unknown",
+    "country": "Malaysia",
+    "job_type": "Internship",
+    "job_field": "MYS",
+    "flexible_work": "On-site",
+    "url": "https://basf.jobs/dark_blue_AP/job/Intern%2C-Digitalization/140034-en_US/"
+  },
+  {
+    "job_id": "1414102533",
+    "name": "HR Personalsachbearbeitung (m/w/d) - Hybrid Option DE Stellendetails",
+    "location": "Berlin",
+    "country": "Germany",
+    "job_type": null,
+    "job_field": "BASF Services Europe GmbH",
+    "flexible_work": "Hybrid",
+    "url": "https://basf.jobs/dark_blue_EMEA/job/Berlin-HR-Personalsachbearbeitung-(mwd)-Hybrid-Option-DE/141714-de_DE/"
   },
   {
     "job_id": "987746301",
