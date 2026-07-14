@@ -130,19 +130,6 @@
     "scraped_at": "2026-07-03"
   },
   {
-    "job_id": "1386698633",
-    "name": "Customer Site Service Rep II",
-    "location": "unknown",
-    "country": "United States",
-    "job_type": "Permanent",
-    "job_field": "Louisville, KY, USA, 40212",
-    "flexible_work": "On-site",
-    "description": "Now Hiring! Customer Site Service Rep II Customer Site Service Representative II Location: Louisvill",
-    "url": "https://basf.jobs/TSA/job/Customer-Site-Service-Rep-II/135540-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-03"
-  },
-  {
     "job_id": "1389613033",
     "name": "Maintenance Technician",
     "location": "unknown",
@@ -234,6 +221,19 @@
     "scraped_at": "2026-07-03"
   },
   {
+    "job_id": "1403062233",
+    "name": "Account Manager - Human Nutrition, Vitamins & Carotenoids",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Florham Park, NJ, USA, 07932",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Account Manager - Human Nutrition, Vitamins & Carotenoids Remote US - West Coast preferr",
+    "url": "https://basf.jobs/dark_blue_NA/job/Account-Manager-Human-Nutrition%2C-Vitamins-&-Carotenoids/139550-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-14"
+  },
+  {
     "job_id": "1404167233",
     "name": "Automation Engineer",
     "location": "unknown",
@@ -299,6 +299,19 @@
     "scraped_at": "2026-07-03"
   },
   {
+    "job_id": "1407488433",
+    "name": "Account Manager - Pharma Solutions",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "NC, USA,  | SC, USA,",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Account Manager - Pharma Solutions Research Triangle Park area (Remote) We are looking f",
+    "url": "https://basf.jobs/dark_blue_NA/job/Account-Manager-Pharma-Solutions/139846-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-14"
+  },
+  {
     "job_id": "1407653933",
     "name": "Technology & Market Assessment Manager Americas",
     "location": "unknown",
@@ -334,19 +347,6 @@
     "flexible_work": "Hybrid",
     "description": "Now hiring! Global Supply Planner Parma, ID (Hybrid) We are looking for a Global Supply Planner to j",
     "url": "https://basf.jobs/dark_green_agri/job/Global-Supply-Planner/141723-en_US/",
-    "posted_at": null,
-    "scraped_at": "2026-07-01"
-  },
-  {
-    "job_id": "1409558233",
-    "name": "Supply Chain Planner (PMU)",
-    "location": "unknown",
-    "country": "United States",
-    "job_type": "Permanent",
-    "job_field": "Houston, TX, USA, 77054",
-    "flexible_work": "Hybrid",
-    "description": "Now hiring! Supply Chain Planner (PMU) Houston,TX -Hybrid We are looking for a Supply Chain Planner ",
-    "url": "https://basf.jobs/dark_blue_NA/job/Supply-Chain-Planner-%28PMU%29/141724-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-01"
   },
@@ -570,5 +570,44 @@
     "url": "https://basf.jobs/dark_blue_NA/job/Lab-Technician-I/142070-en_US/",
     "posted_at": null,
     "scraped_at": "2026-07-11"
+  },
+  {
+    "job_id": "1414400733",
+    "name": "Account Representative - North Texas - Automotive Refinish",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "AR, USA,  | TX, USA,",
+    "flexible_work": "Remote",
+    "description": "Now hiring! Account Representative - North Texas - Automotive Refinish Dallas - Forth Worth (Remote)",
+    "url": "https://basf.jobs/TSA/job/Account-Representative-North-Texas-Automotive-Refinish/142173-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-14"
+  },
+  {
+    "job_id": "1414410433",
+    "name": "Senior Process Engineer",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Chattanooga, TN, USA, 37406",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Senior Process Engineer Chattanooga, TN (Onsite) Come create chemistry with us! We are s",
+    "url": "https://basf.jobs/dark_blue_NA/job/Senior-Process-Engineer/142219-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-14"
+  },
+  {
+    "job_id": "1414507133",
+    "name": "Production Leader",
+    "location": "unknown",
+    "country": "United States",
+    "job_type": "Permanent",
+    "job_field": "Louisville, KY, USA, 40212",
+    "flexible_work": "On-site",
+    "description": "Now hiring! Production Leader - Louisville, KY We are looking for a Production Leader to join our Di",
+    "url": "https://basf.jobs/dark_blue_NA/job/Production-Leader/142074-en_US/",
+    "posted_at": null,
+    "scraped_at": "2026-07-14"
   }
 ]
