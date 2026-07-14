@@ -1,12 +1,13 @@
 """
-scrape_jobs.py — Main scraper for BASF public job listings.
+scrape_jobs.py — Main scraper for BASF public job listings, worldwide.
 
 Strategy:
   1. Parse https://basf.jobs/sitemap.xml to discover all public job URLs.
-  2. Optionally filter by region slug (light_blue_AP, dark_blue_EMEA, etc.).
+  2. Optionally filter by region slug (light_blue_AP, dark_blue_EMEA, etc.)
+     for local testing — the default scope is the entire sitemap.
   3. Fetch each job detail page with rate limiting and parse structured fields.
-  4. Merge with any existing data, remove stale entries, save JSON output.
-  5. Call build_country_files.py to split data by country.
+  4. Merge with any existing data, remove stale entries.
+  5. Write a single self-documenting JSON file: data/basf_jobs_all.json.
 
 Usage:
   python scripts/scrape_jobs.py [--region REGION] [--limit N] [--output-dir data]
@@ -15,7 +16,6 @@ Usage:
 import argparse
 import json
 import logging
-import os
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -71,6 +71,25 @@ def setup_logging(log_dir: Path) -> None:
 
 
 logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# Output schema — embedded in the output file so downstream consumers
+# (e.g. an MCP server) can read it without needing separate docs.
+# ---------------------------------------------------------------------------
+
+SCHEMA = {
+    "job_id": "Unique numeric identifier from the BASF job URL",
+    "name": "Job title",
+    "location": "City / location as shown on the posting",
+    "country": "Full country name, or 'unknown' / 'unknown (<region>)' if it could not be determined",
+    "job_type": "Employment type (e.g. Permanent, Internship) — null if not shown",
+    "job_field": "BASF job category (e.g. Engineering, Research & Development) — null if not found or if the extracted value looked malformed",
+    "flexible_work": "Work model (e.g. Hybrid, On-site, Remote) — null if not specified",
+    "description": "Full, unabridged English job description text — never truncated",
+    "url": "Direct link to the BASF job posting",
+    "posted_at": "Date the job was first posted (YYYY-MM-DD) — null if not available",
+    "scraped_at": "Date this record was last fetched (YYYY-MM-DD)",
+}
 
 
 # ---------------------------------------------------------------------------
@@ -180,7 +199,8 @@ def load_existing(path: Path) -> dict[str, dict]:
         return {}
     try:
         with open(path, encoding="utf-8-sig") as f:
-            jobs = json.load(f)
+            data = json.load(f)
+        jobs = data.get("jobs", []) if isinstance(data, dict) else data
         if isinstance(jobs, list):
             return {j["job_id"]: j for j in jobs if "job_id" in j}
     except (json.JSONDecodeError, OSError) as exc:
@@ -188,11 +208,19 @@ def load_existing(path: Path) -> dict[str, dict]:
     return {}
 
 
-def save_json(path: Path, data: object) -> None:
+def save_json(path: Path, jobs_list: list[dict]) -> None:
+    """Write the single self-documenting output file."""
+    output = {
+        "_about": "BASF job listings worldwide — public data collected from basf.jobs",
+        "_schema": SCHEMA,
+        "_generated_at": date.today().isoformat(),
+        "_total_jobs": len(jobs_list),
+        "jobs": jobs_list,
+    }
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    logger.info("Saved: %s (%d entries)", path, len(data) if isinstance(data, list) else 1)
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    logger.info("Saved: %s (%d jobs)", path, len(jobs_list))
 
 
 # ---------------------------------------------------------------------------
@@ -320,20 +348,13 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    jobs = scrape(
+    scrape(
         region=args.region,
         limit=args.limit,
         output_dir=args.output_dir,
         log_dir=args.log_dir,
         force_refresh=args.force_refresh,
     )
-
-    # Build India file, country files, and index after scraping
-    from build_country_files import build_india_json, build_country_files, build_index
-    india_count = build_india_json(jobs, args.output_dir)
-    logger.info("India jobs: %d", india_count)
-    build_country_files(jobs, args.output_dir)
-    build_index(jobs, args.output_dir)
 
 
 if __name__ == "__main__":

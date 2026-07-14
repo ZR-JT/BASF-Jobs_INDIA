@@ -114,6 +114,49 @@ _COUNTRY_CODES: dict[str, str] = {
 
 _KNOWN_FULL = {v.lower() for v in _COUNTRY_CODES.values()}
 
+_JOB_FIELD_BAD_INDICATORS = ("responsibilities", "objectives", "job description")
+
+
+# ---------------------------------------------------------------------------
+# job_field validation — reject values that look like locations or blurbs
+# rather than a genuine BASF job category.
+# ---------------------------------------------------------------------------
+
+def _validate_job_field(value: str | None) -> str | None:
+    """Return the cleaned job_field, or None if it looks malformed."""
+    if not value:
+        return None
+    v = value.strip()
+    if not v:
+        return None
+
+    if len(v) > 60:
+        return None
+
+    if "|" in v:
+        return None
+
+    # Trailing country code, e.g. ", IND" or ", US"
+    if re.search(r",\s*[A-Z]{2,3}\b", v):
+        return None
+
+    # Bare country code or name, e.g. "MYS" or "Malaysia"
+    if v.upper() in _COUNTRY_CODES or v.lower() in _KNOWN_FULL:
+        return None
+
+    # "Site - City, Region" style location strings
+    if " - " in v and re.search(r",\s*[A-Za-z]", v):
+        return None
+
+    if ":" in v:
+        return None
+
+    vl = v.lower()
+    if any(tok in vl for tok in _JOB_FIELD_BAD_INDICATORS):
+        return None
+
+    return v
+
 
 # ---------------------------------------------------------------------------
 # URL helpers
@@ -145,7 +188,7 @@ def _page_text(html: str) -> str:
 # Template A -- colon-label pages ("Job Title:", "Field:", "Job Type:", ...)
 # ---------------------------------------------------------------------------
 
-def _extract_template_a(text: str) -> dict:
+def _extract_template_a(text: str, job_id: str | None = None, url: str = "") -> dict:
     def _capture(prefix: str, stop: str) -> str | None:
         m = re.search(prefix + rf"(.+?)(?=\s*(?:{stop}|$))", text, re.I | re.S)
         if m:
@@ -154,10 +197,17 @@ def _extract_template_a(text: str) -> dict:
                 return val
         return None
 
-    job_field = _capture(
+    job_field_raw = _capture(
         r"Field:\s*",
         r"Job Type:|Work model:|Posting Start Date:|Job Description",
     )
+    job_field = _validate_job_field(job_field_raw)
+    if job_field_raw and job_field is None:
+        logger.warning(
+            "Rejected suspicious job_field %r for job_id=%s url=%s",
+            job_field_raw, job_id, url,
+        )
+
     job_type = _capture(
         r"Job Type:\s*",
         r"Work model:|Posting Start Date:|Job Description",
@@ -216,13 +266,15 @@ def _extract_template_a(text: str) -> dict:
 # Template B -- icon-label pages (fontcolorc63bfd23 spans)
 # ---------------------------------------------------------------------------
 
-def _extract_template_b(soup: BeautifulSoup) -> dict:
+def _extract_template_b(soup: BeautifulSoup, job_id: str | None = None, url: str = "") -> dict:
     """
     Parse fields from the icon-label template.
 
     Values appear in up to 8 fontcolorc63bfd23 span elements. We identify
     each by content pattern rather than position, making the parser resilient
-    to missing or extra entries.
+    to missing or extra entries. job_field is only decided once every other
+    field has had a chance to claim its value, then validated so a stray
+    location/description string is never stored as a category.
     """
     raw_spans = [
         d.find("span", class_="rtltextaligneligible")
@@ -232,10 +284,10 @@ def _extract_template_b(soup: BeautifulSoup) -> dict:
 
     location_raw = None
     company_raw = None
-    job_field = None
     job_type = None
     flexible_work = None
     country_raw = None
+    remaining: list[str] = []
 
     for val in values:
         vl = val.lower()
@@ -255,7 +307,7 @@ def _extract_template_b(soup: BeautifulSoup) -> dict:
             flexible_work = val
             continue
 
-        if vl in _KNOWN_FULL and country_raw is None:
+        if (vl in _KNOWN_FULL or val.upper() in _COUNTRY_CODES) and country_raw is None:
             country_raw = val
             continue
 
@@ -263,8 +315,26 @@ def _extract_template_b(soup: BeautifulSoup) -> dict:
             company_raw = val
             continue
 
-        if job_field is None and val not in (location_raw, company_raw):
-            job_field = val
+        remaining.append(val)
+
+    # Try each unclassified value in order, keeping the first one that
+    # validates as a genuine category (a malformed location/blurb that
+    # slipped through the checks above should not block a later, valid
+    # job_field candidate).
+    job_field = None
+    rejected_candidates = []
+    for val in remaining:
+        candidate = _validate_job_field(val)
+        if candidate is not None:
+            job_field = candidate
+            break
+        rejected_candidates.append(val)
+
+    if job_field is None and rejected_candidates:
+        logger.warning(
+            "Rejected suspicious job_field candidate(s) %r for job_id=%s url=%s",
+            rejected_candidates, job_id, url,
+        )
 
     return {
         "location_raw": location_raw,
@@ -299,7 +369,7 @@ def _extract_description(text: str) -> str:
             desc = desc[: end_m.start()]
         desc = desc.strip()
         if len(desc) > 30:
-            return desc[:100]
+            return desc
 
     # Template B: description sits between first and second "Apply now"
     apply_positions = [m.start() for m in re.finditer(r"\bApply now\b", text, re.I)]
@@ -307,16 +377,16 @@ def _extract_description(text: str) -> str:
         start = apply_positions[0] + len("Apply now")
         desc = text[start: apply_positions[1]].strip()
         if len(desc) > 30:
-            return desc[:100]
+            return desc
     elif len(apply_positions) == 1:
         start = apply_positions[0] + len("Apply now")
         tail = text[start:]
         end_m = re.search(r"Credits\s+Data|Copyright", tail, re.I)
         desc = (tail[: end_m.start()] if end_m else tail).strip()
         if len(desc) > 30:
-            return desc[:100]
+            return desc
 
-    return text[:100]
+    return text
 
 
 # ---------------------------------------------------------------------------
@@ -445,9 +515,9 @@ def parse_job(url: str, session: requests.Session | None = None) -> dict | None:
     title = _extract_title(soup, text)
 
     if _is_template_b(soup):
-        meta = _extract_template_b(soup)
+        meta = _extract_template_b(soup, job_id, url)
     else:
-        meta = _extract_template_a(text)
+        meta = _extract_template_a(text, job_id, url)
 
     location_raw = meta.get("location_raw") or ""
     # Remove "Country: X" and "Requisition ID: X" suffixes from the location block

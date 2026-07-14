@@ -1,11 +1,14 @@
 """
-validate_json.py — Validate the scraped BASF job JSON files.
+validate_json.py — Validate the scraped BASF job JSON file.
 
 Checks:
-  - JSON files are valid and parseable
+  - The file is valid JSON and holds the expected wrapper object
+    ({"_about", "_schema", "_generated_at", "_total_jobs", "jobs": [...]})
   - Each job has a unique job_id
   - Required fields (name, country, url) are present and non-empty
-  - job_field is present or explicitly null/unknown (never guessed)
+  - description is present and non-empty
+  - job_field, if set, passes the same validation as the scraper's
+    _validate_job_field (never a location string, pipe list, or blurb)
   - URL looks like a valid BASF job URL
   - No duplicate job_ids across the dataset
 
@@ -22,6 +25,9 @@ import logging
 import re
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from parse_job import _validate_job_field
 
 logger = logging.getLogger(__name__)
 
@@ -47,13 +53,21 @@ def validate(input_path: Path, log_dir: Path | None = None) -> bool:
     # Parse JSON
     try:
         with open(input_path, encoding="utf-8") as f:
-            jobs = json.load(f)
+            data = json.load(f)
     except json.JSONDecodeError as exc:
         logger.error("Invalid JSON in %s: %s", input_path, exc)
         return False
 
+    if not isinstance(data, dict) or "jobs" not in data:
+        logger.error(
+            "Expected a wrapper object with a 'jobs' key, got %s",
+            type(data).__name__,
+        )
+        return False
+
+    jobs = data["jobs"]
     if not isinstance(jobs, list):
-        logger.error("Expected a JSON array, got %s", type(jobs).__name__)
+        logger.error("Expected data['jobs'] to be an array, got %s", type(jobs).__name__)
         return False
 
     if len(jobs) == 0:
@@ -102,6 +116,18 @@ def validate(input_path: Path, log_dir: Path | None = None) -> bool:
         name = job.get("name", "")
         if name in ("unknown", "", None) and not job.get("description"):
             errors.append(f"{idx} job_id={job_id}: looks like an empty/fake entry")
+
+        # description must be present and non-empty
+        description = job.get("description")
+        if not description or (isinstance(description, str) and description.strip() == ""):
+            errors.append(f"{idx} job_id={job_id}: empty description")
+
+        # job_field, if set, must pass the same validation as the scraper
+        job_field = job.get("job_field")
+        if job_field is not None and _validate_job_field(job_field) is None:
+            errors.append(
+                f"{idx} job_id={job_id}: suspicious job_field value: {job_field!r}"
+            )
 
     # Report
     if warnings:

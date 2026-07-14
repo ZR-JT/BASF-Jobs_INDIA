@@ -44,7 +44,7 @@ jobs:
 
       - name: Create output directories
         run: |
-          mkdir -p data/countries
+          mkdir -p data
           mkdir -p logs
 
       - name: Run scraper
@@ -64,24 +64,20 @@ jobs:
       - name: Validate JSON output
         run: python scripts/validate_json.py
 
-      - name: Build India file, country files, and index
-        run: python scripts/build_country_files.py
-
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet data/basf_jobs_all.json || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit updated data
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/basf_jobs_all.json
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-          TOTAL=$(python -c "import json; d=json.load(open('data/basf_jobs_all.json')); print(len(d))" 2>/dev/null || echo "?")
-          INDIA=$(python -c "import json; d=json.load(open('data/india_jobs.json')); print(d.get('_total_jobs', '?'))" 2>/dev/null || echo "?")
-          git commit -m "chore: update job data — ${INDIA} India / ${TOTAL} total as of ${TIMESTAMP}"
+          TOTAL=$(python -c "import json; d=json.load(open('data/basf_jobs_all.json')); print(d.get('_total_jobs', len(d.get('jobs', []))))" 2>/dev/null || echo "?")
+          git commit -m "chore: update job data — ${TOTAL} jobs worldwide as of ${TIMESTAMP}"
           git pull --rebase origin main
           git push
 
