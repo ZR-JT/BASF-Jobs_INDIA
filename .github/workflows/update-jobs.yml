@@ -64,17 +64,20 @@ jobs:
       - name: Validate JSON output
         run: python scripts/validate_json.py
 
+      - name: Build HTML overview (by country / city)
+        run: python scripts/build_html.py
+
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet data/basf_jobs_all.json || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet data/basf_jobs_all.json docs/index.html || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit updated data
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/basf_jobs_all.json
+          git add data/basf_jobs_all.json docs/index.html
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
           TOTAL=$(python -c "import json; d=json.load(open('data/basf_jobs_all.json')); print(d.get('_total_jobs', len(d.get('jobs', []))))" 2>/dev/null || echo "?")
           git commit -m "chore: update job data — ${TOTAL} jobs worldwide as of ${TIMESTAMP}"

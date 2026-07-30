@@ -5,6 +5,10 @@ from [basf.jobs](https://basf.jobs/) and provides them as a single,
 structured JSON file — ready for AI agents, dashboards, or job-matching
 applications.
 
+**Browse all open positions:** [zr-jt.github.io/BASF-Jobs_India](https://zr-jt.github.io/BASF-Jobs_India/)
+— a plain HTML overview listing every job as a direct link, grouped by
+country and city, rebuilt daily.
+
 ---
 
 ## Goal
@@ -134,6 +138,9 @@ python scripts/scrape_jobs.py --force-refresh
 # Validate output
 python scripts/validate_json.py
 
+# Build the HTML overview (docs/index.html), grouped by country / city
+python scripts/build_html.py
+
 # Run the test suite
 pytest
 ```
@@ -149,10 +156,13 @@ pytest
 ├── scripts/
 │   ├── scrape_jobs.py   # Main scraper & orchestrator — writes the single output file
 │   ├── parse_job.py     # Single job page parser (full description, validated job_field)
-│   └── validate_json.py # JSON validation & quality checks
+│   ├── validate_json.py # JSON validation & quality checks
+│   └── build_html.py    # Builds docs/index.html — job titles as links, by country/city
 ├── tests/                # pytest test suite (offline, fixture-based)
 ├── data/
 │   └── basf_jobs_all.json  # The one output file — all jobs worldwide
+├── docs/
+│   └── index.html        # Static overview page (GitHub Pages), grouped by country/city
 ├── logs/                 # Scrape logs and error lists
 └── .github/
     └── workflows/
@@ -171,9 +181,13 @@ On each run it:
 2. Runs the scraper (only fetches pages not yet cached; scope is worldwide
    by default)
 3. Validates the JSON output
-4. Commits and pushes `data/basf_jobs_all.json` if it changed, with a message
-   like: `chore: update job data — 4231 jobs worldwide as of 2026-07-14 03:12 UTC`
-5. Uploads scrape logs as a GitHub Actions artifact (kept 14 days)
+4. Rebuilds `docs/index.html` — a static overview listing every open
+   position as a direct link, grouped by country and city (published via
+   GitHub Pages)
+5. Commits and pushes `data/basf_jobs_all.json` and `docs/index.html` if
+   either changed, with a message like:
+   `chore: update job data — 4231 jobs worldwide as of 2026-07-14 03:12 UTC`
+6. Uploads scrape logs as a GitHub Actions artifact (kept 14 days)
 
 You can also trigger a manual run via **Actions → Update BASF Job Data → Run
 workflow**, with optional parameters for region, limit, or force-refresh —
